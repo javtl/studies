@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-10-15T11:42:18.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DhMLBMHL6Si01MhgjMQP" version="22.0.4" type="google">
+  <diagram name="Page-1" id="rPiupToevC5-Dw1M79Q-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="670" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-2" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-2" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-3" value="" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="300" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-4" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-4" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-5" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-5" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-6" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-7" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-7" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-6" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-13" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-13" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="270" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FCFCFC;" edge="1" parent="1" source="UAz3Tmv1khalB_3tAzrA-14" target="UAz3Tmv1khalB_3tAzrA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAz3Tmv1khalB_3tAzrA-14" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="78" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
