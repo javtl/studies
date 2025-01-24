@@ -1,0 +1,87 @@
+	/*
+	 * ------------EJERCICIO 1 (3.5)
+	 * 
+	 * Queremos desarrollar un programa que simule la estructura de un hotel con un número de pisos y un número de habitaciones por piso(los pisos se nueran a partir del 1,
+
+	y las habitaciones se numeran igualmente, a parir de 1). Cada habitación puede estar ocupada o libre, y si está ocupada, debe registrar los datos el huésped.
+
+	Querems gestionar este istema de tal forma que almacenam de cada habitación si está ocupada o n, el nombre del huésped y los días que ha reservado la habitación.
+
+	*-reservar(String nombreHuésped, int diasReserva): Marca la habitación si está ocupada y registra los datos del huésped.
+
+	*-liberar(): Marca la hbitación como librem borrando nombre del huésped (cadena vacía) y estableciendo el número de días a 0.
+
+	*-mostrar(): Devuelve un texto que describ el estado de la habitación (por ejemplo, "Libre" o "Oupada por Ana, 3 días restantes").
+
+	*-actualizarReserva(): reduce en 1 el número de días restant de la habitación. Si ls días llegan a 0, la habitación se libera automáticamente.
+
+	*
+
+	*Ahora, en nuestro programa principal, tendremos un menú que nos permita las siguientes operaciones(antes, pedimos el número de pios del hotel y el número
+
+	*de pisos del hotel y el numero de habitaciones por piso, teniendo en cuenta que todos los pisos tienen el mimo número de habitaciones)
+
+	*
+
+	*1. Reservar una habitación: permite eleccionar un piso y una habitación, registrar el nombre del huésped y el número de días de estancia. Mostramos mensaje error si el piso o la habitación no existen.
+
+	*2.Liberar una habitación: Permte seleccionar una habitación específica para desocuparla. Mostrar error si habitación o piso no existen.
+
+	*3. Mostrar el estado del hotel: Imprime el estado de todas las habitaciones en un formato visual, indicando cuále están ocupadas y quién es el huésped
+
+	Piso 1: [Libre] [Ocupada por Ana, 2 días restantes] [Libre] [Libre] [Libre] [Libre]
+
+	Piso 2: [Libre] [Libre] [Ocupada por Luis, 3 días restantes] [Libre] [Libre] [Libre]
+
+	*4. Actualizar reservas: Actualiza las reservas para todas las habitaciones del hotel.
+
+	*5. Piso más libre: Imprime por pantalla el número de piso que tiene más habitaciones libres en este momento para reservar
+
+	*6. Salir.
+
+	*
+
+	*NOTA: El ejercicio tiene que ser generalizado para que funcione con cualquier número de pisos y habitaciones.
+
+	*/
+	
+	/*
+	 * ----------EJERCICIO 2 (3)
+	 * 
+	 * 
+	 * 
+	 * 
+	 * Desarrolla un programa que c onvierta las habitacions el hotel anterior en una lista de habitaciones sobre la cual vamos a aplicar funciones de la API STREAM
+	 * de JAVA 8 (se recomienda inicializar algunas de las habitaciones para tener datos sobre los cuales operar)
+	 * 
+	 * Antes de aplicar dichas funciones, que se comentarán posteriorente, queremos eliminar de la lista aquellas habitaciones que tienen menos de 3 días de reserva.
+	 * 
+	 * Métodos a implementar con API Streams de JAVA 8 (Cualquier otra solución no será válida)
+	 * -Imprimir por pantalla todas las habitaciones que están ocupadas
+	 * -Contar cuantas habitaciones están libres
+	 * -Calcular el promedio de días reservados
+	 * -Muestra el nombre del huésped con la reserva de mayor duración
+	 */
+	/*
+	 * ----------EJERCICIO 3 (3.5)
+	 * 
+	 * 
+	 * 
+	 * Eres el encargado de desarrollar un pequeño sistema para gestionar las puntuaciones de un juego. Las puntuaciones de los jugadores se lmacenan en un array,
+	 *  y necesitas implementar varias funciones para procesarlas. A continuación, se describe la funcionalidad del sistema, paso a paso.
+	 *  
+	 *  Lo primero, creamos un array de 10 posiciones y se rellenará con un valor inicial de -1, indicando que no hay puntuaciones registradas (SIN USAR FOR COMÚN)
+	 *  
+	 *  A continuación, registramos en el array una serie de valores mediante un método registrar, que nos inserta una nueva puntuación en el prier espacio vacío del array.
+	 *  Si el array está lleno, muestra un mensaje que diga "No se pueden registrar más puntuaciones".
+	 *  
+	 *  Luego, mediante un método copiar, vamos a copiar en un nuevo array más pequeño, todas las puntuaciones válidas (que no sean -1). Para esto, tendremos que usar
+	 *  algún método conocido de alguna clase de Java que trabaje con Arrays, para no realizar la copia elemento a elemento.
+	 *  
+	 *  Ahora, queremos con un método filtrar, imprimir por pantalla aquellas puntuaciones del array ue hemos obtenido n el paso anterior (array copiado), 
+	 *  que son inferiores a todas las de u izquierda dentro del array y superiores a todas las de su derecha (i es que hay puntuaciones que cumplan estos requisitos).
+	 *  
+	 *  Mediante un método mostrar, mostramos el contenido del array inicial y el contenido del array copiado (indicando los espacios vacíos que tienen valor -1 con un guión ('-')
+	 *  
+	 *  Por último, nos interesa desarrollar un método obtenerModa, que devuelva la puntuación que más se repite en el array (esto se conoce con el nombre de moda)
+	 */
