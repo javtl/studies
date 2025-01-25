@@ -1,0 +1,168 @@
+1- identificación de elementos:
+
+	Tipos de datos simples
+	Constantes y literales
+	Variables
+	Palabras Reservadas
+	Expresiones Aritmeticas
+	Operadores relacionales
+	Operadores Lógicos
+	Incremento
+	Interacción y Conversión de Tipos
+	Castings o transformaciones explícitas de tipos
+	Comentarios
+
+2- Utilización de objetos:
+
+	Objetos
+	Estructura y comportamiento
+	Clases
+	Clase vs Objetos
+	Paradigma
+	Programación Orientada a Objetos
+	Métodos Constructores
+	Destrucción de objetos y liberación de memoria
+	Métodos estáticos VS no-estáticos
+	Ejemplos
+	Enviar un valor a un método
+	Método que devuelve un valor
+	Método main
+	Método simple
+	Variables locales de métodos
+	Variables locales del métodovs Atributos
+	Parámetro Entradas y Argumento
+	Varios Parámetros - Argumentos
+	Métodos que devuelven un valor
+	Parámetros y devolución de valores
+	Variables como argumentos
+	Uso directo de resultados
+	Librerías de objetos
+	printf
+	Generar un jar en Eclipse
+	Uso de Clases Propias
+	Uso de Clases Predefinidas
+	API de Java
+	Cómo referirnos a una clase de la API
+	La clase Scanner
+	La clase Random
+	Paquetes propios
+
+3- Desarrollo de clases:
+
+	Control de acceso
+	Modificadores de acceso
+	Métodos get set
+	Operador this
+	Métodos Constructores
+	Atributos Estáticos
+	Métodos Estáticos
+	Métodos VS Atributos Estáticos
+	Atributos Estáticos VS NO Estáticos
+	VARIABLES PRIMITIVAS VS DE OBJETO
+	IGUALDAD DE STRINGS
+	Creación de una Biblioteca
+	Clases Envoltorio (Wrappers)
+	Concepto Herencia
+	
+	
+4- Uso de Estructuras de Control:
+
+	Estructuras de Repetición (While)
+	Estructuras de Repetición (For)
+	Estructuras de Repetición (Bucles Anidados)
+	Estructuras de Repetición (Do … While)
+	Estructuras de salto (break)
+	Estructuras de salto (continue)
+	Estructuras de salto (return)
+
+	Operadores Relacionales
+	Operadores lógicos
+	Estructuras de Selección (IF)
+	ESTRUCTURAS DE SELECCIÓN (IF… ELSE)
+		BLOQUES DE INSTRUCCIONES
+		EVALUACIÓN
+		PRE-EVALUACIÓN
+		MÉTODOS QUE DEVUELVEN BOOLEAN
+		CONDICIONES COMPUESTAS
+		ESTRUCTURAS DE SELECCIÓN (IF ANIDADOS)
+	ESTRUCTURAS DE SELECCIÓN (SWITCH)
+
+	Excepciones
+	Tratamiento de excepciones
+	Control de Excepciones
+	Subtipos de Excepciones
+	Relanzar Excepciones
+	Excepciones más comunes
+	Excepciones propias (Ejemplo)
+	Documentación
+	Documentación JavaDoc
+	Pruebas
+	Depuración
+
+	Los métodos recursivos
+
+5- Aplicación de estructuras de almacenamiento
+
+	Concepto de array. 
+	Crear un Array
+	Recorrer un Array
+	Ejemplo de uso de array en clase I
+	Ejemplo de uso de array en clase II
+	Ejemplo de uso de array en clase III
+	Ejemplo de uso de array en clase IV
+	for mejorado
+	Relleno progresivo de Array
+	Enviar una matriz como Parámetro
+	Número de parámetros variable
+	Clase Arrays
+	Array Bidimensional
+	Array de Objetos
+	Array Bidimensional
+	Recorrer Array Bidimensional
+	Medidas Array Bidimensional
+	Colecciones
+	API Collections
+	List
+	ArrayList
+	for-each
+	Ejemplo de uso de iteradores
+	SET
+	Interfaz Map
+	Ejemplo HashMap
+	
+	Expresiones Lambda
+	Streams
+	Creación de Streams
+	Stream: Operaciones intermedias (Ejemplos)
+	Streams: Operaciones de Mapeo (Ejemplos)
+	Predicate
+	Otros Ejemplos
+
+	CLASES Y MÉTODOS GENÉRICOS
+	Programación genérica
+	Métodos genéricos
+	¿Para qué sirve la programación générica?
+	Clases genéricas
+	Genéricos con tipos cerrados
+
+	La clase String
+	Clase envoltorio Character
+	Cadenas y arrays de caracteres
+	Uso de expresiones regulares
+	Ejemplos de expresiones regulares
+
+6- Utilización Avanzada de Clases
+
+7- Lectura y Escritura de Información
+
+8- Gestión de Base de Datos Relacionales
+	
+
+	
+	
+
+
+	
+	
+
+	
