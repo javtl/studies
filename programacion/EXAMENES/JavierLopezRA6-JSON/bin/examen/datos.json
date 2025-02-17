@@ -1,0 +1,302 @@
+[
+    {
+        "nombre": "ProductoI-0",
+        "cantidad": 2,
+        "categoria": "Electrónica",
+        "precio": 400.74
+    },
+    {
+        "nombre": "ProductoJ-1",
+        "cantidad": 78,
+        "categoria": "Hogar",
+        "precio": 82.23
+    },
+    {
+        "nombre": "ProductoH-2",
+        "cantidad": 54,
+        "categoria": "Electrónica",
+        "precio": 114.57
+    },
+    {
+        "nombre": "ProductoE-3",
+        "cantidad": 97,
+        "categoria": "Deportes",
+        "precio": 264.48
+    },
+    {
+        "nombre": "ProductoB-4",
+        "cantidad": 75,
+        "categoria": "Ropa",
+        "precio": 225.45
+    },
+    {
+        "nombre": "ProductoJ-5",
+        "cantidad": 59,
+        "categoria": "Hogar",
+        "precio": 184.78
+    },
+    {
+        "nombre": "ProductoA-6",
+        "cantidad": 84,
+        "categoria": "Hogar",
+        "precio": 68.18
+    },
+    {
+        "nombre": "ProductoJ-7",
+        "cantidad": 6,
+        "categoria": "Electrónica",
+        "precio": 272.55
+    },
+    {
+        "nombre": "ProductoG-8",
+        "cantidad": 41,
+        "categoria": "Deportes",
+        "precio": 298.97
+    },
+    {
+        "nombre": "ProductoE-9",
+        "cantidad": 46,
+        "categoria": "Ropa",
+        "precio": 144.69
+    },
+    {
+        "nombre": "ProductoH-10",
+        "cantidad": 3,
+        "categoria": "Alimentos",
+        "precio": 319.85
+    },
+    {
+        "nombre": "ProductoB-11",
+        "cantidad": 23,
+        "categoria": "Hogar",
+        "precio": 189.04
+    },
+    {
+        "nombre": "ProductoD-12",
+        "cantidad": 67,
+        "categoria": "Deportes",
+        "precio": 406.51
+    },
+    {
+        "nombre": "ProductoD-13",
+        "cantidad": 32,
+        "categoria": "Alimentos",
+        "precio": 28.63
+    },
+    {
+        "nombre": "ProductoB-14",
+        "cantidad": 55,
+        "categoria": "Deportes",
+        "precio": 23.92
+    },
+    {
+        "nombre": "ProductoH-15",
+        "cantidad": 64,
+        "categoria": "Electrónica",
+        "precio": 456.53
+    },
+    {
+        "nombre": "ProductoI-16",
+        "cantidad": 54,
+        "categoria": "Deportes",
+        "precio": 447.22
+    },
+    {
+        "nombre": "ProductoG-17",
+        "cantidad": 81,
+        "categoria": "Electrónica",
+        "precio": 191.84
+    },
+    {
+        "nombre": "ProductoD-18",
+        "cantidad": 95,
+        "categoria": "Ropa",
+        "precio": 202.33
+    },
+    {
+        "nombre": "ProductoC-19",
+        "cantidad": 79,
+        "categoria": "Hogar",
+        "precio": 113.04
+    },
+    {
+        "nombre": "ProductoC-20",
+        "cantidad": 16,
+        "categoria": "Electrónica",
+        "precio": 244.32
+    },
+    {
+        "nombre": "ProductoE-21",
+        "cantidad": 33,
+        "categoria": "Deportes",
+        "precio": 308.66
+    },
+    {
+        "nombre": "ProductoG-22",
+        "cantidad": 97,
+        "categoria": "Alimentos",
+        "precio": 51.82
+    },
+    {
+        "nombre": "ProductoA-23",
+        "cantidad": 42,
+        "categoria": "Alimentos",
+        "precio": 219.51
+    },
+    {
+        "nombre": "ProductoB-24",
+        "cantidad": 88,
+        "categoria": "Ropa",
+        "precio": 415.18
+    },
+    {
+        "nombre": "ProductoE-25",
+        "cantidad": 66,
+        "categoria": "Deportes",
+        "precio": 169.48
+    },
+    {
+        "nombre": "ProductoB-26",
+        "cantidad": 23,
+        "categoria": "Hogar",
+        "precio": 475.29
+    },
+    {
+        "nombre": "ProductoA-27",
+        "cantidad": 46,
+        "categoria": "Deportes",
+        "precio": 82.59
+    },
+    {
+        "nombre": "ProductoB-28",
+        "cantidad": 96,
+        "categoria": "Ropa",
+        "precio": 484.84
+    },
+    {
+        "nombre": "ProductoA-29",
+        "cantidad": 70,
+        "categoria": "Ropa",
+        "precio": 345.67
+    },
+    {
+        "nombre": "ProductoB-30",
+        "cantidad": 85,
+        "categoria": "Alimentos",
+        "precio": 312.34
+    },
+    {
+        "nombre": "ProductoE-31",
+        "cantidad": 8,
+        "categoria": "Electrónica",
+        "precio": 377.69
+    },
+    {
+        "nombre": "ProductoA-32",
+        "cantidad": 66,
+        "categoria": "Electrónica",
+        "precio": 468.29
+    },
+    {
+        "nombre": "ProductoB-33",
+        "cantidad": 28,
+        "categoria": "Electrónica",
+        "precio": 279.23
+    },
+    {
+        "nombre": "ProductoG-34",
+        "cantidad": 28,
+        "categoria": "Ropa",
+        "precio": 372.48
+    },
+    {
+        "nombre": "ProductoG-35",
+        "cantidad": 75,
+        "categoria": "Ropa",
+        "precio": 178.19
+    },
+    {
+        "nombre": "ProductoA-36",
+        "cantidad": 18,
+        "categoria": "Electrónica",
+        "precio": 386.42
+    },
+    {
+        "nombre": "ProductoB-37",
+        "cantidad": 42,
+        "categoria": "Ropa",
+        "precio": 452.52
+    },
+    {
+        "nombre": "ProductoI-38",
+        "cantidad": 26,
+        "categoria": "Electrónica",
+        "precio": 212.89
+    },
+    {
+        "nombre": "ProductoE-39",
+        "cantidad": 60,
+        "categoria": "Hogar",
+        "precio": 50.2
+    },
+    {
+        "nombre": "ProductoH-40",
+        "cantidad": 65,
+        "categoria": "Hogar",
+        "precio": 480.94
+    },
+    {
+        "nombre": "ProductoJ-41",
+        "cantidad": 68,
+        "categoria": "Ropa",
+        "precio": 488.62
+    },
+    {
+        "nombre": "ProductoE-42",
+        "cantidad": 68,
+        "categoria": "Deportes",
+        "precio": 223.77
+    },
+    {
+        "nombre": "ProductoE-43",
+        "cantidad": 60,
+        "categoria": "Deportes",
+        "precio": 317.41
+    },
+    {
+        "nombre": "ProductoF-44",
+        "cantidad": 61,
+        "categoria": "Electrónica",
+        "precio": 277.03
+    },
+    {
+        "nombre": "ProductoE-45",
+        "cantidad": 81,
+        "categoria": "Deportes",
+        "precio": 361.37
+    },
+    {
+        "nombre": "ProductoI-46",
+        "cantidad": 54,
+        "categoria": "Electrónica",
+        "precio": 221.88
+    },
+    {
+        "nombre": "ProductoG-47",
+        "cantidad": 20,
+        "categoria": "Deportes",
+        "precio": 177.3
+    },
+    {
+        "nombre": "ProductoH-48",
+        "cantidad": 36,
+        "categoria": "Deportes",
+        "precio": 480.77
+    },
+    {
+        "nombre": "ProductoD-49",
+        "cantidad": 25,
+        "categoria": "Hogar",
+        "precio": 358.44
+    }
+]
