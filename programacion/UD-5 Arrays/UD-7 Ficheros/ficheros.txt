@@ -1,0 +1,21 @@
+#file
+
+##fichero de texto
+
+	*Read*
+	-BufferedReader
+	-FileReader
+
+	*Write*
+	-FileWriter
+
+##fichero binario
+
+	*FileInputStream*
+	-ObjectInputStream
+
+	*FileOutputStream*
+	-ObjectOutputStream
+
+
+
