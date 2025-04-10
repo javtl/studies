@@ -1,0 +1,6 @@
+projectKey=PracticaRefactorizacion
+serverUrl=http://localhost:9003
+serverVersion=25.3.0.104237
+dashboardUrl=http://localhost:9003/dashboard?id=PracticaRefactorizacion
+ceTaskId=b4c4e52d-d430-493c-a168-d0e7952661e0
+ceTaskUrl=http://localhost:9003/api/ce/task?id=b4c4e52d-d430-493c-a168-d0e7952661e0
