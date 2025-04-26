@@ -1,0 +1,13 @@
+
+-inicialización sonarqube
+docker
+docker ps -a
+docker run -d --name sonarqube_contenedor -p 9001:9000 sonarqube:latest
+docker ps -a
+docker ps
+
+-git 
+
+
+sqp_844308afc9c33ef41b7b21b3bf1771e466233914
+
