@@ -1,0 +1,61 @@
+--1
+CREATE TABLE Clientes (
+	dni VARCHAR2(9) PRIMARY KEY,
+	nombre VARCHAR2(50),
+	apellidos VARCHAR2(100),
+	edad NUMBER
+);
+CREATE TABLE Coches(
+	codigo NUMBER PRIMARY KEY,
+	matricula VARCHAR2(10) UNIQUE,
+	marca VARCHAR2(50),
+	modelo VARCHAR2(50),
+	color VARCHAR2(30),
+	dni_cliente VARCHAR2(9),
+	CONSTRAINT fk_dni_cliente FOREIGN KEY (dni_cliente) REFERENCES Clientes(dni)
+);
+
+--2
+ALTER TABLE Clientes
+ADD CONSTRAINT chk_edad CHECK (
+	edad BETWEEN 18 AND 60
+);
+
+ALTER TABLE Coches
+ADD CONSTRAINT chk_color CHECK(
+ADD CONSTRAINT chk_color CHECK (
+	color IN ('blanco', 'negro', 'rojo', 'azul'))
+);
+
+--3
+CREATE OR REPLACE VIEW vista_coches_azules AS 
+SELECT matricula, marca, modelo, color
+FROM Coches
+WHERE color = 'azul'
+WITH READ ONLY;
+
+--4
+UPDATE vista_coches_azules
+SET modelo = 'NuevoModelo'
+WHERE matricula = '123	4ABC';
+
+--5
+UPDATE vista_coches_azules
+SET color = 'rojo'
+WHERE matricula = '1234ABC';
+
+--6
+SELECT text
+FROM user_views
+WHERE view_name = 'vista_coches_azules';
+
+--7
+CREATE INDEX idx_edad_clientes
+ON clientes(edad);
+
+--8
+SELECT index_name, table_name, uniqueness 
+FROM user_indexes
+WHERE table_name = 'clientes';
+
+

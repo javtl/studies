@@ -1,0 +1,79 @@
+--1
+CREATE TABLE Vehiculos (
+	codigo NUMBER PRMARY KEY,
+	descripcion VARCHAR2(100)	
+);
+
+CREATE TABLE Oficinas(
+	codigo NUMBER PRIMARY KEY,
+	direccion VARCHAR2(150) UNIQUE;
+	localidad VARCHAR2(80),
+	provincia VARCHAR2(80)
+);
+
+CREATE TABLE Empleados(
+	codigo NUMBER PRIMARY KEY,
+	nombre VARCHAR2(100),
+	apellidos VARCHAR2(100),
+	salario NUMBER(10,2)
+	codOficina NUMBER NOT NULL,
+	fecha DATE,
+	CONSTRAINT fk_emp_oficina
+	FOREIGN KEY (codOficina)
+	REFERENCES Oficinas(codigo)
+
+);
+
+CREATE TABLE Reservas (
+    codigo        NUMBER          PRIMARY KEY,
+    codVehiculo   NUMBER          NOT NULL,
+    fecha         DATE            NOT NULL,
+    destino       VARCHAR2(120),
+    kilometros    NUMBER,
+    codEmpleado   NUMBER          NOT NULL,
+    -- Relaciones
+    CONSTRAINT fk_res_vehiculo
+        FOREIGN KEY (codVehiculo)
+        REFERENCES Vehiculos(codigo),
+    CONSTRAINT fk_res_empleado
+        FOREIGN KEY (codEmpleado)
+        REFERENCES Empleados(codigo),
+    -- Evita que el mismo vehículo se reserve dos veces el mismo día
+    CONSTRAINT uq_res_vehiculo_fecha
+        UNIQUE (codVehiculo, fecha)
+);
+
+--2
+ALTER TABLE Reservas
+ADD CONSTRAINT chk_kilometros_rango
+CHECK (kilometros BETWEEN 100 AND 1000);
+
+ALTER TABLE Empleados
+ADD CONSTRAINT chk_salario_mileurista
+CHECK (salario BETWEEN 800 AND 1200);
+
+--3
+ALTER TABLE Empleados
+DROP CONSTRAINT chk_salario_mileurista;
+
+--4
+CREATE OR REPLACE VIEW vista_empleados_masmil AS
+SELECT *
+FROM employees
+WHERE salario > 1000
+WITH READ ONLY
+--5
+CREATE OR REPLACE VIEW vista_destino_kms AS
+SELECT destiny, kilometers
+FROM employees
+WHERE kilometers > 500
+WITH READ ONLY;
+--6
+
+--7
+CREATE INDEX idx_provincia_oficinas
+ON Oficinas (Provincia);
+
+CREATE INDEX idx_salario_empleados
+ON Empleados (Salario);
+--8
