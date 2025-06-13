@@ -1,0 +1,20 @@
+--1
+CREATE USER 'raul'@'localhost' IDENTIFY BY 'RaulAdmin';
+
+CREATE USER 'rafa'@'localhost' IDENTIFY BY 'RafaJefeDepartamento';
+
+CREATE USER 'susana'@'localhost' IDENTIFY BY 'SusanProg';
+CREATE USER 'jesus'@'localjost' IDENTIFY BY 'JesusProg';
+
+CREATE USER 'felix'@'localhost' IDENTIFY BY 'FelixLector';
+
+--2
+CREATE PROFILE PROGRAMMER_PROFILE LIMIT
+SESSIONS_PER_USER 2
+IDLE_TIME 20;
+
+ALTER USER 'susana'@'localhost' PROFILE PROGRAMMER_PROFILE;
+ALTER USER 'jesus'@'localhost' PROFILE PROGRAMMER_PROFILE;
+
+--3
+DROP USER 'felix'@'localhost';
