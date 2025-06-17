@@ -1,0 +1,57 @@
+--1
+CREATE TABLE PUB (
+    COD_PUB         VARCHAR2(10)    CONSTRAINT PK_PUB PRIMARY KEY, -- #COD_PUB es PK 
+    NOMBRE          VARCHAR2(100)   NOT NULL, -- Obligatorio 
+    LICENCIA_FISCAL VARCHAR2(50)    NOT NULL, -- Obligatorio 
+    DOMICILIO       VARCHAR2(100), -- No obligatorio 
+    FECHA_APERTURA  DATE            NOT NULL, -- Fecha y Obligatorio 
+    HORARIO         VARCHAR2(4)     NOT NULL    -- Obligatorio 
+                    CONSTRAINT CK_PUB_HORARIO CHECK (HORARIO IN ('HOR1', 'HOR2', 'HOR3')), -- Restricción de valores 
+    COD_LOCALIDAD   NUMBER(10)      NOT NULL, -- Numérico y Obligatorio 
+    CONSTRAINT FK_PUB_LOCALIDAD FOREIGN KEY (COD_LOCALIDAD) REFERENCES LOCALIDAD(COD_LOCALIDAD) -- Integridad referencial 
+);
+
+CREATE TABLE EMPLEADO (
+    DNI_EMPLEADO    VARCHAR2(10)    CONSTRAINT PK_EMPLEADO PRIMARY KEY, -- #DNI_EMPLEADO es PK 
+    NOMBRE          VARCHAR2(100)   NOT NULL, -- Obligatorio 
+    DOMICILIO       VARCHAR2(100) -- No obligatorio 
+);
+
+
+CREATE TABLE EXISTENCIAS (
+    COD_ARTICULO    VARCHAR2(50)    CONSTRAINT PK_EXISTENCIAS PRIMARY KEY, -- #COD_ARTICULO es PK 
+    NOMBRE          VARCHAR2(100)   NOT NULL, -- Obligatorio 
+    CANTIDAD        NUMBER          NOT NULL, -- Numérico y Obligatorio (asumo que la cantidad no es negativa) 
+    PRECIO          NUMBER(10,2)    NOT NULL    -- Numérico y Obligatorio 
+                    CONSTRAINT CK_EXISTENCIAS_PRECIO CHECK (PRECIO > 0), -- No puede ser 0 
+    COD_PUB         VARCHAR2(10)    NOT NULL, -- Obligatorio
+    CONSTRAINT FK_EXISTENCIAS_PUB FOREIGN KEY (COD_PUB) REFERENCES PUB(COD_PUB) -- Integridad referencial 
+);
+
+
+CREATE TABLE TITULAR (
+    DNI_TITULAR VARCHAR2(10)    CONSTRAINT PK_TITULAR PRIMARY KEY, -- #DNI_TITULAR es PK 
+    NOMBRE      VARCHAR2(100)   NOT NULL, -- Obligatorio 
+    DOMICILIO   VARCHAR2(100), -- No obligatorio 
+    COD_PUB     VARCHAR2(10)    NOT NULL, -- Obligatorio, asumiendo que un titular debe estar asociado a un pub
+    CONSTRAINT FK_TITULAR_PUB FOREIGN KEY (COD_PUB) REFERENCES PUB(COD_PUB) -- Integridad referencial 
+);
+
+CREATE TABLE LOCALIDAD (
+    COD_LOCALIDAD   NUMBER(10)      CONSTRAINT PK_LOCALIDAD PRIMARY KEY, -- #COD_LOCALIDAD es PK 
+    NOMBRE          VARCHAR2(100)   NOT NULL -- Obligatorio 
+);
+
+CREATE TABLE PUB_EMPLEADO (
+    COD_PUB         VARCHAR2(10)    NOT NULL,
+    DNI_EMPLEADO    VARCHAR2(10)    NOT NULL,
+    FUNCION         VARCHAR2(10)    NOT NULL
+                    CONSTRAINT CK_PUB_EMP_FUNCION CHECK (FUNCION IN ('CAMARERO', 'SEGURIDAD', 'LIMPIEZA')), -- Restricción de valores 
+    CONSTRAINT PK_PUB_EMPLEADO PRIMARY KEY (COD_PUB, DNI_EMPLEADO, FUNCION), -- Clave primaria compuesta 
+    CONSTRAINT FK_PUBEMP_PUB FOREIGN KEY (COD_PUB) REFERENCES PUB(COD_PUB), -- Integridad referencial 
+    CONSTRAINT FK_PUBEMP_EMPLEADO FOREIGN KEY (DNI_EMPLEADO) REFERENCES EMPLEADO(DNI_EMPLEADO) -- Integridad referencial 
+);
+
+
+--2 
+
