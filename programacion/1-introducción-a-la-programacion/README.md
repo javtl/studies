@@ -23,7 +23,7 @@ Aquí encontrarás los **PDFs de teoría**, los **ejercicios de clase** organiza
 
 ### 🔹 PDFs
 
-- `unidad_1.pdf`, `unidad_2.pdf`, `unidad_3.pdf` → Material teórico de cada parte de la unidad.
+- `unidad_1.pdf`, `unidad_2.pdf`, `unidad_3.pdf` `4_Git_Basico.pdf` → Material teórico de cada parte de la unidad.
 
 ### 🔹 Ejercicios de clase
 
@@ -57,3 +57,4 @@ No siempre coinciden con los de clase, pero sirven para reforzar los temas.
 ---
 
 ✍️ **Nota**: Este repositorio está pensado como material de práctica personal, pero puede servir también a compañeros para repasar los conceptos básicos de Python.
+
