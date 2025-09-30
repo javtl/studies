@@ -7,7 +7,7 @@
 #### UD1: Modelo E/R
 
 
-## 🟢🐍 PROGRAMACIÓN
+## 🟢👨‍💻 PROGRAMACIÓN
 
 ### Índice:
 #### Tema 1: Introducción a la Programación
