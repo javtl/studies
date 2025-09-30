@@ -1,4 +1,4 @@
-# dam-alberti
+# Desarrollo de Aplicaciones Multiplataforma
 
 ## 🔴🗂️ BASE DE DATOS:
 
