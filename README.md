@@ -1,13 +1,13 @@
 # dam-alberti
 
-## BASE DE DATOS
+## 🔴🗂️ BASE DE DATOS:
 
 ### Índice:
 #### UD0: Alm. de Información y SGBD
 #### UD1: Modelo E/R
 
 
-## PROGRAMACIÓN
+## 🟢🐍 PROGRAMACIÓN
 
 ### Índice:
 #### Tema 1: Introducción a la Programación
