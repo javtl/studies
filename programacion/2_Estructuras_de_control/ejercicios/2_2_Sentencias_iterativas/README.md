@@ -1,4 +1,4 @@
-# Práctica 2.2: Sentencias iterativas y saltos
+****# Práctica 2.2: Sentencias iterativas y saltos
 
 Durante la realización de estos ejercicios, **no debes usar ninguna función (método)** de las clases para ayudarte a realizarlo.  
 Es decir, evita hacer uso de las funciones `len`, `count` de `str`, etc.  
@@ -27,7 +27,7 @@ Escribir un programa que pida al usuario un número entero positivo y muestre po
 Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.
 
 ---
-
+**
 ### Ejercicio 2.2.5
 Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.
 

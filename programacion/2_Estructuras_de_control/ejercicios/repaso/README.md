@@ -5,10 +5,12 @@ Fecha: 2025-10-24
 Hoy he repasado los contenidos del Tema 2 (estructuras de control) y el anexo sobre funciones. Este README recoge lo esencial de la sesión para que pueda consultarlo y actualizarlo después de cada clase.
 
 ## Objetivo
+
 - Resumir de forma clara lo que he estudiado hoy: condicionales, bucles y conceptos básicos de funciones.
 - Tener una referencia rápida de los archivos de la carpeta `repaso/` y del material abordado.
 
 ## Contenido del directorio `repaso/`
+
 Archivos en esta carpeta (11 ejercicios de repaso):
 
 - `00_funcion_ejemplo_basico.py`
@@ -25,21 +27,25 @@ Archivos en esta carpeta (11 ejercicios de repaso):
 
 ## Resumen de lo estudiado hoy
 
-1) Tema 2 — Estructuras de Control
+### Tema 2 — Estructuras de Control
+
 - Condicionales: repaso de expresiones booleanas, operadores lógicos y las sentencias `if`, `if-else` y `elif`. Vimos también condicionales anidadas y la evaluación en cortocircuito.
 - Iterativas: repasé el uso de `while` y `for`, y cómo controlar bucles con `break` y `continue`. Practiqué patrones comunes como contadores, sumas acumuladas y búsqueda de máximos/mínimos.
 
-2) Funciones
+### Funciones
+
 - Concepto y ventajas: modularizar para mejorar legibilidad y reutilización.
 - Sintaxis básica: `def`, parámetros, docstrings y `return`.
 - Parámetros opcionales con valores por defecto.
 - Ámbito de variables: diferencias entre variables locales y globales y cuándo usar `global`.
 
 ## Notas y puntos clave
+
 - El PDF `1_Tema_2_Estructuras_de_Control.pdf` agrupa ejercicios prácticos relevantes: la Práctica 2.1 contiene 10 ejercicios y la Práctica 2.2 contiene 25 ejercicios (más 2 actividades). Es una buena fuente para practicar lo visto en clase.
 - Al diseñar soluciones, sigo la estrategia de modularización: entender entradas/salidas, dividir en subtareas, escribir pseudocódigo e identificar funciones auxiliares y principales.
 
 ## Ejemplos orientativos (muy breves)
+
 - Cálculo de decibelios (función que devuelve el resultado):
 
 ```python
@@ -63,6 +69,7 @@ def saludar_persona(nombre):
 ```
 
 ## Relación entre archivos y conceptos
+
 - `00_*.py` a `02_*.py`: ejemplos y funciones básicas (saludos, cálculo de áreas).
 - `03_*.py` a `10_*.py`: ejercicios de repaso centrados en condicionales, funciones, `return`, parámetros opcionales y ámbito.
 - `05_ejercicio_repaso_2_1_calculo_decibelios.py` contiene la transformación del ejemplo matemático a función.

@@ -3,12 +3,13 @@
 ## 🔴🗂️ BASE DE DATOS:
 
 ### Índice:
-#### UD0: Alm. de Información y SGBD
-#### UD1: Modelo E/R
+#### Unidad 0: Alm. de Información y SGBD
+#### Unidad 1: Modelo E/R
 
 
 ## 🟢👨‍💻 PROGRAMACIÓN
 
 ### Índice:
-#### Tema 1: Introducción a la Programación
+#### Unidad 1: Introducción a la Programación
+#### Unidad 2: Estructuras de Control 
 
