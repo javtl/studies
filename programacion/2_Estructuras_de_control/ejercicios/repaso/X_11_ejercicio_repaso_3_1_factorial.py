@@ -1,0 +1,1 @@
+# Diseña una función en Python llamada contar_letras_a(cadena) que reciba una cadena de texto y devuelva cuántas veces aparece la letra 'a' (mayúscula o minúscula).
