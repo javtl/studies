@@ -1,14 +1,5 @@
 # Repaso — Tema 2 (Estructuras de control) y Funciones
 
-Fecha: 2025-10-24
-
-Hoy he repasado los contenidos del Tema 2 (estructuras de control) y el anexo sobre funciones. Este README recoge lo esencial de la sesión para que pueda consultarlo y actualizarlo después de cada clase.
-
-## Objetivo
-
-- Resumir de forma clara lo que he estudiado hoy: condicionales, bucles y conceptos básicos de funciones.
-- Tener una referencia rápida de los archivos de la carpeta `repaso/` y del material abordado.
-
 ## Contenido del directorio `repaso/`
 
 Archivos en esta carpeta (11 ejercicios de repaso):
