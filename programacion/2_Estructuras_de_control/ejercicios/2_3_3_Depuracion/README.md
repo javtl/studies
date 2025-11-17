@@ -8,9 +8,8 @@ Entregables:
 2. Evidencia de depuración: Capturas de pantalla que muestren (a) un punto de interrupción establecido y (b) el valor de una variable durante la ejecución. 
 3. Evidencia de que el programa se ejecutó correctamente: Copia la salida de la consola después de ejecutar el programa. 
 
+![a) un punto de interrupción establecido](Captura%20de%20pantalla%20(71).png "Captura 1")
 
-![(a) un punto de interrupción establecido](Captura de pantalla (71).png"Captura 1")
+![b) el valor de una variable durante la ejecución.](Captura%20de%20pantalla%20(72).png "Captura 2")
 
-![(b) el valor de una variable durante la ejecución.](Captura de pantalla (72).png"captura 2")
-
-![Evidencia de que el programa se ejecutó correctamente: Copia la salida de la consola después de ejecutar el programa. ](Captura de pantalla (73).png"captura 2")
+![Evidencia de programa ejecutado](Captura%20de%20pantalla%20(73).png "Captura 3")
