@@ -1,4 +1,4 @@
-![Desarrollo de aplicaciones multiplataforma](/images/banner.jpg)
+![Desarrollo de aplicaciones multiplataforma](images/banner.jpg)
 
 # Desarrollo de Aplicaciones Multiplataforma
 
