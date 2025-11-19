@@ -1,4 +1,5 @@
 ![Desarrollo de aplicaciones multiplataforma](images/banner.png)
+---
 ## 🔴🗂️ BASE DE DATOS:
 
 ### Índice:
