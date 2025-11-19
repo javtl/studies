@@ -3,3 +3,8 @@
 
 def lista_numeros_separados():
     numero = float(input("Ingrese un número: "))
+    for i in range(1,numero):
+        if i % 2 == 1 :
+            print(i)
+        
+            
