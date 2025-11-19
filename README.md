@@ -7,7 +7,7 @@
 #### Unidad 1: Modelo E/R
 
 
-## 🟢👨‍💻 PROGRAMACIÓN
+## 🟢👨‍💻 PROGRAMACIÓN:
 
 ### Índice:
 #### Unidad 1: Introducción a la Programación
