@@ -1,7 +1,4 @@
 ![Desarrollo de aplicaciones multiplataforma](images/banner.png)
-
-# Desarrollo de Aplicaciones Multiplataforma
-
 ## 🔴🗂️ BASE DE DATOS:
 
 ### Índice:
