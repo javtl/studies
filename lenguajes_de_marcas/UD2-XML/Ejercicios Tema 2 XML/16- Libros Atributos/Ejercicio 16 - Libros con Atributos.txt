@@ -1,0 +1,3 @@
+Ejercicio 16: Libros con Atributos
+
+Modifica el ejercicio 7, Libros, para que disponga de atributos.

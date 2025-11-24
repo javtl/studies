@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <libro id="1">
+        <titulo>Introducción a XML</titulo>
+        <autor>Juan Pérez</autor>
+        <editorial>Tecnología Digital</editorial>
+        <precio moneda="EUR">29.95</precio>
+        <publicacion>
+            <fecha>2023-05-10</fecha>
+            <pais>España</pais>
+        </publicacion>
+        <temas>
+            <tema>Programación</tema>
+            <tema>XML</tema>
+        </temas>
+    </libro>
+    <libro id="2">
+        <titulo>Transformaciones con XSLT</titulo>
+        <autor>María García</autor>
+        <editorial>Editorial Avanzada</editorial>
+        <precio moneda="USD">39.99</precio>
+        <publicacion>
+            <fecha>2022-08-15</fecha>
+            <pais>México</pais>
+        </publicacion>
+        <temas>
+            <tema>XML</tema>
+            <tema>XSLT</tema>
+        </temas>
+    </libro>
+    <libro id="3">
+        <titulo>Procesamiento de XML con Python</titulo>
+        <autor>Roberto Sánchez</autor>
+        <editorial>Innovatech</editorial>
+        <precio moneda="EUR">35.50</precio>
+        <publicacion>
+            <fecha>2021-12-01</fecha>
+            <pais>Argentina</pais>
+        </publicacion>
+        <temas>
+            <tema>Programación</tema>
+            <tema>Python</tema>
+            <tema>XML</tema>
+        </temas>
+    </libro>
+</catalogo>

@@ -1,0 +1,5 @@
+Ejercicio 1: XML libre
+
+Crea un archivo XML libre, con información sobre cualquier temática que se te ocurra. 
+
+Procura tenga al menos 3 niveles.

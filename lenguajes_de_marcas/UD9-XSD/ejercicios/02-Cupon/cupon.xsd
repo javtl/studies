@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="oferta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empresa" type="xs:string"/>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="emision" type="xs:date"/>
+        <xs:element name="precio" type="xs:decimal"/>
+        <xs:element name="emitidos" type="xs:positiveInteger"/>
+        <xs:element name="num_personas" type="xs:positiveInteger"/>
+        <xs:element name="activo" type="xs:boolean"/>
+        <xs:element name="foto" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

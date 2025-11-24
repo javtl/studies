@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Parameter</title>
+    <style>
+        #selectable {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+        }
+
+        #selectable li {
+            margin: 3px;
+            padding: 0.4em;
+            font-size: 1.4em;
+            height: 18px;
+            border: 1px solid grey;
+            cursor: pointer;
+            background-color: antiquewhite;
+        }
+
+        #selectable .selected {
+            background: #F39814;
+            color: white;
+        }        
+
+        
+    </style>
+</head>
+
+<body>
+    <ul id="selectable">
+        <li class="item-selectable">Item 1</li>
+        <li class="item-selectable">Item 2</li>
+        <li class="item-selectable">Item 3</li>
+        <li class="item-selectable">Item 4</li>
+        <li class="item-selectable">Item 5</li>
+        <li class="item-selectable">Item 6</li>
+        <li class="item-selectable">Item 7</li>
+    </ul>
+
+    <script>
+        let array = document.querySelectorAll(".item-selectable");
+        for(let li of array) {
+            li.addEventListener("click", selectable);
+        }
+        
+        function selectable(event) {
+            console.log(event);
+            console.log(event.target);
+            event.target.classList.toggle("selected");
+        }
+    </script>
+</body>
+</html>

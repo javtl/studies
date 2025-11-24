@@ -1,0 +1,4 @@
+Ejercicio 8: Factura
+
+Construir un documento XML que permita modelizar la estructura de datos presente en la factura de una empresa de productos informáticos que se muestra en la imagen "Ejercicio 08 - Factura.jpg"
+

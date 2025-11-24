@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro id="libro1">
+        <titulo>El jugador</titulo>
+        <autor>Fiódor Dostoyevski</autor>
+        <isbn>978-1234567890</isbn>
+        <precio>14.99</precio>
+    </libro>
+
+    <libro id="libro2">
+        <titulo>Siddhartha</titulo>
+        <autores>
+            <autor >Hermann Hesse</autor>
+            <autor>Peter Camenzind</autor>
+        </autores>
+        <isbn>978-0987654321</isbn>
+        <precio divisa="euros">14.99</precio>
+    </libro>
+
+    <libro id="libro3">
+        <titulo>El extranjero</titulo>
+        <autor>Albert Camus</autor>
+        <isbn>978-0987639321</isbn>
+        <precio>12.50</precio>
+    </libro>
+
+    <libro id="libro4">
+        <titulo>La Divina Comedia</titulo>
+        <autor>Dante Alighieri</autor>
+        <isbn>978-4567890123</isbn>
+        <precios>
+            <precio_tapa_blanda divisa="euros">15.00</precio_tapa_blanda>
+            <precio_tapa_dura divisa="euros">25.00</precio_tapa_dura>
+        </precios>
+    </libro>
+
+    <libro id="libro5">
+        <titulo>La metamorfosis</titulo>
+        <autor>Franz Kafka</autor>
+        <isbn>978-6543210987</isbn>
+        <precio divisa="euros">15.00</precio>
+    </libro>
+</libros>

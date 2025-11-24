@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 27</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tareas Pendientes</h1>
+    <button id="newTaskBtn">Nueva Tarea</button>
+
+    <!-- Lista con accesibilidad -->
+    <ul id="taskList" aria-live="polite"></ul>
+
+    <!-- Contenedor de entrada -->
+    <form id="inputContainer">
+        <label for="taskInput">Nueva Tarea:</label><br>
+        <input type="text" id="taskInput" placeholder="Escribe tu tarea">
+        <br><br>
+        <button type="submit" id="acceptBtn">Aceptar</button>
+        <button type="button" id="cancelBtn">Cancelar</button>
+    </form>
+    <script defer src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Ejercicio 15: Hoteles con Atributos
+
+Modifica el ejercicio 6, Hoteles, para que disponga de atributos.

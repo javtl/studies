@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+.titulo{
+    color: black;
+}
+
+.texto{
+    color: purple;
+}
+.titular{
+    color: yellow;
+}
+  .periodista{
+    color: red;
+  }
+
+  .rubius{
+    color: green;
+  }

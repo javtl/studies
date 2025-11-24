@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <h1>Textos mutantes</h1>
+    <p>Este texto va a cambiar en 2 segundos</p>
+    <p>Este texto va a cambiar en 2 segundos</p>
+    <p>Este texto va a cambiar en 2 segundos</p>
+
+    <script>
+        function cambiar() {
+            let parrafos = document.querySelectorAll("p");
+            
+            for(let parrafo of parrafos) {
+                parrafo.innerText = "Texto cambiado. Tachán!!";
+            }
+        }
+        setTimeout(cambiar, 2000);
+    </script>
+    <script>
+        let noexiste = document.querySelector("noexiste");
+        noexiste.innerText = "Se provoca un error en la consola";
+    </script>
+</body>
+</html>

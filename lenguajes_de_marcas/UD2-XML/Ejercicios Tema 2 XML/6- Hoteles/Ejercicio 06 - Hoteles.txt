@@ -1,0 +1,10 @@
+Ejercicio 6: Hoteles
+
+Crea un documento XML con información sobre Hoteles:
+
+ - Nombre
+ - Teléfono
+ - Dirección: (calle y número), ciudad, país
+ - Número de estrellas
+ - Número de habitaciones (individuales, dobles, triples y suites)
+ - Descripción del hotel. 

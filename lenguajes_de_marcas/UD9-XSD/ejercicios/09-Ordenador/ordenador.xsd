@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Enumeraciones -->
+  <xs:simpleType name="IntelType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Celeron"/>
+      <xs:enumeration value="Pentium V"/>
+      <xs:enumeration value="Core i3"/>
+      <xs:enumeration value="Core i5"/>
+      <xs:enumeration value="Core i7"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AMDType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Athlon"/>
+      <xs:enumeration value="FX 6300"/>
+      <xs:enumeration value="RYZEN"/>
+      <xs:enumeration value="ThreadRipper"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="RAMType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="2 GB"/>
+      <xs:enumeration value="4 GB"/>
+      <xs:enumeration value="8 GB"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="MecanicoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="500 GB"/>
+      <xs:enumeration value="1 TB"/>
+      <xs:enumeration value="1.5 TB"/>
+      <xs:enumeration value="2 TB"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SolidoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100 GB (SSD)"/>
+      <xs:enumeration value="200 GB (SSD)"/>
+      <xs:enumeration value="300 GB (SSD)"/>
+      <xs:enumeration value="400 GB (SSD)"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipos simples compuestos -->
+  <xs:simpleType name="procesadorType">
+    <xs:union memberTypes="IntelType AMDType"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="ramType">
+    <xs:restriction base="RAMType"/>
+  </xs:simpleType>
+
+  <xs:simpleType name="discoDuroType">
+    <xs:union memberTypes="MecanicoType SolidoType"/>
+  </xs:simpleType>
+
+  <!-- Elemento raíz -->
+  <xs:element name="ordenador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="procesador" type="procesadorType"/>
+        <xs:element name="ram" type="ramType"/>
+        <xs:element name="discoDuro" type="discoDuroType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

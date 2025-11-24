@@ -1,0 +1,194 @@
+{
+    "horario": {
+        "lunes": {
+            "primera_hora": {
+                "dia": "lunes",
+                "inicio": "08:00",
+                "fin": "09:00",
+                "nombre_asignatura": "Matemáticas"
+            },
+            "segunda_hora": {
+                "dia": "lunes",
+                "inicio": "09:00",
+                "fin": "10:00",
+                "nombre_asignatura": "Lengua"
+            },
+            "tercera_hora": {
+                "dia": "lunes",
+                "inicio": "10:00",
+                "fin": "11:00",
+                "nombre_asignatura": "Historia"
+            },
+            "cuarta_hora": {
+                "dia": "lunes",
+                "inicio": "11:20",
+                "fin": "12:20",
+                "nombre_asignatura": "Inglés"
+            },
+            "quinta_hora": {
+                "dia": "lunes",
+                "inicio": "12:20",
+                "fin": "13:20",
+                "nombre_asignatura": "Física"
+            },
+            "sexta_hora": {
+                "dia": "lunes",
+                "inicio": "13:20",
+                "fin": "14:20",
+                "nombre_asignatura": "Química"
+            }
+        },
+        "martes": {
+            "primera_hora": {
+                "dia": "martes",
+                "inicio": "08:00",
+                "fin": "09:00",
+                "nombre_asignatura": "Matemáticas"
+            },
+            "segunda_hora": {
+                "dia": "martes",
+                "inicio": "09:00",
+                "fin": "10:00",
+                "nombre_asignatura": "Lengua"
+            },
+            "tercera_hora": {
+                "dia": "martes",
+                "inicio": "10:00",
+                "fin": "11:00",
+                "nombre_asignatura": "Historia"
+            },
+            "cuarta_hora": {
+                "dia": "martes",
+                "inicio": "11:20",
+                "fin": "12:20",
+                "nombre_asignatura": "Inglés"
+            },
+            "quinta_hora": {
+                "dia": "martes",
+                "inicio": "12:20",
+                "fin": "13:20",
+                "nombre_asignatura": "Física"
+            },
+            "sexta_hora": {
+                "dia": "martes",
+                "inicio": "13:20",
+                "fin": "14:20",
+                "nombre_asignatura": "Química"
+            }
+        },
+        "miercoles": {
+            "primera_hora": {
+                "dia": "miércoles",
+                "inicio": "08:00",
+                "fin": "09:00",
+                "nombre_asignatura": "Matemáticas"
+            },
+            "segunda_hora": {
+                "dia": "miércoles",
+                "inicio": "09:00",
+                "fin": "10:00",
+                "nombre_asignatura": "Lengua"
+            },
+            "tercera_hora": {
+                "dia": "miércoles",
+                "inicio": "10:00",
+                "fin": "11:00",
+                "nombre_asignatura": "Historia"
+            },
+            "cuarta_hora": {
+                "dia": "miércoles",
+                "inicio": "11:20",
+                "fin": "12:20",
+                "nombre_asignatura": "Inglés"
+            },
+            "quinta_hora": {
+                "dia": "miércoles",
+                "inicio": "12:20",
+                "fin": "13:20",
+                "nombre_asignatura": "Física"
+            },
+            "sexta_hora": {
+                "dia": "miércoles",
+                "inicio": "13:20",
+                "fin": "14:20",
+                "nombre_asignatura": "Química"
+            }
+        },
+        "jueves": {
+            "primera_hora": {
+                "dia": "jueves",
+                "inicio": "08:00",
+                "fin": "09:00",
+                "nombre_asignatura": "Matemáticas"
+            },
+            "segunda_hora": {
+                "dia": "jueves",
+                "inicio": "09:00",
+                "fin": "10:00",
+                "nombre_asignatura": "Lengua"
+            },
+            "tercera_hora": {
+                "dia": "jueves",
+                "inicio": "10:00",
+                "fin": "11:00",
+                "nombre_asignatura": "Historia"
+            },
+            "cuarta_hora": {
+                "dia": "jueves",
+                "inicio": "11:20",
+                "fin": "12:20",
+                "nombre_asignatura": "Inglés"
+            },
+            "quinta_hora": {
+                "dia": "jueves",
+                "inicio": "12:20",
+                "fin": "13:20",
+                "nombre_asignatura": "Física"
+            },
+            "sexta_hora": {
+                "dia": "jueves",
+                "inicio": "13:20",
+                "fin": "14:20",
+                "nombre_asignatura": "Química"
+            }
+        },
+        "viernes": {
+            "primera_hora": {
+                "dia": "viernes",
+                "inicio": "08:00",
+                "fin": "09:00",
+                "nombre_asignatura": "Matemáticas"
+            },
+            "segunda_hora": {
+                "dia": "viernes",
+                "inicio": "09:00",
+                "fin": "10:00",
+                "nombre_asignatura": "Lengua"
+            },
+            "tercera_hora": {
+                "dia": "viernes",
+                "inicio": "10:00",
+                "fin": "11:00",
+                "nombre_asignatura": "Historia"
+            },
+            "cuarta_hora": {
+                "dia": "viernes",
+                "inicio": "11:20",
+                "fin": "12:20",
+                "nombre_asignatura": "Inglés"
+            },
+            "quinta_hora": {
+                "dia": "viernes",
+                "inicio": "12:20",
+                "fin": "13:20",
+                "nombre_asignatura": "Física"
+            },
+            "sexta_hora": {
+                "dia": "viernes",
+                "inicio": "13:20",
+                "fin": "14:20",
+                "nombre_asignatura": "Química"
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Internacional</title>
+</head>
+<body>
+    <h1>Internacional</h1>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" target="_blank" enctype="multipart/form-data">
+        <!-- Información Personal -->
+        <fieldset>
+            <legend>Información Personal</legend>
+            <div>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required 
+                       maxlength="50" size="30"
+                       title="Por favor, introduzca su nombre completo. Máximo 50 caracteres.">
+            </div>
+            <div>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required 
+                       title="Introduzca un correo electrónico válido.">
+            </div>
+            <div>
+                <label for="telefono">Teléfono de Contacto:</label>
+                <input type="text" id="telefono" name="telefono" 
+                       pattern="6\d{8}" 
+                       title="El número de teléfono debe ser un móvil que comience con 6, seguido de 8 dígitos."
+                       placeholder="Ejemplo: 612345678">
+            </div>
+            <div>
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" 
+                       min="1934-11-27" max="2006-11-27" required
+                       title="Seleccione una fecha que asegure que es mayor de edad pero menor de 90 años.">
+            </div>
+            <div>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required 
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&#]).{8,}"
+                       title="La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una minúscula, un número y un carácter especial.">
+            </div>
+        </fieldset>
+        
+        <!-- Preferencias del Evento -->
+        <fieldset>
+            <legend>Preferencias del Evento</legend>
+            <div>
+                <label for="pais">País de Residencia:</label>
+                <select id="pais" name="pais[]" multiple size="5"
+                        title="Seleccione uno o más países de residencia.">
+                    <optgroup label="Europa">
+                        <option value="España" selected>España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Alemania">Alemania</option>
+                    </optgroup>
+                    <optgroup label="América">
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="México">México</option>
+                        <option value="Argentina">Argentina</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="horario">Horario Preferido para Talleres:</label>
+                <input type="time" id="horario" name="horario" disabled 
+                       title="Este campo está deshabilitado.">
+            </div>
+            <div>
+                <label for="color">Color Preferido para el Identificador:</label>
+                <input type="color" id="color" name="color"
+                       title="Seleccione su color preferido para el identificador.">
+            </div>
+            <div>
+                <label for="presupuesto">Presupuesto para el Evento (€):</label>
+                <input type="range" id="presupuesto" name="presupuesto" min="200" max="1000" step="10"
+                       title="Deslice para indicar su presupuesto.">
+            </div>
+            <div>
+                <label for="perfil">Perfil Profesional (URL):</label>
+                <input type="url" id="perfil" name="perfil"
+                       title="Ingrese una URL válida de su perfil profesional.">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios o Necesidades Especiales:</label>
+                <textarea id="comentarios" name="comentarios" rows="5"
+                          title="Indique cualquier comentario o necesidad especial."></textarea>
+            </div>
+            <div>
+                <label>Elige tu Taller Preferido:</label><br>
+                <input type="radio" id="ia" name="taller" value="IA" checked>
+                <label for="ia">Inteligencia Artificial</label><br>
+                <input type="radio" id="ciberseguridad" name="taller" value="Ciberseguridad">
+                <label for="ciberseguridad">Ciberseguridad</label><br>
+                <input type="radio" id="desarrolloWeb" name="taller" value="DesarrolloWeb">
+                <label for="desarrolloWeb">Desarrollo Web</label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="materialAdicional" checked disabled>
+                    Deseo recibir material adicional.
+                </label>
+            </div>
+        </fieldset>
+        
+        <!-- Enviar Formulario -->
+        <div class="submit-section">
+            <input type="image" src="https://via.placeholder.com/100x50" alt="Enviar" width="100" height="50">
+        </div>
+    </form>
+</body>
+</html>

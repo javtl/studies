@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plan>
+    <ciclo>Desarrollo de Aplicaciones Multiplataforma</ciclo>
+    <curso>Primer curso</curso>
+
+    <dia id="Lunes">
+        <horainicio>08:00</horainicio>
+        <horafinalizacion>14:20</horafinalizacion>
+        <asignaturas>
+            <asignatura id="0483">Sistemas</asignatura>
+            <asignatura id="0487">Entornos</asignatura>
+            <asignatura id="0484">Base de datos</asignatura>
+            <asignatura id="0373">Lenguajes de marcas</asignatura>
+            <asignatura id="0485">Programación</asignatura>
+        </asignaturas>
+    </dia>
+
+    <dia id="Martes"> 
+        <horainicio>08:00</horainicio>
+        <horafinalizacion>14:20</horafinalizacion>
+        <asignaturas>
+            <asignatura id="0373">Lenguajes de marcas</asignatura>
+            <asignatura id="0493">Empresa</asignatura>
+            <asignatura id="0487">Entornos</asignatura>
+            <asignatura id="0483">Sistemas</asignatura>
+        </asignaturas>
+    </dia>
+
+    <dia id="Miercoles"> 
+        <horainicio>08:00</horainicio>
+        <horafinalizacion>14:20</horafinalizacion>
+        <asignaturas>
+            <asignatura id="0486">Sostenibilidad</asignatura>
+            <asignatura id="0489">Digitalización</asignatura>
+            <asignatura id="0493">Empresa</asignatura>
+            <asignatura id="0484">Base de datos</asignatura>
+        </asignaturas>
+    </dia>
+
+    <dia id="Jueves"> 
+        <horainicio>08:00</horainicio>
+        <horafinalizacion>14:20</horafinalizacion>
+        <asignaturas>
+            <asignatura id="0484">Base de datos</asignatura>
+            <asignatura id="0493">Empresa</asignatura>
+            <asignatura id="0485">Programación</asignatura>
+        </asignaturas>
+    </dia>
+
+    <dia id="Viernes"> 
+        <horainicio>08:00</horainicio>
+        <horafinalizacion>14:20</horafinalizacion>
+        <asignaturas>
+            <asignatura id="0487">Entornos</asignatura>
+            <asignatura id="0483">Sistemas</asignatura>
+            <asignatura id="0485">Programación</asignatura>
+        </asignaturas>
+    </dia>
+</plan>

@@ -1,0 +1,17 @@
+{
+    "nombre":"Juan",
+
+    "edad":30,
+    "altura":1.70,
+
+    "esEstudiante":true,
+
+    "comentario":null,
+
+    "direccion":{
+        "ciudad":"Madrid",
+        "pais":"España"
+    },
+
+    "hobbies":["futbol","Lectra","programación"]
+}

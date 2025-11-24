@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+    <style>
+        button {
+            display: block;
+            margin: 10px;
+        }
+        .letra-resaltada {
+            font-weight: 900;
+            font-size: 2.5em;
+            color: red;
+        }
+        .boton-grande {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Con el código 'inline'</h1>
+    <button onclick="this.innerText = 'Solo para cosas sencillas, 1 línea máximo'">
+        Todo el código en el atributo
+    </button>
+
+    <button onclick="this.innerText = 'Con dos líneas ya'; 
+                     this.innerText += ' la cosa se pone fea... ';
+                     this.innerText += ' ensucia mucho el código';">
+        Todo el código en el atributo (con varias líneas)
+    </button>
+
+    <hr/>
+
+    <h1>Llamando a una función desde el atributo... Esto está mejor</h1>
+    <h2 id="txtClick" onclick="agrandaTexto()">
+        Hazme click! Cualquier elemento puede ser "clickable"
+    </h2>
+
+    <hr/>
+    
+    <h1>Y sin usar el atributo... añadimos el evento posteriormente</h1>
+    <button id="miBoton">
+        El manejador se añade en el script de más abajo
+    </button>
+
+    <script>
+        function agrandaTexto() {
+            let h2 = document.querySelector("#txtClick");
+            h2.classList.toggle("letra-resaltada");
+        }
+
+        function agrandaBoton() {
+            let btn = document.querySelector("#miBoton");
+            btn.classList.toggle("boton-grande");
+        }
+
+        document.querySelector("#miBoton").addEventListener("click", agrandaBoton);
+
+    </script>
+</body>
+</html>

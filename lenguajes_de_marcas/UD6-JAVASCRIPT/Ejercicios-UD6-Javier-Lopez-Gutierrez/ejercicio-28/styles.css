@@ -1,0 +1,15 @@
+button {
+    display: block;
+    margin: 10px;
+}
+.letra-resaltada {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: red;
+}
+.boton-grande {
+    padding: 20px;
+}
+.seleccionado {
+    background-color: yellow;
+}

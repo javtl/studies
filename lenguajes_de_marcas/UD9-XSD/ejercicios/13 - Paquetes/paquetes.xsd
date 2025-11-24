@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="paquetes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="paquete" type="paquete" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="paquete">
+    <xs:sequence>
+      <xs:element name="tracking" type="xs:integer"/>
+      <xs:element name="contenido" type="xs:string"/>
+      <xs:element name="tamaño" type="tamaño"/>
+      <xs:element name="remitente" type="xs:string"/>
+      <xs:element name="destinatario" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tamaño">
+    <xs:choice>
+      <xs:element name="lineal" type="lineal"/>
+      <xs:element name="volumen" type="xs:integer"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="lineal">
+    <xs:all>
+      <xs:element name="alto" type="xs:integer"/>
+      <xs:element name="ancho" type="xs:integer"/>
+      <xs:element name="largo" type="xs:integer"/>
+    </xs:all>
+  </xs:complexType>
+
+</xs:schema>

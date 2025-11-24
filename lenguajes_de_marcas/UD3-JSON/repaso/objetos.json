@@ -1,0 +1,12 @@
+{
+    "clave":"clave",
+    "numero":2,
+    "booleano":true,
+    "array":[1,2,3],
+
+    "compuesto":{
+        "parte1":"nombre",
+        "parte2":11,
+        "parte3":true
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UI with JS</title>
+	<script src="https://kit.fontawesome.com/4358b9453c.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css" />
+	<script src="scripts/main.js"></script>
+
+</head>
+
+<body>
+	<div class="global-container">
+
+		<div class="header">
+			<div class="container">
+				<div class="col-izq">
+					<img src="images/logo-icon.png" />
+					<h1>My Company</h1>
+				</div>
+				<div class="col-der">
+					<input id="search-input" class="invisible" type="text"/>
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#">Register</a>
+					<a id="login-button" href="#">Login</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-bar">
+			<div class="container">
+				<a id="menu-mobile-btn" href="#"><i class="fa-solid fa-bars"></i></a>
+				<a id="home-btn" href="index.html">Home</a>
+				<a href="index.html#services">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+
+		<div class="menu-mobile">
+			<div id="mobile-close">&times;</div>
+			<ul>
+				<li>
+					<i class="fa-solid fa-key"></i>
+					<span>Security</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-list"></i>
+					<span>All-in-one</span>
+				</li>
+				<li>
+					<i class="fa-sharp fa-solid fa-database"></i>
+					<span>Storage</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-comment"></i>
+					<span>Comments</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="modal-background"></div>
+		<div class="modal-popup">
+			<div class="modal-header-wrap">
+				<img src="images/user-icon.png"/>
+				<div class="modal-header">Log in</div>
+				<div class="modal-close">&times;</div>
+			</div>
+			<div class="modal-content">
+				<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+					<label for="email">Email address: </label>
+					<input name="email" type="email" placeholder="youraddress@domain.tld" required/>
+					<label for="password">Password: </label>
+					<input name="password" type="password" required/>
+					<input id="login-submit-btn" type="submit" value="Log in"/>
+				</form>	
+			</div>
+		</div>
+
+		<div class="main-container">
+			<div class="container">
+				<div class="main-content">
+					<h1>Register</h1>
+					<p>Take advantage of our utilities. Easy peasy!
+					</p>
+
+					<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+						<label for="name">Name:</label>
+						<input name="name" type="text" placeholder="John" required/>
+						<label for="surname">Surname:</label>
+						<input name="surname" type="text" placeholder="No Fear" required/>
+						
+						<label for="email">Your email address:</label>
+						<input name="email" type="email" placeholder="youraddress@domain.tld" required/>
+						
+						<label for="password1">Password:</label>
+						<input id="password1" name="password1" type="password" required minlength="6"/><i class="fa-regular fa-eye pass-eye1"></i>
+						<label for="password2">Password, please type it again:</label>
+						<input id="password2" name="password2" type="password" required minlength="6"/><i class="fa-regular fa-eye pass-eye2"></i>
+						<h3 id="register-error" class="invisible">The passwords you typed don't match</h3>
+						<input type="submit" id="register-submit-btn" value="Send"/>
+					</form>
+				</div>
+
+				<div class="aside">
+					<img src="images/register.jpg">
+				</div>
+			</div>
+
+
+
+
+			<div class="footer">
+				<div class="row1">
+					<div class="container">
+						<div class="footer-col">
+							<a href="#">Learning</a>
+							<a href="#">Community</a>
+							<a href="#">Channels</a>
+						</div>
+						<div class="footer-col">
+							<a href="#">FAQ</a>
+							<a href="#">Experiences</a>
+							<a href="#">Collections</a>
+						</div>
+					</div>
+				</div>
+				<div class="row2">
+					<div class="container">
+						<a href="#">Home</a>
+						<a href="#">Services</a>
+						<a href="#">Porfolio</a>
+						<a href="#">Contact</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+</body>
+
+</html>

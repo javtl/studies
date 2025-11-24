@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <h1>Tres segundos tres contenidos</h1>
+    <p>Cada segundo vamos a publicar un nuevo contenido</p>
+    <div class="contenido1"></div>
+    <div class="contenido2"></div>
+    <div class="contenido3"></div>
+
+    <script>
+        function publicarContenido1() {
+            let div = document.querySelector(".contenido1");
+            div.innerText ="<p>¡Ey! Este párrafo antes no estaba...</p>";
+            console.log(document.body.innerHTML);
+        }
+
+        function publicarContenido2() {
+            let div = document.querySelector(".contenido2");
+            div.innerText ='<a href="https://www.wikipedia.org/">Wikipedia</a>'
+        }
+
+        function publicarContenido3() {
+            let div = document.querySelector(".contenido3");
+            div.innerText = "<p>Ciudades a visitar</p>"+
+                            "<ul>"+
+                                "<li>Buenos Aires</li>"+
+                                "<li>Roma</li>"+
+                                "<li>Sídney</li>"+
+                           "</ul>";
+        }
+
+        
+        setTimeout(publicarContenido1, 1000);
+        setTimeout(publicarContenido2, 2000);
+        setTimeout(publicarContenido3, 3000);
+    </script>
+</body>
+</html>

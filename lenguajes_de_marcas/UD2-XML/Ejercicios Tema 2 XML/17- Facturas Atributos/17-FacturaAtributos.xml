@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura>
+<datosempresa>
+    <empresa>Equipos Digitales SL</empresa>
+    <direccion tipo="avenida"> Valladolid</direccion>
+    <cif>Q-9876543</cif>
+    <telefono>91 777 66 88</telefono>
+    <fax>91 777 66 99</fax>
+</datosempresa>
+
+<datospedido>
+    <fecha>12-01-2005</fecha>
+    <pedido>731</pedido>
+    <pago>EFECTIVO</pago>
+</datospedido>
+
+<datoscliente>
+    <ncliente>879</ncliente>
+    <nombre>Darío Bueno Gutiérrez</nombre>
+    <direccion tipo="avenida"> Oporto n7 4d</direccion>
+    <codigopostal>28043</codigopostal>
+    <provincia>Madrid</provincia>
+</datoscliente>
+
+<datosfactura>
+    <ref>MI93OOF</ref>
+    <descripcion>micro pentium iv 300mhz</descripcion>
+    <cant tipo="unidades">1</cant>
+    <precio divisa="euros">230</precio>
+    <iva>16</iva>
+    <importe>266</importe>
+
+    <ref>MB8QDSIP4</ref>
+    <descripcion>placa base qdi p4</descripcion>
+    <cant tipo="unidades">1</cant>
+    <precio divisa="euros"> 180</precio>
+    <iva>16</iva>
+    <importe>208</importe>
+
+    <ref>MEDD512M32</ref>
+    <descripcion>dimm ddr 512mb</descripcion>
+    <cant tipo="unidades">2</cant>
+    <precio divisa="euros">40</precio>
+    <iva>16</iva>
+    <importe>92</importe>
+
+    <ref>HD250GSA7</ref>
+    <descripcion>disco duro 250gb</descripcion>
+    <cant tipo="unidades">4</cant>
+    <precio divisa="euros">120</precio>
+    <iva>16</iva>
+    <importe>556</importe>
+</datosfactura>
+
+<totalfactura>
+    <precio divisa="euros">970</precio>
+    <iva>16</iva>
+    <importe>155</importe>
+</totalfactura>
+</factura>

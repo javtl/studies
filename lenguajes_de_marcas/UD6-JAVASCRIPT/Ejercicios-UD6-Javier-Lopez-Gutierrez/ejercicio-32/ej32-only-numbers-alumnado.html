@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Numbers</title>
+    <style>
+        p,
+        input {
+            display: block;
+            margin: 10px 20px;
+        }
+
+        p {
+            color: red;
+        }
+
+        .invisible {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Introduce tu PIN de desbloqueo (sólo números)</h1>
+    <div class="container">
+        <form>
+            <input type="text" id="onlyNumbersTxt" />
+            <p id="errorTxt" class="invisible"></p>
+        </form>
+    </div>
+    <script>
+        document.getElementById("onlyNumbersTxt").addEventListener("keydown", function(event) {
+    const errorTxt = document.getElementById("errorTxt");
+    
+    // Permitir teclas de control como Backspace, Delete, Tab, Enter y Flechas
+    if (["Backspace", "Delete", "Tab", "Enter", "ArrowLeft", "ArrowRight"].includes(event.key)) {
+        return;
+    }
+    
+    // Verificar si la tecla presionada es un número
+    if (!/^[0-9]$/.test(event.key)) {
+        event.preventDefault();
+        errorTxt.textContent = "Solo se permiten números.";
+        errorTxt.classList.remove("invisible");
+        
+        // Ocultar el mensaje de error después de 2 segundos
+        setTimeout(() => {
+            errorTxt.classList.add("invisible");
+        }, 2000);
+    }
+});
+
+    </script>
+</body>
+
+</html>

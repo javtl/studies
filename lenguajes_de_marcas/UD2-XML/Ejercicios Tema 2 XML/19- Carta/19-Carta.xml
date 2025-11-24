@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejemplo xmlns="http://www.gthail.com/ejemplo1"
+                  xmlns:ns1="http://www.gthail.com/ejemplo2">
+  
+   <carta>
+      <ns1:palo>Corazones</ns1:palo>
+      <numero>7</numero>
+   </carta>
+
+    <ns1:carta>
+      <remitente>Sergio</remitente>
+      <destinatario>Luisa</destinatario>
+   </ns1:carta>
+
+   <carta xmlns="http://www.gthail.com/ejemplo3">
+      <carnes>
+         <filete_de_ternera precio="12.95"/>
+         <solomillo_a_la_pimienta precio="13.60"/>
+      </carnes>
+      <pescados xmlns="">
+         <lenguado_al_horno ns1:precio="16.20"/>
+         <merluza_en_salsa_verde precio="15.85"/>
+      </pescados>
+   </carta>
+
+</ejemplo>

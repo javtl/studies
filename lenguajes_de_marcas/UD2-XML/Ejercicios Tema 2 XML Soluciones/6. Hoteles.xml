@@ -1,0 +1,66 @@
+<?xml version="1.0"?> 
+
+<hoteles>
+
+	<hotel>
+		<nombre>L'Elysée Val d'Europe</nombre>
+		<telefono>+33 1 64 63 33 33</telefono>
+		<direccion>
+			<calle>Cours du Danube</calle>
+			<numero>7</numero>
+			<ciudad> Serris</ciudad>
+			<pais>Francia</pais>
+		</direccion>
+		<estrellas>4</estrellas>
+		<num_habitaciones>
+			<individuales>20</individuales>
+			<dobles>60</dobles>
+			<triples>25</triples>
+			<suites>10</suites>
+		</num_habitaciones>
+		<descripcion>Este hotel, que ocupa un edificio de estilo haussmaniano, se encuentra a 2,2 km de la estación de Marne‑la‑Vallée Chessy, a 5,6 de Disneyland® París y a 37 del centro urbano de París.</descripcion>
+	</hotel>
+
+
+	<hotel>
+		<nombre>Fun Key</nombre>
+		<telefono>+32 2 733 23 53</telefono>
+		<direccion>
+			<calle>Rue Artan</calle>
+			<numero>116</numero>
+			<ciudad>Schaerbeek</ciudad>
+			<pais>Bruselas</pais>
+		</direccion>
+		<estrellas>2</estrellas>
+		<num_habitaciones>
+			<individuales>24</individuales>
+			<dobles>10</dobles>
+			<triples>14</triples>
+			<suites>5</suites>
+		</num_habitaciones>
+		<descripcion>A 2,5 km del Parlamento Europeo, ofrece un salón compartido, un jardín y aparcamiento privado gratuito. El lugar y la gente, la originalidad.</descripcion>
+	</hotel>
+
+
+	<hotel>
+		<nombre>Monte Puertatierra</nombre>
+		<telefono>956 27 21 11</telefono>
+		<direccion>
+			<calle>Av. Andalucía</calle>
+			<numero>34</numero>
+			<ciudad>Cadiz</ciudad>
+			<pais>España</pais>
+		</direccion>
+		<estrellas>4</estrellas>
+		<num_habitaciones>
+			<individuales>23</individuales>
+			<dobles>30</dobles>
+			<triples>10</triples>
+			<suites>10</suites>
+		</num_habitaciones>
+		<descripcion></descripcion>
+	</hotel>
+
+
+
+</hoteles>

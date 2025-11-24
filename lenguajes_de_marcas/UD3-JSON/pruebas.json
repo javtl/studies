@@ -1,0 +1,21 @@
+{
+    "empleado":{
+        "nombre":"Juan",
+        "id":665769576,
+        "salario":1200,
+        "direcciones":{
+            "direccion1":"calle uno",
+            "direccion2":"calle dos"
+        }
+    },
+
+    "empleado2":{
+        "nombre":"Juan",
+        "id":665769576,
+        "salario":1200,
+        "direcciones":{
+            "direccion1":"calle uno",
+            "direccion2":"calle dos"
+        }
+    }
+}

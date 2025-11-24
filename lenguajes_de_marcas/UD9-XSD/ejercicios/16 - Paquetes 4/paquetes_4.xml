@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    - Los elementos y atributos son obligatorios a menos que este archivo XML dé a entender lo contrario, o se indique a continuación otra cosa.
+    - Los elementos una sóla vez seguida, a menos que este archivo XML dé a entender lo contrario o se indique a continuación otra cosa   
+    - Observa que el segundo elemento hijo de paquete (el que va tras el elemento contenido) puede puedes ser medidas o volumen
+    - Observa que los elementos hijos de medidas (alto, ancho, largo), pueden aparecer en cualquier orden
+    - Debe haber como mínimo un paquete en el fichero XML, pero no hay límite máximo.
+    - Como a veces los paquetes son sobres, cuyo grosor es despreciable, puede omitirse el alto en las medidas. 
+    - En un mismo paquete puede haber hasta 10 elementos contenido, aunque podría no haber ninguno
+    - El atributo tracking debe constar de 11 dígitos
+    - El atributo teléfono de constar de 9 dígitos, empezando por '6'
+    - El atributo unidad del elemento medidas puede adoptar los valores: mm, cm, m. Su valor por defecto es cm
+    - El elemento colores tiene como atributo 'principal' (que es el color principal del producto), que puede adoptar como valor uno de los siguientes: blanco, negro, azul, rojo, amarillo, verde o marrón
+    - El elemento colores contiene una lista de colores secundarios del producto, de entre los mencionados arriba. 
+    - El tipo de datos contenido en remitente y destinatario es genérico (sin especificar, cualquier tipo)
+-->
+<paquetes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="paquetes_4.xsd">
+
+    <paquete tracking="65873574001">
+        <contenido>Arma airsoft</contenido>
+        <contenido>Caja 100 balines 4mm</contenido>
+        <medidas>
+            <ancho>20</ancho>
+            <alto>40</alto>
+            <largo>120</largo>
+        </medidas>
+        <colores principal="negro">marrón azul</colores>
+        <remitente>Ángel Florido Gastón</remitente>
+        <destinatario teléfono="637897254">Nuria Flores Sánchez</destinatario>
+    </paquete>
+
+    <paquete tracking="89275809003">
+        <contenido>Muñeca Reborn</contenido>
+        <volumen>4500</volumen>
+        <remitente>Sergio Muñoz Prieto</remitente>
+        <destinatario>Ana García Galindo</destinatario>
+        <entregado fecha="2019-01-03"/>
+    </paquete>
+
+    <paquete tracking="56754893105">
+        <contenido>Slime Factory</contenido>
+        <medidas unidad="m">
+            <alto>0.15</alto>
+            <ancho>0.40</ancho>
+            <largo>0.60</largo>
+        </medidas>
+        <remitente>Ana Gómez Cruz</remitente>
+        <destinatario>Felipe González Guerrero</destinatario>
+    </paquete>
+</paquetes>

@@ -1,0 +1,42 @@
+/* Estilos generales */
+* { box-sizing: border-box; }
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+}
+h1 { color: #333; }
+button { 
+    padding: 10px 20px; 
+    margin: 5px; 
+    cursor: pointer; 
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+button:hover { background-color: #45a049; }
+ul { 
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin-top: 15px;
+}
+li { 
+    margin: 5px 0; 
+    padding: 10px; 
+    background-color: #fff; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#inputContainer { 
+    display: none; 
+    margin-top: 10px; 
+    animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

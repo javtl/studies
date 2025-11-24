@@ -1,0 +1,71 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para la frase inicial */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las capas */
+div {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Capas específicas */
+.capa1 {
+    width: 300px; /* Ancho del contenido de la caja */
+    padding: 50px; /* Relleno dentro de la caja */
+    border: 15px solid; /* Borde sólido de 15px */
+    margin: 20px; /* Espaciado exterior de 20px */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el cálculo del ancho total */
+    border-color:purple ;
+    display: inline-block;
+
+  }
+  .capa2 {
+    width: 300px; /* Ancho del contenido de la caja */
+    padding: 50px; /* Relleno dentro de la caja */
+    border: 15px solid; /* Borde sólido de 15px */
+    margin: 20px; /* Espaciado exterior de 20px */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el cálculo del ancho total */
+    border-color:purple ;
+    display: inline-block;
+
+  }
+  .capa3 {
+    width: 300px; /* Ancho del contenido de la caja */
+    padding: 50px; /* Relleno dentro de la caja */
+    border: 15px solid; /* Borde sólido de 15px */
+    margin: 20px; /* Espaciado exterior de 20px */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el cálculo del ancho total */
+    border-color:purple ;
+    display: inline-block;
+
+  }
+  .capa4 {
+    width: 300px; /* Ancho del contenido de la caja */
+    padding: 50px; /* Relleno dentro de la caja */
+    border: 15px solid; /* Borde sólido de 15px */
+    margin: 20px; /* Espaciado exterior de 20px */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el cálculo del ancho total */
+    border-color:green
+  }
+  .capa5 {
+    width: 300px; /* Ancho del contenido de la caja */
+    padding: 50px; /* Relleno dentro de la caja */
+    border: 15px solid; /* Borde sólido de 15px */
+    margin: 20px; /* Espaciado exterior de 20px */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el cálculo del ancho total */
+    border-color: green;
+  }
+          

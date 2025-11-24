@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Elemento raíz -->
+  <xs:element name="lista_departamentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="departamento" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="descripcion" type="xs:string"/>
+              <xs:element name="horario" type="xs:string"/> <!-- Horario como texto tipo "HH:MM - HH:MM" -->
+              <xs:element name="num_empleados" type="xs:positiveInteger"/>
+              <xs:element name="empleados">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empleado" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="localizacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="planta" type="xs:string"/>
+                    <xs:element name="despacho" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contacto">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="telefono" type="xs:string"/>
+                    <xs:element name="email" type="xs:string"/>
+                    <xs:element name="web" type="xs:anyURI"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="presupuesto" type="xs:decimal"/>
+              <xs:element name="fecha_creacion" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

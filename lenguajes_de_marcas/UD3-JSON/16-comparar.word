@@ -1,0 +1,2 @@
+16. Comparar JSON con otros formatos: Compara JSON con otros formatos de serialización de datos como YAML o Protocol Buffers. Explica las ventajas y desventajas de cada uno.
+JSON, YAML y Protocol Buffers son formatos de serialización de datos ampliamente utilizados para el intercambio de información entre aplicaciones. Cada uno tiene sus propias ventajas y desventajas, dependiendo del contexto de uso.

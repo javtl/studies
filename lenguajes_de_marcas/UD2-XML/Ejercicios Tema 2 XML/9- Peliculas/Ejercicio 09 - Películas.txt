@@ -1,0 +1,4 @@
+Ejercicio 9: Película
+
+Construir un documento XML que contenga la información de la película que se muestra en la imagen "Ejercicio 09 - Películas.jpg"
+

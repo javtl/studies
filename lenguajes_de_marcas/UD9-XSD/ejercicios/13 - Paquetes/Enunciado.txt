@@ -1,0 +1,4 @@
+Realiza un XSD que valide este XML.
+
+Observa que el elemento 'tamaño'  puede contener un elemento 'medidas' o un elemento 'volumen'
+Observa que los elementos hijos de 'medidas' ('alto', 'ancho', 'largo'), pueden aparecer en cualquier orden

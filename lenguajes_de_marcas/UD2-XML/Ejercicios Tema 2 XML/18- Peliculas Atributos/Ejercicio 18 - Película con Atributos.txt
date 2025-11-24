@@ -1,0 +1,3 @@
+Ejercicio 18 Película con Atributos.
+
+Modifica el ejercicio 9, Película, para que disponga de atributos.

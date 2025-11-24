@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cliente xmlns="http://datosclientess.com">
+    <numero_ID>1232654</numero_ID>
+    <nombre>Fulanito de Tal</nombre>
+    <telefono>99999999</telefono>
+
+    <pedido xmlns:otro="http://datospedidos.com">
+      <otro:numero_ID>6523213</otro:numero_ID>
+      <otro:articulo>Caja de herramientas</otro:articulo>
+      <precio moneda="euro">187,90</precio>
+    </pedido>
+</cliente>

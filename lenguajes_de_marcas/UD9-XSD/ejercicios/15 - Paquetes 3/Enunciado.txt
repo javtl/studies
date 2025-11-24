@@ -1,0 +1,7 @@
+Realiza un XSD que valide este XML (se trata de una variación sobre el XML del ejercicio anterior)
+
+Observa que el tercer elemento hijo de 'paquete' (el que va tras el elemento 'contenido') puede ser 'medidas' o 'volumen'.
+Observa que los elementos hijos de 'medidas' ('alto', 'ancho', 'largo'), pueden aparecer en cualquier orden
+Debe haber como mínimo un 'paquete' en el fichero XML, pero no hay límite máximo.
+Como a veces los paquetes son sobres, cuyo grosor es despreciable, puede omitirse el 'alto' en las medidas. 
+En un mismo paquete puede haber hasta 10 elementos 'contenido', aunque podría no haber ninguno

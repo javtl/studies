@@ -1,0 +1,144 @@
+<?xml version="1.0"?> 
+
+<horario>
+
+	<ciclo curso='1º' grado='superior' siglas='DAM'>Desarrollo de Aplicaciones Multiplataforma</ciclo>
+
+	<dia>
+	    <dia_semana orden='1'>Lunes</dia_semana>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>10:00</fin>
+			<asignatura abreviatura='Sistemas' profesor='Rafael Montero'>Sistemas Informáticos</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura abreviatura='LL.MM.'>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura abreviatura='FOL'>Formación y Orientación Laboral</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>12:20</inicio>
+			<fin>14:20</fin>
+			<asignatura abreviatura='Sistemas' profesor='Susana Oviedo'>Sistemas Informáticos</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <dia_semana orden='2'>Martes</dia_semana>
+
+	    <hora orden='1'>
+			<inicio>8:00</inicio>
+			<fin>9:00</fin>
+			<asignatura abreviatura='FOL'>Formación y Orientación Laboral</asignatura>
+		</hora>
+
+	    <hora orden='2'>
+			<inicio>9:00</inicio>
+			<fin>10:55</fin>
+			<asignatura abreviatura='Sistemas' profesor='Rafael Montero'>Sistemas Informáticos</asignatura>
+		</hora>
+
+	    <hora orden='4'>
+			<inicio>11:20</inicio>
+			<fin>13:20</fin>
+			<asignatura abreviatura='LL.MM.'>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora orden='6'>
+			<inicio>13:20</inicio>
+			<fin>14:20</fin>
+			<asignatura abreviatura='FOL'>Formación y Orientación Laboral</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <dia_semana orden='3'>Miércoles</dia_semana>
+
+	    <hora orden='1'>
+			<inicio>8:00</inicio>
+			<fin>10:55</fin>
+			<asignatura abreviatura='BB.DD.'>Bases de Datos</asignatura>
+		</hora>
+
+	    <hora orden='4'>
+			<inicio>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura abreviatura='Entornos'>Entornos de Desarrollo</asignatura>
+		</hora>
+
+	    <hora orden='5'>
+			<inicio>12:20</inicio>
+			<fin>14:20</fin>
+			<asignatura abreviatura='Programación'>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <dia_semana orden='4'>Jueves</dia_semana>
+
+	    <hora orden='1'>
+			<inicio>8:00</inicio>
+			<fin>10:00</fin>
+			<asignatura abreviatura='BB.DD.'>Bases de Datos</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio orden='3'>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura abreviatura='Entornos'>Entornos de Desarrollo</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio orden='4'>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura abreviatura='Programación'>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <dia_semana orden='5'>Viernes</dia_semana>
+
+	    <hora orden='1'>
+			<inicio>8:00</inicio>
+			<fin>9:00</fin>
+			<asignatura abreviatura='LL.MM.'>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora orden='2'>
+			<inicio>9:00</inicio>
+			<fin>10:00</fin>
+			<asignatura abreviatura='Entornos'>Entornos de Desarrollo</asignatura>
+		</hora>
+
+	    <hora orden='3'>
+			<inicio>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura abreviatura='BB.DD.'>Bases de Datos</asignatura>
+		</hora>
+
+	    <hora orden='4'>
+			<inicio>11:20</inicio>
+			<fin>14:20</fin>
+			<asignatura abreviatura='Programación'>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+</horario>

@@ -1,0 +1,14 @@
+
+{
+  "cliente": {
+    "nombre": "Lucía",
+    "compra": {
+      "artículo": "TV",
+      "precio": 500,
+      "detalles": {
+        "color": "negro",
+        "tamaño": 55
+      }
+    }
+  }
+}

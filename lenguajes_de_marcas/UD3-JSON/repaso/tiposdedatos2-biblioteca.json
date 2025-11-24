@@ -1,0 +1,21 @@
+{
+    "nombre":"Biblioteca",
+    "direccion":{
+        "ciudad":"Cádiz",
+        "pais":"España"
+    },
+    "libro":[{
+        "titulo":"titulo",
+        "autor":"autor",
+        "año":1999,
+        "disponible":true
+    },
+    
+    {
+        "titulo":"titulo",
+        "autor":"autor",
+        "año":1999,
+        "disponible":true
+    }
+]
+}

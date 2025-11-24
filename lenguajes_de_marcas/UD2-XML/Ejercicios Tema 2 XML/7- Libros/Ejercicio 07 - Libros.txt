@@ -1,0 +1,9 @@
+Ejercicio 7: Libros
+
+Crea un documento XML “libros.xml” que contenga información de 5 libros.
+
+El primer libro tiene título, un autor, isbn y un precio.
+El segundo libro tiene título, dos autores, isbn y un precio.
+El tercer libro tiene título, un autor, no tiene isbn y un precio.
+El cuarto libro tiene título, un autor, isbn y dos precios.
+El quinto libro tiene título, un autor, un isbn y no tiene precio.

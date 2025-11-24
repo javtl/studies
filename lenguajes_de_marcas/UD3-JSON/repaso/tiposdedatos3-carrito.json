@@ -1,0 +1,33 @@
+{
+    "id":727272,
+
+    "productos":[{
+    "camiseta":{
+        "cantidad": 1,
+        "precio":9.99,
+        "oferta":false
+    },
+    "pantalon":{
+        "cantidad":1,
+        "precio":14.99,
+        "oferta":true
+    
+    },
+    "sudadera":{
+        "cantidad":1,
+        "precio":29.99,
+        "oferta":false
+    
+    },
+    "camiseta1":{
+        "cantidad":1,
+        "precio":19.99,
+        "oferta":false
+    }
+
+    
+    }],
+
+    "total":66
+}
+

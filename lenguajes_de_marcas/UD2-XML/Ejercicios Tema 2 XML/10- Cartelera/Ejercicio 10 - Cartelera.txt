@@ -1,0 +1,5 @@
+Ejercicio 10: Cartelera
+
+Amplía el XML del ejercicio anterior, para almacenar información de una cartelera de un determinado día.
+
+Debe constar la fecha de ese día. Para cada pase, debe constar la hora y la película (con todos sus datos).

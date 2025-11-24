@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    <fecha>2024-10-01</fecha>
+
+    <pase>
+        <hora>14:00</hora>
+        <pelicula>
+            <titulo>Los Vengadores</titulo>
+            <titulo_original>The Avengers</titulo_original>
+            <director>Joss Whedon</director>
+            <interpretes>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson</interpretes>
+            <sinopsis>
+                Los héroes más poderosos de la Tierra deben unirse para luchar contra el dios asgardiano Loki, quien planea invadir la Tierra con un ejército alienígena.
+            </sinopsis>
+            <url>https://marvel.com/movies/movie/152/the-avengers</url>
+            <categoria>Acción, Superhéroes. Autorizada para mayores de 13 años</categoria>
+        </pelicula>
+    </pase>
+
+    <pase>
+        <hora>17:00</hora>
+        <pelicula>
+            <titulo>Vengadores: La era de Ultrón</titulo>
+            <titulo_original>Avengers: Age of Ultron</titulo_original>
+            <director>Joss Whedon</director>
+            <interpretes>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner</interpretes>
+            <sinopsis>
+                Los Vengadores deben enfrentarse a Ultrón, una inteligencia artificial creada por Tony Stark que ha decidido que la extinción humana es la única forma de salvar el planeta.
+            </sinopsis>
+            <url>https://marvel.com/movies/movie/193/avengers-age-of-ultron</url>
+            <categoria>Acción, Superhéroes. Autorizada para mayores de 13 años</categoria>
+        </pelicula>
+    </pase>
+
+    <pase>
+        <hora>20:00</hora>
+        <pelicula>
+            <titulo>Vengadores: Infinity War</titulo>
+            <titulo_original>Avengers: Infinity War</titulo_original>
+            <director>Anthony Russo, Joe Russo</director>
+            <interpretes>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Josh Brolin</interpretes>
+            <sinopsis>
+                Los Vengadores y sus aliados deben detener a Thanos, un titán que busca reunir las Gemas del Infinito para destruir la mitad del universo.
+            </sinopsis>
+            <url>https://marvel.com/movies/movie/223/avengers-infinity-war</url>
+            <categoria>Acción, Superhéroes. Autorizada para mayores de 13 años</categoria>
+        </pelicula>
+    </pase>
+
+    <pase>
+        <hora>23:00</hora>
+        <pelicula>
+            <titulo>Vengadores: Endgame</titulo>
+            <titulo_original>Avengers: Endgame</titulo_original>
+            <director>Anthony Russo, Joe Russo</director>
+            <interpretes>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner</interpretes>
+            <sinopsis>
+                Después de los devastadores eventos de Infinity War, los Vengadores restantes intentan revertir las acciones de Thanos y restaurar el orden en el universo.
+            </sinopsis>
+            <url>https://marvel.com/movies/movie/234/avengers-endgame</url>
+            <categoria>Acción, Superhéroes. Autorizada para mayores de 13 años</categoria>
+        </pelicula>
+    </pase>
+
+</cartelera>

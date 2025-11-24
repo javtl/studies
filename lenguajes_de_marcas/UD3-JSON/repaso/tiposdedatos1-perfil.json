@@ -1,0 +1,10 @@
+{
+    "nombre":"cadena",
+    "edad":6,
+    "admin":false,
+    "amistades":["juan","ana","mario"],
+    "contacto":{
+        "mail":"biiu@gmail.com",
+        "telefono":62722929
+    }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UI with JS</title>
+	<script src="https://kit.fontawesome.com/4358b9453c.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css" />
+	<script src="scripts/main.js"></script>
+</head>
+
+<body>
+	<div class="global-container">
+
+		<div class="header">
+			<div class="container">
+				<div class="col-izq">
+					<img src="images/logo-icon.png" />
+					<h1>My Company</h1>
+				</div>
+				<div class="col-der">
+					<input id="search-input" class="invisible" type="text"/>
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="register.html">Register</a>
+					<a id="login-button" href="#">Login</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="nav-bar">
+			<div class="container">
+				<a id="menu-mobile-btn" href="#"><i class="fa-solid fa-bars"></i></a>
+				<a id="home-btn" href="#">Home</a>
+				<a href="#services">Services</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+
+		<div class="menu-mobile">
+			<div id="mobile-close">&times;</div>
+			<ul>
+				<li>
+					<i class="fa-solid fa-key"></i>
+					<span>Security</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-list"></i>
+					<span>All-in-one</span>
+				</li>
+				<li>
+					<i class="fa-sharp fa-solid fa-database"></i>
+					<span>Storage</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-comment"></i>
+					<span>Comments</span>
+				</li>
+			</ul>
+		</div>
+
+		<div id="carrusel" class="carrusel">
+			<img src="images/carrusel/1.jpg"/>
+		</div>
+
+		<div class="modal-background"></div>
+		<div class="modal-popup">
+			<div class="modal-header-wrap">
+				<img src="images/user-icon.png"/>
+				<div class="modal-header">Log in</div>
+				<div class="modal-close">&times;</div>
+			</div>
+			<div class="modal-content">
+				<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+					<label for="email">Email address: </label>
+					<input name="email" type="email" placeholder="youraddress@domain.tld" required/>
+					<label for="password">Password: </label>
+					<input name="password" type="password" required/>
+					<input id="login-submit-btn" type="submit" value="Log in"/>
+				</form>	
+			</div>
+		</div>
+		<div class="main-container">
+			<div class="container">
+				<div class="main-content">
+					<h1>Services</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit fusce habitant potenti nulla, sollicitudin
+						pharetra cum eleifend lectus netus maecenas libero non erat. Litora ut libero sapien dictumst
+						accumsan lacinia odio, nascetur rhoncus sollicitudin non ornare sociosqu per, vivamus porta
+						ridiculus netus sodales habitasse. Litora arcu neque convallis nam rutrum tellus sociosqu
+						hendrerit,
+						purus penatibus erat proin ad facilisi et volutpat, nec lectus ornare quam vestibulum rhoncus
+						sociis.
+					</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit fusce habitant potenti nulla, sollicitudin
+						pharetra cum eleifend lectus netus maecenas libero non erat. Litora ut libero sapien dictumst
+						accumsan lacinia odio, nascetur rhoncus sollicitudin non ornare sociosqu per, vivamus porta
+						ridiculus netus sodales habitasse. Litora arcu neque convallis nam rutrum tellus sociosqu
+						hendrerit,
+						purus penatibus erat proin ad facilisi et volutpat, nec lectus ornare quam vestibulum rhoncus
+						sociis.
+					</p>
+				</div>
+
+				<div class="aside">
+					<img src="images/Teamwork.jpg">
+				</div>
+			</div>
+
+			<div id="services" class="services-container">
+				<div class="container">
+					<div class="card-container">
+						<div class="card">
+							<img src="images/hosting.jfif">
+							<h1>Hosting</h1>
+							<p class="price">From 60€/year</p>
+							<p>Get your own VPS to make grow your business</p>
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<div class="card-container">
+						<div class="card">
+							<img src="images/wordpress-site.png">
+							<h1>Wordpress Site</h1>
+							<p class="price">From 600€</p>
+							<p>Get your site done in 2 days. Just give us the contents</p>
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<div class="card-container">
+						<div class="card">
+							<img src="images/ecommerce.jpg">
+							<h1>E-Commerce</h1>
+							<p class="price">From 60€/month</p>
+							<p>Find your e-commerce solution within our products</p>
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="footer">
+			<div class="row1">
+				<div class="container">
+					<div class="footer-col">
+						<a href="#">Learning</a>
+						<a href="#">Community</a>
+						<a href="#">Channels</a>
+					</div>
+					<div class="footer-col">
+						<a href="#">FAQ</a>
+						<a href="#">Experiences</a>
+						<a href="#">Collections</a>
+					</div>
+				</div>
+			</div>
+			<div class="row2">
+				<div class="container">
+					<a href="#">Home</a>
+					<a href="#">Services</a>
+					<a href="#">Porfolio</a>
+					<a href="#">Contact</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

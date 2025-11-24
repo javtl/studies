@@ -1,0 +1,47 @@
+<?xml version="1.0"?> 
+
+<arboles>
+	
+	<arbol>
+		<nombre tipo='Cientifico'>Acer monspessulanum</nombre>
+		<nombre tipo='Comun'>Arce de Montpellier</nombre>
+		<nombre tipo='Comun'>Arce menor</nombre>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura unidad='metros' varianza='2'>8</altura>
+		<forma_y_estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma_y_estructura>
+		<color_en_primavera>Haz verde brillante, envés verde blanquecino</color_en_primavera>
+		<resistencia_a_las_heladas temperatura='-15' escala='Celsius' nivel='fuerte'/>
+	</arbol>
+		
+	<arbol>
+		<nombre tipo='Cientifico'>Olea europea </nombre>
+		<nombre tipo='Comun'>Olivo</nombre>
+		<vegetacion>Perenne</vegetacion>
+		<altura unidad='metros' varianza='3,5'>11,5</altura>
+		<forma_y_estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</forma_y_estructura>
+		<color_en_primavera>Haz verde oscuro, envés verde plateado</color_en_primavera>
+		<resistencia_a_las_heladas temperatura='-10' escala='Celsius' nivel='media'/>
+	</arbol>
+
+	<arbol>
+		<nombre tipo='Cientifico'>Platanus orientalis</nombre>
+		<nombre tipo='Comun'>Plátano</nombre>
+		<vegetacion>Caducifolio</vegetacion>
+		<altura unidad='metros' varianza='2,5'>22,5</altura>
+		<forma_y_estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma_y_estructura>
+		<color_en_primavera>Haz verde medio, envés verde claro</color_en_primavera>
+		<color_en_otoño>Ocre</color_en_otoño>
+		<resistencia_a_las_heladas temperatura='-20' escala='Celsius' nivel='fuerte'/>
+	</arbol>
+
+	<arbol>
+		<nombre tipo='Cientifico'>Quercus ilex </nombre>
+		<nombre tipo='Comun'>Encina</nombre>
+		<vegetacion>Perenne</vegetacion>
+		<altura unidad='metros'>25</altura>
+		<forma_y_estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma_y_estructura>
+		<color_en_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</color_en_primavera>
+		<resistencia_a_las_heladas temperatura='-15' escala='Celsius' nivel='fuerte'/>
+	</arbol>
+
+</arboles>

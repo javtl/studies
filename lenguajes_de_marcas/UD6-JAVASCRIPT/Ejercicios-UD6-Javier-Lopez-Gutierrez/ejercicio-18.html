@@ -1,0 +1,36 @@
+<!--
+    Partiendo del siguiente documento HTML, modifícalo para que se añada un script que
+pregunte al usuario con un prompt qué texto quiere poner tanto en el titular como en el
+párrafo.
+    
+-->
+
+<!DOCTYPE html>
+
+    <html>
+        <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Tu periódico</title>
+        </head>
+
+        <body>
+        <h1 id="titular">Pon tu título aquí</h1>
+        <p id="parrafo">Esto es un párrafo de muestra</p>
+            
+            <script>
+                let titular = prompt("¿Que titular desea poner");
+                let parrafo = prompt("¿Que parrafo desea poner");
+
+                console.log("Nombre Titular:  "+ titular);
+                console.log("Nombre Parrafo:  "+ parrafo);
+
+                document.getElementById("titular").innerText = titular;
+                document.getElementById("parrafo").innerHTML = parrafo;
+
+            </script>
+        </body>
+
+    </html>
+
+    

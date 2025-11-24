@@ -1,0 +1,41 @@
+/* Este es el archivo de estilos para Bloque2E2 */
+
+/* Estilo para el artículo principal */
+.articulo-principal {
+    color: orange; /* Texto en naranja */
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilo para el artículo secundario */
+.articulo-secundario {
+    color: green; /* Texto en verde */
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilo para los subtítulos */
+h2 {
+    color: blue; /* Subtítulos en azul */
+    font-style: italic;
+}
+.articulo-1{
+    text-align: left;
+}
+.articulo-2{
+    text-align: right;
+}
+.sub-1{
+    text-align: left;
+}
+.sub-2{
+    text-align: right;}
+.p2{
+    color:black ;
+}

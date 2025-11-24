@@ -1,0 +1,70 @@
+//1
+for(let i=0;i<100;i++){
+	console.log("Hola Mundo");
+}
+
+//2
+for (let i=1;i<101;i++){
+	console.log(i);
+}
+
+//3
+for(let i = 100; i >= 1;i--){
+	console.log(i);
+}
+
+//4
+for(let i = 1; i<101;i++){
+	if(i%3===0 && i%5===0){
+	console.log("FizzBuzz");	}
+		else if(i%3 ===0){
+	console.log("Fizz");	}else if(i%5===0){
+	console.log("Buzz");	}
+}
+
+//5
+let resultado = [];
+
+for (let i = 1; i<101;i++){
+	if(i%3===0 && i%5===0){
+		resultado.push("FizzBuzz");}
+	else if(i%3===0){
+		resultado.push("Fizz");}
+	else if(i%5===0){
+	resultado.push("Buzz");}
+}
+console.log(resultado);
+
+//6
+for (let i = 1 ; i<101 ;i++){
+	if(i%3 ===0 && i%5 !==0){
+	console.log(i);}}
+
+//7
+function dimeTuNombre(){
+let nombre = prompt("¿Cuál es tu nombre?");
+
+	while(nombre ==="" || !isNaN(nombre)){
+		nombre = prompt("¿Cuál es tu nombre?");
+}
+
+return nombre;
+}
+
+//8
+
+let producto = {
+	nombre: "Auriculares BT",
+	precio:23,
+	stock:44,
+	importeStock: function () {
+	return this.precio * this.stock;
+	}
+};
+
+console.log(producto);
+console.log("Importe en stock inicial: ", producto.importeEnStock());
+
+
+
+

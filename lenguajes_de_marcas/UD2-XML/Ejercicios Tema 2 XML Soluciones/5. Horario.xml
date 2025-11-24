@@ -1,0 +1,144 @@
+<?xml version="1.0"?> 
+
+<horario>
+
+	<ciclo>CFGS DAM</ciclo>
+	<curso>1º</curso>
+	<dia>
+	    <nombre>Lunes</nombre>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>10:00</fin>
+			<asignatura>Sistemas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura>-fol</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>12:20</inicio>
+			<fin>14:20</fin>
+			<asignatura>Sistemas</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <nombre>Martes</nombre>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>9:00</fin>
+			<asignatura>FOL</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>9:00</inicio>
+			<fin>10:55</fin>
+			<asignatura>Sistemas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>13:20</fin>
+			<asignatura>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>13:20</inicio>
+			<fin>14:20</fin>
+			<asignatura>FOL</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <nombre>Miércoles</nombre>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>10:55</fin>
+			<asignatura>BB.DD.</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura>Entornos</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>12:20</inicio>
+			<fin>14:20</fin>
+			<asignatura>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <nombre>Jueves</nombre>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>10:00</fin>
+			<asignatura>BB.DD.</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura>Entornos</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>12:20</fin>
+			<asignatura>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+
+	<dia>
+	    <nombre>Viernes</nombre>
+
+	    <hora>
+			<inicio>8:00</inicio>
+			<fin>9:00</fin>
+			<asignatura>Lenguajes de Marcas</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>9:00</inicio>
+			<fin>10:00</fin>
+			<asignatura>Entornos</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>10:00</inicio>
+			<fin>10:55</fin>
+			<asignatura>BB.DD.</asignatura>
+		</hora>
+
+	    <hora>
+			<inicio>11:20</inicio>
+			<fin>14:20</fin>
+			<asignatura>Programación</asignatura>
+		</hora>
+
+	</dia>
+
+</horario>

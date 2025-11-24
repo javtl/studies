@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+
+<html> 
+    <head>   
+        <meta charset="utf-8"/>   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+        <title>Tu periódico</title> 
+    </head> 
+    <body>   
+        <h1 id="titular">Pon tu título aquí</h1>   
+        <p id="principal">Esto es un párrafo principal</p>  
+         <p class="secundario">Este es el primer párrafo secundario</p>  
+            <div>    
+             <p class="secundario">Este es el segundo párrafo secundario</p>    
+              <p class="secundario">Este es el tercer párrafo secundario</p>   
+            </div>
+              
+              <script>
+                
+                const principalParagraph = document.getElementById('principal');
+                console.log(principalParagraph);
+
+ 
+                const firstSecundario = document.querySelector('.secundario');
+                console.log(firstSecundario);
+
+  
+                const firstSecundarioInDiv = document.querySelector('div .secundario');
+                console.log(firstSecundarioInDiv);
+
+ 
+                const titleNode = document.querySelector('head title');
+                console.log(titleNode);
+
+ 
+                const bodyNode = document.querySelector('body');
+                console.log(bodyNode);
+
+
+
+              </script>
+             </body> 
+</html>

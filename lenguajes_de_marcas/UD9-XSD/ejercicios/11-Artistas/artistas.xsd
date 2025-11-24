@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Enumeración de escritores -->
+  <xs:simpleType name="escritor">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Wilde"/>
+      <xs:enumeration value="Shakespeare"/>
+      <xs:enumeration value="Cervantes"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Enumeración de pintores -->
+  <xs:simpleType name="pintor">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Rembrandt"/>
+      <xs:enumeration value="Dalí"/>
+      <xs:enumeration value="Rubens"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Unión de escritores y pintores -->
+  <xs:simpleType name="artista">
+    <xs:union memberTypes="escritor pintor"/>
+  </xs:simpleType>
+
+  <!-- Lista de artistas -->
+  <xs:simpleType name="listaArtistasType">
+    <xs:list itemType="artista"/>
+  </xs:simpleType>
+
+  <!-- Elemento raíz -->
+  <xs:element name="listaArtistas" type="listaArtistasType"/>
+
+</xs:schema>

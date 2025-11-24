@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista_pedidos>
+    <items>
+        <juego>
+            <nombre>call of duty</nombre>
+            <plataforma>PS4</plataforma>
+            <tipo>shooter</tipo>
+            <precio>65.50</precio>
+            <descuento>5</descuento>
+        </juego>    
+        <juego>
+            <nombre>Smash Bross</nombre>
+            <plataforma>3DS</plataforma>
+            <tipo>plataforma</tipo>
+            <precio>40.30</precio>
+            <descuento>10</descuento>
+        </juego>
+        <juego>
+            <nombre>Assassin Creed</nombre>
+            <plataforma>PS4</plataforma>
+            <tipo>aventura</tipo>
+            <precio>60.40</precio>
+            <descuento>15</descuento>
+        </juego>
+    </items>
+    <datos>
+        <pedido>7</pedido>
+        <fecha_hora>2017-09-05T15:23:12</fecha_hora>
+        <estado>
+            <enviado> true </enviado>
+            <entregado> false </entregado>
+        </estado>
+        <pago>Efectivo</pago>
+        <destino>
+            <calle>molino</calle>
+            <numero>4</numero>
+            <localidad>San Fernando</localidad>
+        </destino>
+    </datos>
+</lista_pedidos>
+
+

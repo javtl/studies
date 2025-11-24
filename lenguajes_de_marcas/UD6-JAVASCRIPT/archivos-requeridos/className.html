@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <style>
+        .rojo {
+            color: red;
+        }
+
+        .verde {
+            color: green;
+        }
+
+        .invisible {
+            visibility: hidden;
+        }
+
+        .centrar {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="centrar rojo">Propiedad className</h1>
+    <div class="verde">
+        <h2>Texto manipulado con JS</h2>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos iure eligendi sapiente eius
+        obcaecati eum labore quasi neque repudiandae.</p>
+
+    <script>
+        let h1 = document.querySelector("h1");
+        h1.className = "verde"; // se elimina "centrar" y "rojo"
+
+        let div = document.querySelector("div");
+        // Con += concatenamos con lo que tuviera antes la propiedad
+        div.className += " invisible";
+
+        h1.style.textAlign = "center";
+        h1.style.color = "red";
+
+        function alternaVisibilidad() {
+            let div = document.querySelector("div");
+            // Para hacer el toggle... todo más complejo
+            if (div.className.includes("invisible")) {
+                div.className = div.className.replace("invisible", "");
+            } else {
+                div.className += " invisible";
+            }
+
+        }
+
+        // Llamamos a alternaVisibilidad cada segundo
+        setInterval(alternaVisibilidad, 1000);
+    </script>
+    
+</body>
+
+</html>

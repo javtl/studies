@@ -1,0 +1,25 @@
+{
+    "tareas": [
+      {
+        "id": 1,
+        "titulo": "Comprar groceries",
+        "completada": false
+      },
+      {
+        "id": 2,
+        "titulo": "Hacer ejercicio",
+        "completada": true
+      },
+      {
+        "id": 3,
+        "titulo": "Enviar correos",
+        "completada": false
+      },
+      {
+        "id": 4,
+        "titulo": "Estudiar JavaScript",
+        "completada": false
+      }
+    ]
+  }
+  

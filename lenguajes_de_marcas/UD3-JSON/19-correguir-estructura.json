@@ -1,0 +1,16 @@
+{
+    "empresa": "Tech Solutions",
+    "empleados": [
+      {
+        "nombre": "Ana",
+        "cargo": "Desarrollador",
+        "salario": 3500
+      },
+      {
+        "nombre": "Luis",
+        "cargo": "Analista",
+        "salario": 3200
+      }
+    ]
+  }
+  

@@ -1,0 +1,57 @@
+/* Cabecera */
+.cabecera {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Enlaces */
+.enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo del contenedor */
+.contenedor {
+    display: flex; /* Hace que los elementos hijos estén en línea horizontal */
+    gap: 20px; /* Espacio entre los elementos */
+    margin: 20px; /* Margen de 20px */
+}
+
+/* Contenido principal */
+.contenido-principal {
+    width: 700px; /* Anchura de 700px */
+    background-color: ;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: justify; /* Justificar texto */
+}
+
+/* Contenido lateral */
+.contenido-lateral {
+    width: 300px; /* Anchura de 300px */
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: justify; /* Justificar texto */
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    color: white;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+}

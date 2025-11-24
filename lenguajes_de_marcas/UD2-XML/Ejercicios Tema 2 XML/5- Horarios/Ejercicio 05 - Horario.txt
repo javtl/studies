@@ -1,0 +1,4 @@
+Ejercicio 5: Horario
+
+Crea un documento XML con el horario de clase de un grupo: 
+Ciclo, curso, día de la semana, hora de inicio, hora de finalización y asignatura.

@@ -1,0 +1,7 @@
+<?xml version="1.0">
+	<poema>
+		<titulo> </titulo>
+			<verso> </verso>
+			<verso> </verso>
+			<verso> </verso>
+	</poema>

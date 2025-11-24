@@ -1,0 +1,63 @@
+{
+    "empleados": [
+      {
+        "nombre": "Juan Pérez",
+        "id": "EMP001",
+        "salario": 50000,
+        "direcciones": [
+          {
+            "calle": "Av. Libertador",
+            "ciudad": "Buenos Aires",
+            "codigo_postal": "C1001"
+          },
+          {
+            "calle": "Calle 123",
+            "ciudad": "La Plata",
+            "codigo_postal": "B1900"
+          }
+        ]
+      },
+      {
+        "nombre": "María López",
+        "id": "EMP002",
+        "salario": 60000,
+        "direcciones": [
+          {
+            "calle": "Calle Falsa 456",
+            "ciudad": "Córdoba",
+            "codigo_postal": "X5000"
+          }
+        ]
+      },
+      {
+        "nombre": "Carlos García",
+        "id": "EMP003",
+        "salario": 45000,
+        "direcciones": [
+          {
+            "calle": "Av. de Mayo",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001"
+          },
+          {
+            "calle": "Calle Gran Vía",
+            "ciudad": "Madrid",
+            "codigo_postal": "28013"
+          }
+        ]
+      },
+      {
+        "nombre": "Ana Martínez",
+        "id": "EMP004",
+        "salario": 55000,
+        "direcciones": [
+          {
+            "calle": "Calle 789",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001"
+          }
+        ]
+      }
+    ]
+  }
+  

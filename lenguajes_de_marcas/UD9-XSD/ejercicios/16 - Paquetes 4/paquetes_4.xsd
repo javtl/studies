@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="paquetes">
+     <xs:complexType>
+       <xs:sequence>
+          <xs:element name="paquete" type="paquete" minOccurs="1" maxOccurs="unbounded"/>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="paquete">
+     <xs:sequence>
+        <xs:element name="contenido" type="xs:string" minOccurs="0" maxOccurs="10"/>
+        <xs:choice>
+            <xs:element name="medidas" type="medidas"/>
+             <xs:element name="volumen" type="xs:integer"/>
+        </xs:choice>
+        <xs:element name="colores" type="T_colores" minOccurs="0"/>
+        <xs:element name="remitente"/>
+        <xs:element name="destinatario" type="destinatario"/>
+        <xs:element name="entregado" minOccurs="0" type="entregado"/>
+    </xs:sequence>
+    <xs:attribute name="tracking" type='T_11digitos' use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="medidas">
+     <xs:all>
+        <xs:element name="alto" type="xs:decimal" minOccurs="0"/>
+        <xs:element name="ancho" type="xs:decimal"/>
+        <xs:element name="largo" type="xs:decimal"/>
+     </xs:all>
+     <xs:attribute name="unidad" type='T_medida' default="cm"/>
+  </xs:complexType>
+  
+  <xs:complexType name="T_colores">
+     <xs:simpleContent> 
+       <xs:extension base="lista_colores">
+          <xs:attribute name="principal" type="T_color" /> 
+       </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType> 
+
+   <xs:complexType mixed="true" name="destinatario">
+       <xs:attribute name="teléfono" type="T_teléfono"/>
+   </xs:complexType>
+
+  <xs:simpleType name="T_teléfono">
+     <xs:restriction base="xs:integer">
+        <xs:pattern value="6\d{8}"/>
+     </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="T_11digitos">
+     <xs:restriction base="xs:positiveInteger">
+       <xs:totalDigits value="11"/>
+     </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="lista_colores">
+     <xs:list itemType="T_color"/>
+  </xs:simpleType>
+  
+  <xs:simpleType  name="T_color">
+     <xs:restriction base="xs:string">
+        <xs:enumeration value="blanco"/>
+        <xs:enumeration value="negro"/>
+        <xs:enumeration value="azul"/>
+        <xs:enumeration value="rojo"/>
+        <xs:enumeration value="amarillo"/>
+        <xs:enumeration value="verde"/>
+        <xs:enumeration value="marrón"/>
+     </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType  name="T_medida">
+     <xs:restriction base="xs:string">
+        <xs:enumeration value="mm"/>
+        <xs:enumeration value="cm"/>
+        <xs:enumeration value="m"/>
+     </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="entregado">
+      <xs:attribute name="fecha" type="xs:date"/>
+  </xs:complexType>
+  
+</xs:schema>

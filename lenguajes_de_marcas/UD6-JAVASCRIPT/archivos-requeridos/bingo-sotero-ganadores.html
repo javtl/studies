@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo Sotero</title>
+    <style>
+        .invisible {
+            display: none;
+        }
+
+        table,th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bingo Sotero</h1>
+    <button onclick="sacaBola()">Saca bola</button>
+    <button onclick="cantaBingo()">¡Han cantado Bingo!</button>
+    <div>
+        <ul class="lista-numeros">
+
+        </ul>
+    </div>
+    <hr />
+    <h1>Ganadores de hoy</h1>
+    <div id="sin-ganadores">
+        <h2>Todavía no hay ganadores</h2>
+    </div>
+    <div id="tabla" class="invisible">
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function sacaBola() {
+            // Sacamos aleatorio un número del 1 al 99
+            let numero = Math.floor(Math.random() * 99 + 1);
+
+            // Creamos una etiqueta 'li'
+            let li = document.createElement("li");
+            // Le añadimos el texto del número que ha salido
+            li.innerText = numero;
+            // Añadimos el elemento 'li' a su 'ul'
+            document.querySelector(".lista-numeros").appendChild(li);
+
+            // let lista = document.querySelector(".lista-numeros");
+            // lista.insertBefore(li, lista.childNodes[0])
+        }
+
+        function cantaBingo() {
+            let ganador = recopilaInfoGanador();
+            publicaGanador(ganador);
+            vaciaListaNumeros();
+        }
+
+        function recopilaInfoGanador() {
+            let fecha = new Date();
+            let ahora = fecha.getHours()+":"+fecha.getMinutes()+":"+fecha.getSeconds();
+            
+            let nombre = prompt("Dime el nombre del ganador/a: ");
+            console.log(nombre);
+            if (nombre == null || nombre === "") {
+                nombre = "Anónimo";
+            }
+            
+            let direccion = prompt("Dime su dirección: ");
+            if (direccion == null || direccion === "") {
+                direccion = "Anónima";
+            }
+            return { name: nombre, address: direccion, time: ahora };
+        }
+
+        function publicaGanador(ganador) {
+            let divTabla = document.querySelector("#tabla");
+
+            if (divTabla.classList.contains("invisible")) {
+                // Todavía no hay ganadores, vamos a publicar
+                // el primero del día. Hacemos visible la tabla
+                divTabla.classList.remove("invisible");
+                // Ocultamos el div con el texto de no hay ganadores
+                let divSinGanadores = document.querySelector("#sin-ganadores");
+                divSinGanadores.classList.add("invisible");
+            }
+
+            let tr = document.createElement("tr");
+            tr.innerHTML = `<td>${ganador.time}</td>
+                            <td>${ganador.name}</td>
+                            <td>${ganador.address}</td>`;
+
+            let tabla = document.querySelector("table");
+            tabla.appendChild(tr);
+        }
+
+        function vaciaListaNumeros() {
+            ul = document.querySelector("ul");
+            elements = document.querySelectorAll("li");
+            for (let elem of elements) {
+                ul.removeChild(elem);
+            }
+        }
+
+    </script>
+</body>
+
+</html>

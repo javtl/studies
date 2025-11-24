@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen Interactiva con Mapas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .imagenes-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espacio entre las imágenes */
+        }
+        img {
+            width: 300px; /* Establecer el mismo tamaño para todas las imágenes */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título de la página -->
+    <h1>Imagen Interactiva con Áreas Clicables</h1>
+
+    <!-- Contenedor para alinear las imágenes horizontalmente -->
+    <div class="imagenes-container">
+        <!-- Imagen de Polígono con un mapa interactivo asociado -->
+        <div>
+            <h2>Imagen de Polígono</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclfumzcA-cQsylRmZSke69jzhDfBJCoFTYg&s" 
+                 alt="Mapa Interactivo Polígono" usemap="#mapaPoligono">
+            <map name="mapaPoligono">
+                <!-- Área poligonal que redirige a Wikipedia -->
+                <area 
+                    shape="poly" 
+                    coords="20,20,180,50,100,200,50,100" 
+                    href="https://es.wikipedia.org/wiki/Pol%C3%ADgono" 
+                    alt="Área Poligonal" 
+                    target="_blank">
+            </map>
+        </div>
+
+        <!-- Imagen Circular con un mapa interactivo asociado -->
+        <div>
+            <h2>Imagen Circular</h2>
+            <img src="https://brero.es/shop/1084-large_default/circulo-adhesivo-rojo-o-verde.jpg" 
+                 alt="Mapa Interactivo Círculo" usemap="#mapaCirculo">
+            <map name="mapaCirculo">
+                <!-- Área circular que redirige a Wikipedia -->
+                <area 
+                    shape="circle" 
+                    coords="100,100,60" 
+                    href="https://es.wikipedia.org/wiki/C%C3%ADrculo" 
+                    alt="Área Circular" 
+                    target="_blank">
+            </map>
+        </div>
+
+        <!-- Imagen Rectangular con un mapa interactivo asociado -->
+        <div>
+            <h2>Imagen Rectangular</h2>
+            <img src="https://t1.uc.ltmcdn.com/es/posts/6/0/0/como_calcular_el_perimetro_de_un_rectangulo_40006_600.jpg" 
+                 alt="Mapa Interactivo Rectángulo" usemap="#mapaRectangulo">
+            <map name="mapaRectangulo">
+                <!-- Área rectangular que redirige a Wikipedia -->
+                <area 
+                    shape="rect" 
+                    coords="10,10,200,150" 
+                    href="https://es.wikipedia.org/wiki/Rect%C3%A1ngulo" 
+                    alt="Área Rectangular" 
+                    target="_blank">
+            </map>
+        </div>
+    </div>
+
+    <!-- Instrucciones al usuario -->
+    <p>Pase el cursor sobre las áreas de las imágenes y haga clic para ser redirigido a las páginas de Wikipedia correspondientes.</p>
+
+    <!-- Créditos de la imagen -->
+    <footer>
+        <p>Javier López Gutiérrez</p>
+    </footer>
+
+</body>
+</html>

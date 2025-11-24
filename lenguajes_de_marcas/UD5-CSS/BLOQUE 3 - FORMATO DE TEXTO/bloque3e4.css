@@ -1,0 +1,29 @@
+/* General */
+body {
+    background-color: #FABADA; /* Color de fondo */
+    font-family: 'Allan', sans-serif; /* Fuente del cuerpo del documento */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+    font-family: 'Aclonica', sans-serif; /* Fuente para el título principal */
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    font-family: 'Aclonica', sans-serif; /* Fuente para encabezados secundarios */
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Párrafos */
+p {
+    font-family: 'Alegreya Sans SC', sans-serif; /* Fuente para los textos "Lorem" */
+    font-size: 20px; /* Tamaño de la fuente en los párrafos */
+    text-align: justify;
+    margin: 10px 20px;
+}

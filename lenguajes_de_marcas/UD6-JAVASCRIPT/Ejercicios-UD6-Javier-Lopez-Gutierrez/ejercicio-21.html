@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+        <body>
+            <h1>Contactos telefónicos</h1>
+            <table id="contact-table"></table>
+                <script>
+                    let contacts = [
+                    { name: "Ángela", phone: 636021781 },
+                    { name: "Bea", phone: 654256755 },
+                    { name: "Juan", phone: 645888610 },
+                    { name: "Miguel", phone: 615992156 },
+                    { name: "Tomás", phone: 612415446 },
+                    { name: "Zaida", phone: 955359613 } ];
+
+                    let tabla = "";
+                        for (let contact of contacts) {
+                               tabla += `Nombre: ${contact.name}, Número: ${contact.phone}.\n`;
+                                }
+                                console.log(tabla);
+
+                                let tablaHTML = `
+                                             <table border="1">
+                                               <tr>
+                                                   <th>Nombre</th>
+                                                        <th>Teléfono</th>
+                                                       </tr>
+                                                            `;
+
+                                for (let contact of contacts) {
+                                tablaHTML += `
+                                <tr>
+                                <td>${contact.name}</td>
+                                <td>${contact.phone}</td>
+                               </tr>
+                                   `;
+                                }
+
+                                tablaHTML += `</table>`;
+
+                                document.body.innerHTML = tablaHTML;
+
+
+                   </script>
+        </body>
+
+</html>

@@ -1,0 +1,26 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7FFF00; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    text-align: center; /* Todos los encabezados están centrados */
+    margin: 20px 0;
+}
+
+/* Texto */
+p {
+    text-align: justify; /* Párrafos justificados */
+    font-weight: 700; /* Peso de la fuente para los textos 'Lorem' */
+    margin: 10px 20px;
+}
+
+/* Sección */
+section {
+    margin: 20px;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hoteles>
+    <hotel id="hotel1">
+        <nombre>Hotel Luna</nombre>
+        <telefono tipo="fijo">+34 999 345 678</telefono>
+        <direccion>
+            <direccion tipo="calle" > del Sol, 123</direccion>
+            <ciudad>Cádiz</ciudad>
+            <pais>España</pais>
+        </direccion>
+        <estrellas>5</estrellas>
+        <habitaciones>
+            <individuales>70</individuales>
+            <dobles>100</dobles>
+            <triples>20</triples>
+            <suites>15</suites>
+        </habitaciones>
+        <descripcion>
+            Hotel de lujo en el corazón de Cádiz, con vistas impresionantes, 
+            restaurante gourmet y spa de alta gama.
+        </descripcion>
+    </hotel>
+
+    <hotel id="hotel2">
+        <nombre>Hotel Marítimo</nombre>
+        <telefono  tipo="fijo">+34 911 123 456</telefono>
+        <direccion>
+            <direccion tipo="calle">Avenida del Océano, 456</direccion>
+            <ciudad>SEvilla</ciudad>
+            <pais>España</pais>
+        </direccion>
+        <estrellas>4</estrellas>
+        <habitaciones>
+            <individuales>40</individuales>
+            <dobles>80</dobles>
+            <triples>10</triples>
+            <suites>8</suites>
+        </habitaciones>
+        <descripcion>
+            Hotel ideal para vacaciones en familia, 
+            cerca de las principales atracciones turísticas de Sevilla.
+        </descripcion>
+    </hotel>
+
+    <hotel id="hotel3">
+        <nombre>Mountain Resort</nombre>
+        <telefono tipo="fijo">+1 991 991 333</telefono>
+        <direccion>
+            <direccion tipo="calle">Mountain Road, 789</direccion>
+            <ciudad>Granada</ciudad>
+            <pais>España</pais>
+        </direccion>
+        <estrellas>3</estrellas>
+        <habitaciones>
+            <individuales>20</individuales>
+            <dobles>40</dobles>
+            <triples>5</triples>
+            <suites>3</suites>
+        </habitaciones>
+        <descripcion>
+            Resort acogedor en las montañas de Granada, ideal para los amantes del 
+            esquí y la naturaleza.
+        </descripcion>
+    </hotel>
+</hoteles>

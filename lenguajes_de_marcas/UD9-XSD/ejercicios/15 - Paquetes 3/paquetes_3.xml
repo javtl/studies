@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paquetes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/mediamarkt/Desktop/15paquetes.xsd">
+
+    <paquete>
+        <tracking>65873574</tracking>
+        <contenido>Postal Benidorm 1940</contenido>
+        <medidas>
+            <ancho>20</ancho>
+            <largo>120</largo>
+        </medidas>
+        <peso>20</peso>
+        <remitente>Ángel Florido Gastón</remitente>
+        <destinatario>Nuria Flores Sánchez</destinatario>
+    </paquete>
+
+    <paquete>
+        <tracking>89275809</tracking>
+        <contenido>Muñeca Reborn</contenido>
+        <volumen>4500</volumen>
+        <remitente>Sergio Muñoz Prieto</remitente>
+        <destinatario>Ana García Galindo</destinatario>
+    </paquete>
+
+    <paquete>
+        <tracking>56754893</tracking>
+        <contenido>Slime Factory</contenido>
+        <medidas>
+            <alto>15</alto>
+            <ancho>40</ancho>
+            <largo>60</largo>
+        </medidas>
+        <peso>1000</peso>
+        <remitente>Ana Gómez Cruz</remitente>
+        <destinatario>Felipe González Guerrero</destinatario>
+    </paquete>
+</paquetes>

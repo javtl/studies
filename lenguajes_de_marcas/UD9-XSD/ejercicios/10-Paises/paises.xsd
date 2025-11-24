@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Enumeración de países permitidos -->
+  <xs:simpleType name="pais">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Portugal"/>
+      <xs:enumeration value="Andorra"/>
+      <xs:enumeration value="Francia"/>
+      <xs:enumeration value="Marruecos"/>
+      <xs:enumeration value="España"/>
+      <xs:enumeration value="Italia"/>
+      <xs:enumeration value="Alemania"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Lista de países válidos, separados por espacios -->
+  <xs:simpleType name="listaPaises">
+    <xs:list itemType="pais"/>
+  </xs:simpleType>
+
+  <!-- Elemento raíz -->
+  <xs:element name="algunosPaises" type="listaPaises"/>
+
+</xs:schema>

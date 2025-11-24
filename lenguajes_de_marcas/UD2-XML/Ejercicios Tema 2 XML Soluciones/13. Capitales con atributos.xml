@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+
+<capitales_andalucia> 
+
+	<capital nombre='Almeria'>  
+		<habitantes año='2018'>194.952</habitantes>
+		<patron onomastica='15 de mayo'> ‎San Indalecio</patron>
+	</capital> 
+
+	<capital nombre='Cádiz'> 
+		<habitantes año='2019'>124.892</habitantes>
+		<superficie unidad='Km2'>13,3</superficie>
+	</capital> 
+
+	<capital nombre='Córdoba'> 
+		<habitantes año='2018'>326.262</habitantes>
+		<alcalde>José María Bellido</alcalde>
+	</capital> 
+
+	<capital nombre='Granada'> 
+		<habitantes año='2019'>233.764</habitantes>
+		<superficie unidad='m2'>15.130.000</superficie>
+	</capital> 
+
+	<capital nombre='Huelva'> 
+		<habitantes año='2017'>144.258</habitantes>
+		<alcalde>Gabriel Cruz</alcalde>
+	</capital> 
+
+	<capital nombre='Jaén'> 
+		<habitantes>113.457</habitantes>
+	</capital> 
+
+	<capital nombre='Málaga'> 
+		<habitantes año='2019'>569.005</habitantes>
+		<gentilicio>malagueño, -ña</gentilicio>
+		<gentilicio>malacitano, -na</gentilicio>
+	</capital> 
+
+	<capital nombre='Sevilla'> 
+		<habitantes año='2019'>690.000</habitantes>
+		<superficie unidad='Km2'>140,8</superficie>
+	</capital> 
+
+</capitales_andalucia> 

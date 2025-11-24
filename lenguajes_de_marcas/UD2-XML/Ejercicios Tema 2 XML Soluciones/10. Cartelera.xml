@@ -1,0 +1,49 @@
+<?xml version="1.0"?> 
+
+<cartelera>
+	<dia>4-10-2019</dia>
+	<pase>
+		<hora>16:00</hora>
+		<pelicula>
+			<titulo>Aquellas Juergas Universitarias</titulo>
+			<titulo_original>Old School</titulo_original>
+			<pais>EE.UU.</pais>
+			<duracion>93 min</duracion>
+			<director>Todd Phillips</director>
+			<interpretes>
+				<interprete>Will Ferrell</interprete>
+				<interprete>Luke Wilson</interprete>
+				<interprete>Vince Vaughn</interprete>
+				<interprete>Jeremy Piven</interprete>
+				<interprete>Juliette Lewis</interprete>
+				<interprete>Sean William Scott</interprete>
+			</interpretes>
+			<sinopsis> Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra. Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban años atrás. Beanie es un padre de familia que se muere por recuperar su alocada juventud. Pero las cosas ambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes</sinopsis>
+			<web>http:/www.oldschool-themovie.com/</web>
+			<genero>Comedia</genero>
+			<clasificacion>Autorizada para mayores de 16 años</clasificacion>
+		</pelicula>
+	</pase>
+
+	<pase>
+		<hora>18:00</hora>
+		<pelicula>
+			<!-- Aquí van todos los datos de una película -->
+		</pelicula>
+	</pase>
+
+	<pase>
+		<hora>19:30</hora>
+		<pelicula>
+			<!-- Aquí van todos los datos de una película -->
+		</pelicula>
+	</pase>
+
+	<pase>
+		<hora>21:00</hora>
+		<pelicula>
+			<!-- Aquí van todos los datos de una película -->
+		</pelicula>
+	</pase>
+
+</cartelera>

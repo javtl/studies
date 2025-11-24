@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+
+<libros>
+
+	<libro isbn='843030407X'>
+		<titulo>El Ingenioso Hidaldo Don Quijote de la Mancha</titulo>
+		<autor>Miguel de Cervantes Saavedra</autor>
+		<precio moneda='euro'>56,13</precio>
+	</libro>
+
+	<libro isbn='9788401353246'>
+		<titulo>La clave Gaudí</titulo>
+		<autor>Esteban Martín</autor>
+		<autor>Andreu Carranza</autor>
+		<precio moneda='euro'>50,00</precio>
+	</libro>
+
+	<libro>
+		<titulo>Juego de Tronos: Cancion de hielo y fuego</titulo>
+		<autor>George R.R. Martin</autor>
+		<precio moneda='euro'>24,70</precio>
+	</libro>
+
+	<libro isbn='9789173488297'>
+		<titulo>Choque de Reyes: Cancion de hielo y fuego</titulo>
+		<autor>George R.R. Martin</autor>
+		<precio moneda='euro'>11,40</precio>
+		<precio moneda='euro' formato='ebook'>6,64</precio>
+	</libro>
+
+	<libro isbn='9781640290068'>
+		<titulo>Antes de que Mate</titulo>
+		<autor>Blake Pierce</autor>
+	</libro>
+
+</libros>

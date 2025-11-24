@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+</head>
+<body>
+    <h1 id="resultado"></h1> <!-- Aquí se mostrará la suma -->
+
+    <script>
+        // Pedimos los números y los convertimos a tipo Number
+        let num1 = Number(prompt("Ingrese el primer número:"));
+        let num2 = Number(prompt("Ingrese el segundo número:"));
+
+        // Calculamos la suma
+        let suma = num1 + num2;
+
+        // Mostramos el resultado en la página
+        document.getElementById("resultado").innerText = `La suma de los números introducidos es ${suma}`;
+    </script>
+</body>
+</html>
+

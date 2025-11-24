@@ -1,0 +1,35 @@
+{
+    "server": {
+      "url": "https://mi-aplicacion.com",
+      "port": 443,
+      "timeout": 30000
+    },
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "name": "mi_base_de_datos",
+      "user": "usuario_db",
+      "password": "contraseña_segura",
+      "type": "postgresql"
+    },
+    "security": {
+      "use_ssl": true,
+      "ssl_certificate_path": "/ruta/al/certificado.pem",
+      "ssl_key_path": "/ruta/a/la/llave_privada.key",
+      "allowed_origins": [
+        "https://mi-aplicacion.com",
+        "https://otro-dominio-permitido.com"
+      ],
+      "csrf_protection": true,
+      "xss_protection": true,
+      "content_security_policy": "default-src 'self'; script-src 'self';"
+    },
+    "logging": {
+      "level": "info",
+      "file": "/ruta/a/logs/app.log"
+    },
+    "features": {
+      "enable_registration": true,
+      "enable_oauth": false
+    }
+  }

@@ -1,0 +1,37 @@
+<!--
+    Modifica el ejercicio anterior para que el contenido del párrafo que escriba el usuario se
+muestre en el documento HTML como un enlace a la siguiente dirección:
+https://developer.mozilla.org/es/
+    
+-->
+
+<!DOCTYPE html>
+
+    <html>
+        <head> 
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Tu periódico</title>
+        </head>
+
+        <body>
+        <h1 id="titular">Pon tu título aquí</h1>
+        <p id="parrafo">Esto es un párrafo de muestra</p>
+            
+            <script>
+                let titular = prompt("¿Que titular desea poner");
+                let parrafo = prompt("¿Que parrafo desea poner");
+                let url = "https://developer.mozilla.org/es/";
+
+                console.log("Nombre Titular:  "+ titular);
+                console.log("Nombre Parrafo:  "+ parrafo);
+
+                document.getElementById("titular").innerText = titular;
+                document.getElementById("parrafo").innerHTML = `<a href="${url}" target="_blank">${textoEnlace}</a>`;
+
+            </script>
+        </body>
+
+    </html>
+
+    

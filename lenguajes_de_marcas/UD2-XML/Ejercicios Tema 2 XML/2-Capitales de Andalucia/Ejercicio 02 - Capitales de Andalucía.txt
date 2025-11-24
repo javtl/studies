@@ -1,0 +1,7 @@
+Ejercicio 2: Capitales de Andalucía
+
+Crea un archivo XML semi-libre, con información sobre cada capital de Andalucía, incluyendo cualquier dato que se te ocurra. 
+
+- Procura tenga al menos 3 niveles.
+
+- No tienes porqué poner las mismas etiquetas o elementos dentro de cada capital.

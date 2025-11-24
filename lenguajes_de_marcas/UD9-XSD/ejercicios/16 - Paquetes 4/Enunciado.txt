@@ -1,0 +1,1 @@
+Realiza un XSD que valide este XML 

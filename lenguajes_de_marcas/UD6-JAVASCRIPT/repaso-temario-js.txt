@@ -1,0 +1,121 @@
+
+4 – Entorno de trabajo y primer script
+	console.log("Hola Mundo");
+
+5 – Elementos básicos del lenguaje
+	let:
+
+	let edad= 33;
+	let nombre ="pepe";
+	console.log("Hola "+ nombre+" tienes"+edad+" años");
+
+	undefined
+	let numero;
+
+	const
+	pi = 3.14;
+
+	tipos de datos:
+	primitivos:
+	number
+	string
+	boolean
+	undefined
+	null 
+	js tipado debil
+	comparación de valores con == y ===
+	!==
+	ventana de alerta alert();
+	ventana de confirmación confirm();
+	entrada por teclado prompt();
+	funciones:
+	function muestraSuma(num1,num2){let suma = num1+num2; console.log(suma	);}
+	llamar funciones: 
+	let a=1, b=2; muestraSuma(a,b);
+	funcion return:
+	function calculaSuma(num1,num2){ let suma= num1+num2; return suma;}
+	
+	objetos:
+	básico:
+	let user = {name: "Juan", age: 30}; console.log(user); console.log("el valor es"+user.name);
+	nombre de propiedades con espacios entre comillas simples ''.
+	valores tipo objeto.
+	sensible a mayusculas y minusculas
+
+	arrays en js:
+	declaración:
+	let array = [1,2,3];
+	recorrer:
+	for (let i = 0; i<array.length; i++){console.log("posición "+i+" = "+array[i]);}
+	imprimir array:
+	console.log(array);
+	recorrer con for of
+	objetos y funciones dentro de un array
+	metodos push pop unshift shift
+	indexOf
+	
+	
+
+6 – El navegador como entorno de ejecución
+	objeto window
+	navigator
+	Location
+	XMLHttpRequest
+
+7 – Integrando JS con HTML
+	manipulación de dom
+	integración de js en html o enlace archivo .js
+8 – Selección de elementos del DOM con JS
+	document.querySelector("selectorCSS");
+	document.querySelector("p");
+	document.querySelector(".nav-bar");
+	document.querySelector("#footer");
+	document.querySelectorAll("selectorCSS");
+
+	document-documentElement
+	document.head
+	document.body
+	
+	getElementsById();
+	getElementsByTagName();
+	getElementsByClassName();
+
+	
+9 – Manipulación de los nodos del DOM con JS
+	innerText
+	innerHTML
+	innerText vs innerHTML
+	modificando clases css
+	identificar en html por atributo class o id
+	en css seleccionamos el elemento y añadimos propiedades css
+	con classList modificamso con los metodos add remove o toggle
+	contains
+	replace
+	propiedades  className y style
+	insertar y eleminar nodos en el DOM
+	createElement
+	appendChild
+	removeChild
+	childNodes
+	cloneNode()
+	replaceChild()
+	insertBefore 
+
+10 – Eventos
+Un click de ratón
+Que el puntero se sitúe sobre un elemento
+Una pulsación de teclado
+Un cambio en el input de un formulario
+El envío de un formulario
+Que una imagen se haya descargado completamente
+Que la página web se haya cargado completamente
+eventos del DOM disponible es bastante extenso: click, cut, copy, paste, focus, blur, keydown, keyup, mouseover, mouseenter, mouseleave…  
+DOMContentLoaded
+initializeUI
+searchBar()
+scrollToTop
+menuMobile
+modalLogin
+
+11 – Vanilla JS vs Frameworks/Librerías
+

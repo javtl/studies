@@ -1,0 +1,3 @@
+Ejercicio 3: CDs en oferta
+
+Crea un archivo XML, con la información que se muestra en la imagen "Ejercicio 03 - CDs en oferta.jpg"

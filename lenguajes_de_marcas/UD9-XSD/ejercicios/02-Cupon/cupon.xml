@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<oferta>
+	<empresa>Freidor Neptuno</empresa>
+	<titulo>Menú con entrante, pescado frito y bebida</titulo>	
+	<emision>2017-11-10</emision>
+	<precio>14.95</precio>	
+	<emitidos>25</emitidos>
+	<num_personas>2</num_personas>
+	<activo>true</activo>
+	<foto>d9ba714af95ea7cc7bdd8de5432387e4caab6d7cb1</foto>
+</oferta>

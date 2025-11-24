@@ -1,0 +1,15 @@
+Indica cuál es el espacio de nombres de las siguientes etiquetas y atributos:
+
+<palo>				
+<numero>			http://www.gthail.com/ejemplo1
+<remitente>			http://www.gthail.com/ejemplo1
+<destinatario>			http://www.gthail.com/ejemplo1
+<carnes>				http://www.gthail.com/ejemplo3
+<filete_de_ternera>			http://www.gthail.com/ejemplo3
+precio (del filete de ternera)		No pertenece a ningún espacio de nombres
+<solomillo_a_la_pimienta>		http://www.gthail.com/ejemplo3
+<pescados>			No pertenece a ningún espacio de nombres
+<lenguado_al_horno >		No pertenece a ningún espacio de nombres
+precio (del lenguado al horno)		http://www.gthail.com/ejemplo2
+<merluza_en_salsa_verde>		No pertenece a ningún espacio de nombres
+precio (de la merluza en salsa verde)	No pertenece a ningún espacio de nombres

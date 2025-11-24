@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Nombre</title>
+    <script>
+            let nombre;
+            
+            while (true) {
+                nombre = prompt("Por favor, introduce tu nombre:");
+                
+                if (nombre === null) {
+                    alert("No puedes cancelar la introducción del nombre. Inténtalo de nuevo.");
+                    continue;
+                }
+                
+                nombre = nombre.trim();
+                
+                if (nombre === "") {
+                    alert("El nombre no puede estar vacío. Inténtalo de nuevo.");
+                    continue;
+                }
+                
+                if (!isNaN(nombre)) {
+                    alert("El nombre no puede ser un número. Inténtalo de nuevo.");
+                    continue;
+                }
+                
+                console.log("Nombre ingresado:", nombre);
+            }
+
+    </script>
+</head>
+<body>
+    <h1>Validación de Nombre</h1>
+    <p>Abre la consola para ver el nombre ingresado.</p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "nombre":"nombre",
+    "edad":33,
+    "posicion":"empleado",
+    "jornada_completa":true,
+    "contacto":{
+        "telefono":69799956,
+        "correo":"hbibi@gmail.com"
+    }
+}

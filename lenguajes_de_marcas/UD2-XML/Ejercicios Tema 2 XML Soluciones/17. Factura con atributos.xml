@@ -1,0 +1,72 @@
+<?xml version="1.0"?> 
+
+<factura numero='999' fecha='12-01-2005' pedido='731'>
+
+	<datos_empresa cif='Q-9876543'>
+		<nombre>Equipos Digitales S.L.</nombre>		
+		<telefono>91.777.66.88</telefono>
+		<fax>91.777.66.99</fax>
+		<direccion>
+		    <via tipo='Avenida'>Valladolid</via>
+			<codigo_postal localidad='Madrid'>28015</codigo_postal>
+		 </direccion>
+	</datos_empresa>
+
+	<datos_cliente>
+		<cod_cliente>879</cod_cliente>
+		<nombre>Darío Bueno Gutiérrez</nombre>
+		<direccion>
+		    <via tipo='Avenida'>Oporto</via>
+			<numero>7</numero>
+			<piso>4ºD</piso>
+			<poblacion>Madrid</poblacion>
+			<codigo_postal provincia='Madrid'>28043</codigo_postal>
+		 </direccion>		
+	</datos_cliente>
+
+	<lineas>
+
+		<linea numero='1'>
+			<ref>MII93000F/8</ref>
+			<descripcion>Micro Pentium IV 3000MHZ FB800</descripcion>
+			<cantidad>1</cantidad>
+			<precio moneda='euro'>230</precio>
+			<iva>16%</iva>
+			<importe moneda='euro'>266,80</importe>
+		</linea>
+
+		<linea numero='2'>
+			<ref>MB8QDIP4</ref>
+			<descripcion>Placa Base QDI P4</descripcion>
+			<cantidad>1</cantidad>
+			<precio moneda='euro'>180</precio>
+			<iva>16%</iva>
+			<importe moneda='euro'>208,80</importe>
+		</linea>
+
+		<linea numero='3'>
+			<ref>MEDD512M32</ref>
+			<descripcion>DIMM DR 512MB 3200</descripcion>
+			<cantidad>2</cantidad>
+			<precio moneda='euro'>40</precio>
+			<iva>16%</iva>
+			<importe moneda='euro'>92,80</importe>
+		</linea>
+
+		<linea numero='4'>
+			<ref>HD250GSA7</ref>
+			<descripcion>Disco Duro 250GB S-ATA 7200</descripcion>
+			<cantidad>4</cantidad>
+			<precio moneda='euro'>120</precio>
+			<iva>16%</iva>
+			<importe moneda='euro'>556,80</importe>
+		</linea>
+
+	</lineas>
+
+	<base_imponible moneda='euro'>970</base_imponible>
+	<cuota_iva moneda='euro' tipo='16'>155,20</cuota_iva>
+	<total_factura moneda='euro'>1125,20</total_factura>
+	<forma_pago>Efectivo</forma_pago>
+
+</factura>

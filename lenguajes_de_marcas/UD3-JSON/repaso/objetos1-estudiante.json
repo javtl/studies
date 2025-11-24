@@ -1,0 +1,7 @@
+{
+    "nombre":"Juan",
+    "Edad":6,
+    "carrera":"medicina",
+    "materias":["medicina1","medicina2","medicina3"],
+    "promedio":22
+}

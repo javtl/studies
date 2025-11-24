@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paquetes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Salesianos/Escolar/2020-21/M%C3%B3dulos/1%C2%BA%20CFGS%20-%20Lenguajes%20de%20Marcas/UNIDADES/U4%20-%20XSD%20(Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20XML%20con%20Schema)/Ejercicios%20propuestos/13%20-%20Paquetes/paquetes.xsd">
+    
+    <paquete>
+        <tracking>65873574</tracking>
+        <contenido>Arma airsoft</contenido>
+        <tamaño>
+            <lineal>
+                <ancho>20</ancho>
+                <alto>40</alto>
+                <largo>120</largo>
+            </lineal>
+        </tamaño>
+        <remitente>Ángel Florido Gastón</remitente>
+        <destinatario>Nuria Flores Sánchez</destinatario>
+    </paquete>
+
+    <paquete>
+        <tracking>89275809</tracking>
+        <contenido>Muñeca Reborn</contenido>
+        <tamaño>
+            <volumen>4500</volumen>
+        </tamaño>
+        <remitente>Sergio Muñoz Prieto</remitente>
+        <destinatario>Ana García Galindo</destinatario>
+    </paquete>
+
+    <paquete>
+        <tracking>56754893</tracking>
+        <contenido>Slime Factory</contenido>
+        <tamaño>
+            <lineal>
+                <alto>15</alto>
+                <ancho>40</ancho>
+                <largo>60</largo>
+            </lineal>
+        </tamaño>
+        <remitente>Ana Gómez Cruz</remitente>
+        <destinatario>Felipe González Guerrero</destinatario>
+    </paquete>
+</paquetes>

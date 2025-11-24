@@ -1,0 +1,35 @@
+/* Este es el archivo de estilos externo */
+
+/* Estilo para el artículo principal */
+.articulo-principal {
+    color: green; /* Texto en verde */
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilo para el artículo secundario */
+.articulo-secundario {
+    color: green; /* Texto en naranja */
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Comentario adicional: Este estilo centra los párrafos */
+p {
+    text-align: justify;
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: red;
+}
+
+.p2{
+    color:blue ;
+}

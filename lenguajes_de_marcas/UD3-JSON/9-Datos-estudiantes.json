@@ -1,0 +1,23 @@
+{
+    "estudiante":{
+        "id":729202,
+        "nombre_completo":{
+            "nombre":"Juan",
+            "primer_apellido":"García",
+            "segundo_apellido":"Rodriguez"
+        },
+        "materias":{"materia1":"matemáticas",
+        "materia2":"fisica",
+        "materia3":"lengua"
+    },
+    "promedio":{
+        "matematicas":7,
+        "fisica": 5,
+        "lengua":8
+    }
+
+}
+
+}
+
+    

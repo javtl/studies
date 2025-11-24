@@ -1,0 +1,27 @@
+<!-- Realiza una página web que inserte en el 
+<body> un script que realice las siguientes acciones:
+ a. Le pida al usuario con un "prompt" su nombre y lo guarde en una variable nombre. 
+ b. Le pida al usuario con un "prompt" sus apellidos y los guarde en apellidos. 
+ c. A  continuación,  escriba  en  la  página  web  el  mensaje  "Hola  nombre  apellidos" 
+rodeado de etiquetas <h1> -->
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 14</title>
+    </head>
+    <body>
+        <h1 id="saludo"></h1> <!-- Lugar donde se mostrará el mensaje -->
+    
+        <script>
+            let nombre = prompt("Ingrese su nombre:");
+            let apellidos = prompt("Ingrese sus apellidos:");
+    
+            // Mostramos el mensaje en la página
+            document.getElementById("saludo").innerText = "Hola " + nombre + " " + apellidos;
+        </script>
+    </body>
+    </html>
+    

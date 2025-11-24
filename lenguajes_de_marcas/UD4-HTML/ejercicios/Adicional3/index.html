@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional 3</title>
+    
+    <!-- Favicon: Icono de naturaleza que se muestra en la pestaña del navegador -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Título principal de la página -->
+    <h1>Exploración de la Naturaleza</h1>
+    
+    <!-- Uso de la etiqueta <picture> para mostrar imágenes según el ancho de la pantalla -->
+    <picture>
+        <!-- Imagen que se muestra si el ancho de la pantalla es de al menos 800px -->
+        <source media="(min-width: 800px)" srcset="images/img_montanas.jpeg">
+        
+        <!-- Imagen que se muestra si el ancho de la pantalla es de al menos 500px -->
+        <source media="(min-width: 500px)" srcset="images/img_bosque.jpeg">
+        
+        <!-- Imagen por defecto para pantallas más pequeñas (menos de 500px) -->
+        <img src="images/img_lago.jpg" alt="Paisaje Natural" width="100%" height="auto">
+    </picture>
+
+    <!-- Pie de página con un mensaje adicional -->
+    <footer>
+        <p>Javier López Gutiérrez</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Incidencia</title>
+</head>
+<body>
+    <h1>REGISTRO DE INCIDENCIA</h1>
+
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <!-- Número de clientes -->
+        <label for="num_clientes">Número de clientes:</label><br>
+        <input type="text" id="num_clientes" name="num_clientes" required>
+        <br><br>
+
+        <!-- Tipo de incidencia -->
+        <label for="tipo_incidencia">Escoja el tipo de incidencia:</label><br>
+        <select id="tipo_incidencia" name="tipo_incidencia" required>
+            <option value="no_internet">No tengo internet</option>
+            <option value="internet_lento">Mi internet va lento</option>
+            <option value="cortes_frecuencia">Se me corta con frecuencia</option>
+            <option value="no_acceso_paginas">No puedo acceder a ciertas páginas</option>
+            <option value="otras">Otras situaciones</option>
+        </select>
+        <br><br>
+
+        <!-- Descripción del problema -->
+        <label for="descripcion_problema">Descripción del problema:</label><br>
+        <textarea id="descripcion_problema" name="descripcion_problema" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+

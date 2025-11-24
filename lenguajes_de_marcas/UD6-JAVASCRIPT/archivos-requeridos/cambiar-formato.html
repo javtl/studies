@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titular">Artículo 1</h1>
+    <h1 class="titular">Artículo 2</h1>
+    <h1 class="titular">Artículo 3</h1>
+    <button onclick="formatear()">Cambiar formato</button>
+
+    <script>
+        function formatear() {
+            let titulares = document.getElementsByClassName("titular");
+            for(let i=0; i<titulares.length; i++) {
+                let titular = titulares[i];
+                titular.style.color = "blue";
+                titular.style.margin = "15px";
+            }
+        }
+    </script>
+</body>
+</html>

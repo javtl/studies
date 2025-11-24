@@ -1,0 +1,9 @@
+<?xml version ="1.0"?>
+
+<poema>
+	<autor nombre ="Franchesco Monferro" nombre2='Paco Monferro'/>
+	<titulo>Alba</titulo>
+	<verso>Mi corazon oprimido</verso>
+	<verso>siente junto a la alborada</verso>
+	<verso>el dolor de sus amores...</verso>
+</poema>

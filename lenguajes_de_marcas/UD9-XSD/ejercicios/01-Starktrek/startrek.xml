@@ -1,0 +1,24 @@
+<?xml version= "1.0" encoding="ISO-8859-1"?>
+
+<personajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="startrek.xsd">
+    <personaje>
+        <nombre>Spock</nombre>
+        <raza>Vulcano</raza>
+        <sexo>Varón</sexo>
+    </personaje>
+    
+    <personaje>
+        <nombre>Gaila</nombre>
+        <raza>Orión</raza>
+        <sexo>Hembra</sexo>
+    </personaje>
+    
+    <personaje>
+        <nombre>Neelix</nombre>
+        <raza>Talaxianos</raza>
+        <sexo>Varón</sexo>
+    </personaje> 
+    
+</personajes> 
+

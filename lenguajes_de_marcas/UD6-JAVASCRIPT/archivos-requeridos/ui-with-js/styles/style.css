@@ -1,0 +1,447 @@
+/****** ELEMENTOS GLOBALES ********/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/****** CABECERA ********/
+.header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.header .col-izq {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.header .col-der {
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+
+.header img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 2.5em;
+}
+
+.header .col-der a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 9%;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.header .col-der a:hover {
+    color: #222;
+    background-color: white;
+    font-size: 1.2em;
+}
+
+.col-der i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/****** BARRA NAVEGACIÓN ********/
+.nav-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #555;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 9%;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.nav-bar a:hover {
+    color: #555;
+    background-color: white;
+}
+
+
+/****** MENÚ PARA MÓVILES ********/
+.menu-mobile {
+    background-color: rgba(100, 100, 100, 0.9);
+    box-shadow: 0px 20px 20px black;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    left: -320px;
+    z-index: 50;
+    transition: left 1s;
+    padding: 20px;
+    color: white;
+
+}
+
+#mobile-close {
+    position: absolute;
+    left: 280px;
+    top: 0px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#mobile-close:hover {
+    text-shadow: 3px 3px 3px black;    
+}
+
+
+
+.show-from-left {
+    left: 0px;
+}
+
+.pressed {
+    background-color: #222;
+}
+
+.menu-mobile ul {
+    list-style-type: none;
+}
+
+.menu-mobile ul li {
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: text-shadow 0.5s;
+    cursor: pointer;
+}
+
+.menu-mobile ul li:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+.menu-mobile ul li i {
+    padding: 10px;
+}
+
+/****** CARRUSEL ********/
+.carrusel {
+    box-shadow: 5px 5px 10px black;
+    width: 600px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.carrusel img {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+}
+
+
+/****** VENTANA MODAL POPUP ********/
+.modal-popup {
+    position: relative;
+    display: none;
+    width: 400px;
+    min-height: 280px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 20px 20px black;
+    border-radius: 20px;
+}
+
+.modal-header-wrap {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-header {
+    display: inline-block;
+    width: 95%;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.modal-header-wrap img {
+    display: block;
+    width: 100px;
+    position: absolute;
+    top: -47px;
+    left: 37%;
+}
+
+.modal-close {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content {
+    text-align: justify;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-visible {
+    display: block;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    background-color: #555;
+}
+
+#submit-btn:hover {
+    background-color: #777;
+}
+
+/****** PRINCIPAL ********/
+.main-container {
+    margin: 40px 0px 40px 0px;
+    margin: auto;
+}
+
+.main-content {
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+    vertical-align: middle;
+    margin: 15px;
+}
+
+.main-content h1 {
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.aside {
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+
+.aside img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px;
+}
+
+/****** TARJETAS DE SERVICIOS ********/
+.services-container {
+    margin-top: 30px;
+}
+
+/* Contenedor de cada tarjeta. Está preparado para 3 tarjetas */
+.card-container {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.card {
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+
+.card button {
+    margin-top: 15px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #222;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/****** PIE DE PÁGINA ********/
+.footer {
+    margin-top: 60px;
+    color: white;
+}
+
+.footer .row1 {
+    background-color: #555;
+}
+
+.footer-col {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.footer .row2 {
+    text-align: center;
+    background-color: #222;
+    padding: 35px;
+}
+
+.footer .row2 a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 9%;
+    margin: 30px;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.footer .row2 a:hover {
+    color: #222;
+    background-color: white;
+}
+
+/****** FORMULARIOS ********/
+form {
+    margin: 25px;
+}
+label {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+input, select {
+    border-radius: 7px;
+    border-color: #666;
+    color: #333;
+    padding: 3px;
+    font-size: 1.1rem;
+    margin: 10px 0px;
+    width: 300px;
+    height: 30px;
+}
+
+option {
+    font-size: 1.1rem;
+}
+
+#register-submit-btn, #contact-submit-btn, #login-submit-btn {
+    margin-top: 20px;
+    height: 40px;
+    border-color: #333;
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+}
+
+#register-submit-btn:hover, #contact-submit-btn:hover, #login-submit-btn:hover {
+    background-color: #777;
+}
+
+
+#detail-opt {
+    min-height: 100px;
+}
+
+form h3 {
+    color: red;
+    font-size: 1rem;
+}
+
+.invisible {
+    display: none;
+}
+
+.fa-eye {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#search-input {
+    position: absolute;
+    top: -13px;
+    right: 235px;
+    width: 180px;
+}
+
+.fa-eye:hover {
+    font-weight: bold;
+}

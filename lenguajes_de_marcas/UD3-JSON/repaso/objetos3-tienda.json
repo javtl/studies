@@ -1,0 +1,24 @@
+{
+    "nombre":"nombre",
+    "ubicacion":{
+        "nombre":"tienda",
+        "pais":"España"
+    },
+
+    "productos":[
+        {
+            "nombre":"msi",
+            "precio":990,
+            "stock": true
+        },
+
+        {
+            "nombre":"msi",
+            "precio":990,
+            "stock": true
+        }
+
+    ]
+
+    
+}

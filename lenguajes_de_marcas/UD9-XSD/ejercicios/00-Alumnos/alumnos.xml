@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<BDAlumnos>
+
+    <alumno>
+        <matricula>0001</matricula>
+        <nombre>Ramón López</nombre>
+        <movil>666 555 444</movil>
+    </alumno>
+    
+    <alumno>
+        <matricula>0002</matricula>
+        <nombre>María Ruiz</nombre>
+        <movil>677 123 456</movil>
+    </alumno>
+    
+</BDAlumnos>

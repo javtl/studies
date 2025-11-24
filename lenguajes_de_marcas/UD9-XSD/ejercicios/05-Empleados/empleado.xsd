@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Elemento raíz -->
+  <xs:element name="empleado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codigo_emp">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="\s*\d{1,7}\s*"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="nombre">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <!-- Elimina espacios iniciales, finales y múltiples interiores -->
+              <xs:pattern value="\s*[A-Za-zÁÉÍÓÚáéíóúÑñ]+( [A-Za-zÁÉÍÓÚáéíóúÑñ]+)+\s*"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="fecha_contratacion">
+          <xs:simpleType>
+            <xs:restriction base="xs:date">
+              <xs:minExclusive value="2002-01-10"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="trienios">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="0"/>
+              <xs:maxInclusive value="10"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="departamento">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Contabilidad"/>
+              <xs:enumeration value="Personal"/>
+              <xs:enumeration value="Producción"/>
+              <xs:enumeration value="Comercial"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="sueldo_bruto">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+              <xs:fractionDigits value="2"/>
+              <xs:minInclusive value="0"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="clave">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="7"/>
+              <xs:maxLength value="15"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

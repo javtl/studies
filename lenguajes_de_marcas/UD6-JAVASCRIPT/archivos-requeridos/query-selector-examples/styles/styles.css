@@ -1,0 +1,121 @@
+/****** ELEMENTOS GLOBALES ********/
+body {
+    margin: 0px;
+    font-family: roboto, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    color: white;
+}
+
+.ancho90 {
+    width: 90%;
+    margin: auto;
+}
+
+/****** CABECERA ********/
+.header {
+    background-color: rgba(0,0,0,0.5);  
+    padding: 30px 5px;
+}
+
+.head-column {
+    width: 49%;
+    display: inline-block; 
+	vertical-align: middle;
+}
+
+.head-column img {
+    max-width: 300px;
+}
+
+/*** CABECERA: BARRA NAVEGACIÓN ***/
+.nav-bar {
+    text-align: right;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: lime;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+
+.nav-bar a:hover {
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+/****** PRINCIPAL ********/
+#main-article {
+    margin: 30px 0px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+}
+.article-column-left {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-column-right {
+    width: 39%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-column-right img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
+
+#main-article .article-column-left h1 {
+    font-size: 4em;
+    text-shadow: 5px 5px 5px black;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+}
+
+.boton:hover {
+    background-color: purple;
+    box-shadow: 5px 5px 25px black;
+}
+
+/****** PIE DE PÁGINA ********/
+.footer {
+    background-color: rgba(0,0,0,0.5);  
+    padding: 30px 5px;
+}
+
+.footer-column {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-column img {
+    width: 300px;
+}
+
+#copyright {
+    font-style: italic;
+	color: lime;
+    font-size: 1.2em;
+    text-align: right;
+}

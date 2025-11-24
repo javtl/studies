@@ -1,0 +1,20 @@
+{
+    "productos":{
+        "smartphone":{
+            "nombre":"movil",
+            "precio":556,
+            "categoria":"telefonia"
+        },
+
+        "laptop":{
+            "nombre":"portatil",
+            "precio":778,
+            "categoria":"ordenadores"
+        },
+
+        "direccion":{
+            "pais":"España",
+            "ciudad":"Madrid"
+        }
+    }
+}

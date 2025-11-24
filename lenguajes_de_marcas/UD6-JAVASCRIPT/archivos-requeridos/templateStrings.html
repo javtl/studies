@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+
+<body>
+    <h1>Tres segundos tres contenidos</h1>
+    <p>Cada segundo vamos a publicar un nuevo contenido</p>
+    <div class="contenido1"></div>
+    <div class="contenido2"></div>
+    <div class="contenido3"></div>
+
+    <script>
+        function publicarContenido1() {
+            let div = document.querySelector(".contenido1");
+            div.innerHTML = `<p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Morbi vehicula ut velit vitae pellentesque. Nulla at nisl posuere, 
+                eleifend justo vitae, ultrices est. Ut placerat aliquam ullamcorper. 
+                Maecenas dignissim et tortor et convallis. Aliquam consectetur 
+                libero tempor, venenatis enim ac, varius sem. Nullam vitae tortor 
+                eu ipsum rhoncus tristique. 
+                </p>`;
+        }
+
+        function publicarContenido2() {
+            let div = document.querySelector(".contenido2");
+            div.innerHTML = `<p>Ciudades a visitar
+                                <ul>
+                                <li>Buenos Aires</li>
+                                <li>Roma</li>
+                                <li>Sídney</li>
+                                </ul>
+                            </p>`;
+        }
+
+        function publicarContenido3() {
+            let div = document.querySelector(".contenido3");
+            let fecha = new Date();
+            div.innerHTML = `La fecha y hora actual es: ${fecha}`;
+        }
+
+        setTimeout(publicarContenido1, 1000);
+        setTimeout(publicarContenido2, 2000);
+        setTimeout(publicarContenido3, 3000);
+    </script>
+</body>
+
+</html>

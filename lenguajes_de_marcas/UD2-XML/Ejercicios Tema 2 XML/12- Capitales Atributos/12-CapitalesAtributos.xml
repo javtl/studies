@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ejercicio 2: Capitales de Andalucía
+     Información sobre las capitales de Andalucía.
+-->
+
+<andalucia>
+    <capital cp="11001">
+        <nombre>Cádiz</nombre>
+        <datos>
+            <descripcion>Cádiz es una ciudad y municipio español, capital de la provincia homónima, en la comunidad autónoma de Andalucía. Con 111,811 habitantes (INE 2023), es la ciudad más poblada de la bahía de Cádiz y la tercera de la provincia tras Jerez de la Frontera y Algeciras.</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="41001">
+        <nombre>Sevilla</nombre>
+        <datos>
+            <descripcion>Sevilla es un municipio y una ciudad de España, capital de la provincia homónima y de Andalucía. Contaba con 684,164 habitantes en 2023, siendo la ciudad más poblada de Andalucía y la cuarta de España.</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="29001">
+        <nombre>Málaga</nombre>
+        <datos>
+            <descripcion>Málaga es una ciudad y municipio español, capital de la provincia homónima, situada en la comunidad autónoma de Andalucía. Con una población de 586,384 habitantes a 1 de enero de 2023, es la segunda ciudad más poblada de Andalucía.</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="21001">
+        <nombre>Huelva</nombre>
+        <datos>
+            <descripcion>Huelva es una ciudad y municipio español, capital de la provincia homónima, situada en la comunidad autónoma de Andalucía. Cuenta con una población de 142,532 habitantes (INE 2023).</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="23001">
+        <nombre>Jaén</nombre>
+        <datos>
+            <descripcion>Jaén es una ciudad y municipio español, capital de la provincia homónima, en la comunidad autónoma de Andalucía. Cuenta con una población de 111,888 habitantes (INE 2023).</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="14001">
+        <nombre>Córdoba</nombre>
+        <datos>
+            <descripcion>Córdoba es una ciudad y municipio español en Andalucía, capital de la provincia homónima, situada a orillas del Guadalquivir. Alberga una población de 323,763 habitantes en 2023.</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="04001">
+        <nombre>Almería</nombre>
+        <datos>
+            <descripcion>Almería es una ciudad y municipio español, capital de la provincia homónima, en la comunidad autónoma de Andalucía. Es el centro neurálgico de la Comarca Metropolitana de Almería.</descripcion>
+        </datos>
+    </capital>
+    
+    <capital cp="18001">
+        <nombre>Granada</nombre>
+        <datos>
+            <descripcion>Granada es una ciudad y municipio español, capital de la provincia homónima, en la comunidad autónoma de Andalucía. Está situada en la parte central de la comarca de la Vega de Granada, a una altitud de 680 metros.</descripcion>
+        </datos>
+    </capital>
+</andalucia>

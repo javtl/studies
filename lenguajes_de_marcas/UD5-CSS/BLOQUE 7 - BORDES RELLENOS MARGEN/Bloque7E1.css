@@ -1,0 +1,63 @@
+/* Cabecera */
+.cabecera {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* Enlaces */
+.enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo del contenedor */
+.contenedor {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    width: 50%; /* 50% de ancho */
+    padding: 20px 40px; /* 20px arriba y abajo, 40px izquierda y derecha */
+    margin-left: 80px; /* Margen izquierdo de 80px */
+    background-color: white;
+    border: 8px solid lightgray; /* Borde gris claro de 8px */
+    border-radius: 15px; /* Bordes redondeados */
+    text-align: justify;
+}
+
+/* Contenido lateral */
+.contenido-lateral {
+    width: 20%; /* 20% de ancho */
+    padding: 20px 40px; /* 20px arriba y abajo, 40px izquierda y derecha */
+    background-color: lightgray;
+    border: 2px dotted black; /* Borde punteado */
+    border-radius: 15px; /* Bordes redondeados */
+    text-align: justify;
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    color: white;
+    background-color: black;
+    text-align: right;
+    padding: 20px 80px; /* Relleno derecho aumentado a 80px */
+    margin: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+}

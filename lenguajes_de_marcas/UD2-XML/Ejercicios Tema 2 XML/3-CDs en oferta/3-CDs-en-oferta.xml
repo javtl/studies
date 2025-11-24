@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tabla>
+    <fila>
+        <columna>Titulo</columna>
+        <columna>Artista</columna>
+        <columna>Pais</columna>
+        <columna>Compañia discog</columna>
+        <columna>Precio</columna>
+        <columna>Año Publicación</columna>
+    </fila>
+    <fila>
+        <columna>Still got the Blues</columna>
+        <columna>Gary Moorte</columna>
+        <columna>UK</columna>
+        <columna>Virgin Recors</columna>
+        <columna>10.20</columna>
+        <columna>1990</columna>
+    </fila>
+    <fila>
+        <columna>One night only</columna>
+        <columna>Bee Gees</columna>
+        <columna>UK</columna>
+        <columna>Polydor</columna>
+        <columna>10.90</columna>
+        <columna>1990</columna>
+    </fila>
+    <fila>
+        <columna>When a man loves a woman</columna>
+        <columna>Percy Sledge</columna>
+        <columna>USA</columna>
+        <columna>Atlantic</columna>
+        <columna>8.70</columna>
+        <columna>1987</columna>
+    </fila>
+    <fila>
+        <columna>Big Willie style</columna>
+        <columna>Will Smith</columna>
+        <columna>USA</columna>
+        <columna>Columbia</columna>
+        <columna>Precio</columna>
+        <columna>Año Publicación</columna>
+    </fila>
+    <fila>
+        <columna>La cancion de Juan Perro</columna>
+        <columna>artista</columna>
+        <columna>Pais</columna>
+        <columna>Sony Music-Ariola</columna>
+        <columna>9.90</columna>
+        <columna>1987</columna>
+    </fila>
+    <fila>
+        <columna>The dock of the bay</columna>
+        <columna>Otis Redding</columna>
+        <columna>USA</columna>
+        <columna>Atlantic</columna>
+        <columna>7.90</columna>
+        <columna>1987</columna>
+    </fila>
+
+</tabla>

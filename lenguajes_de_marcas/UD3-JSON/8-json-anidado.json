@@ -1,0 +1,13 @@
+{
+    "nombre":"Biblioteca Municipal",
+    "direccion": {
+        "calle":"calle principal",
+        "numero": 7
+    },
+    "libro":{
+        "titulo":"Titulo",
+        "autor":"Autor",
+        "año":1999,
+        "genero":"terror"
+    }
+}

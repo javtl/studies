@@ -1,0 +1,61 @@
+<?xml version="1.0"?> 
+
+<capitales_andalucia> 
+
+	<capital> 
+		<nombre>Almería</nombre> 
+		<provincia>Almería</provincia> 
+		<habitantes>194.952</habitantes>
+		<patron> ‎San Indalecio</patron>
+	</capital> 
+
+	<capital> 
+		<nombre>Cádiz</nombre> 
+		<provincia>Cádiz</provincia> 
+		<habitantes>124.892</habitantes>
+		<superficie>13,3</superficie>
+	</capital> 
+
+	<capital> 
+		<nombre>Córdoba</nombre> 
+		<provincia>Córdoba</provincia> 
+		<habitantes>326.262</habitantes>
+		<alcalde>José María Bellido</alcalde>
+	</capital> 
+
+	<capital> 
+		<nombre>Granada</nombre> 
+		<provincia>Granada</provincia> 
+		<habitantes>233.764</habitantes>
+		<superficie>151,3</superficie>
+	</capital> 
+
+	<capital> 
+		<nombre>Huelva</nombre> 
+		<provincia>Huelva</provincia> 
+		<habitantes>144.258</habitantes>
+		<alcalde>Gabriel Cruz</alcalde>
+	</capital> 
+
+	<capital> 
+		<nombre>Jaén</nombre> 
+		<provincia>Jaén</provincia> 
+		<habitantes>113.457</habitantes>
+	</capital> 
+
+	<capital> 
+		<nombre>Málaga</nombre> 
+		<provincia>Málaga</provincia> 
+		<habitantes>569.005</habitantes>
+		<gentilicio>malagueño, -ña</gentilicio>
+		<gentilicio>malacitano, -na</gentilicio>
+	</capital> 
+
+	<capital> 
+		<nombre>Sevilla</nombre> 
+		<provincia>Sevilla</provincia> 
+		<habitantes>690.000</habitantes>
+		<superficie>140,8</superficie>
+	</capital> 
+
+</capitales_andalucia> 

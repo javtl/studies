@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Calculín</title>
+</head>
+<body>
+  <h1>Menú Calculín</h1>
+  <p>Abre la consola del navegador para interactuar con el programa.</p>
+  <script>
+    // Mostrar el menú en la consola
+    console.log("MENU CALCULÍN");
+    console.log("1 – Calcular el cuadrado de un número");
+    console.log("2 – Calcular el 20% de un número");
+    console.log("3 – Calcular la mitad de un número");
+    
+    // Pedir las opciones y el número al usuario
+    let opcion = prompt("Escoge una opción: ");
+    let numero = Number(prompt("Dime tu número: "));
+    
+    // Ejecutar según la opción elegida
+    switch(opcion) {
+      case "1":
+        console.log("El cuadrado de " + numero + " es " + numero * numero);
+        break;
+      case "2":
+        console.log("El 20% de " + numero + " es " + (numero * 20) / 100);
+        break;
+      case "3":
+        console.log("La mitad de " + numero + " es " + numero / 2);
+        break;
+      default:
+        console.log("Opción incorrecta");
+    }
+  </script>
+</body>
+</html>

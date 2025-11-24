@@ -1,0 +1,48 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <lista_departamentos>
+        <departamento>
+            <nombre>Secretaria</nombre>
+            <descripcion>Departamento de Secretaria</descripcion>
+            <horario>09:00 - 11:30</horario>
+            <num_empleados>2</num_empleados>
+            <empleados>
+                <empleado>Maria</empleado>
+                <empleado>Andres</empleado>
+            </empleados>
+            <localizacion>
+                <planta>Primera</planta>
+                <despacho> 1B </despacho>
+            </localizacion>
+            <contacto>
+                <telefono>956332211</telefono>
+                <email>secretaria@empresa.com</email>
+                <web>http://www.empresa.com/secretaria</web>
+            </contacto>
+            <presupuesto>67800</presupuesto>
+            <fecha_creacion>1980-03-04</fecha_creacion>        
+        </departamento>
+        
+        <departamento>
+            <nombre>Contabilidad</nombre>
+            <descripcion>Departamento de Contabilidad</descripcion>
+            <horario>08:00 - 13:00</horario>
+            <num_empleados>2</num_empleados>
+            <empleados>
+                <empleado>Pepe</empleado>
+                <empleado>Jose</empleado>
+            </empleados>
+            <localizacion>
+                <planta>Tercera</planta>
+                <despacho> 3B </despacho>
+            </localizacion>
+            <contacto>
+                <telefono>956332212</telefono>
+                <email>contabilidad@empresa.com</email>
+                <web>http://www.empresa.com/contabilidad</web>
+            </contacto>
+            <presupuesto>67800</presupuesto>        
+            <fecha_creacion>1985-06-02</fecha_creacion>   
+        </departamento>
+        
+    </lista_departamentos>
+
