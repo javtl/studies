@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;decorock/src/main/java/decorock&apos;" deleteContents="false" description="Delete resource &apos;decorock/src/main/java/decorock&apos;" element1="/decorock/src/main/java/decorock" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1732697126268"/>
+</session>

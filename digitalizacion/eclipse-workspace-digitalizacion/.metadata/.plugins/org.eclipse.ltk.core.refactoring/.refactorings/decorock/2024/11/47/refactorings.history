@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;decorock/src/main/java/com/example/examplemod/ExampleMod.java&apos; to &apos;DecorockM.java&apos;" description="Rename resource &apos;ExampleMod.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/example/examplemod/ExampleMod.java" name="DecorockM.java" stamp="1732092534460" updateReferences="true"/>
+</session>

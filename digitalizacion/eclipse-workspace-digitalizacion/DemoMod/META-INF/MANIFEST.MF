@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: druedams_expansion_mod
+Specification-Vendor: David Rueda Martin, Nuria Sanchez Etreros
+Specification-Version: 1
+Implementation-Title: DRuedaMs_Expansion_Mod
+Implementation-Version: 0.1-1.20.1
+Implementation-Vendor: David Rueda Martin, Nuria Sanchez Etreros
+Implementation-Timestamp: 2024-05-22T19:47:38+0200
+

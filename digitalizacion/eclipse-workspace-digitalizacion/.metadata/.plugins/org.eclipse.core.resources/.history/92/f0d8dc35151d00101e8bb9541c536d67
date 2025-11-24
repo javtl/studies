@@ -1,0 +1,23 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.24'
+}
+
+group = 'com.example'
+version = '1.0.0'
+archivesBaseName = 'pocion-caida-suave'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://files.minecraftforge.net/maven' }
+}
+
+dependencies {
+    // Dependencias necesarias para Forge y Minecraft
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.0' // Usa la versión de Forge que corresponda a tu mod
+}
+
+minecraft {
+    version = "1.16.5-36.2.0" // Versión de Minecraft que quieres usar
+    runDir = "run"
+    mappings = "official"
+}

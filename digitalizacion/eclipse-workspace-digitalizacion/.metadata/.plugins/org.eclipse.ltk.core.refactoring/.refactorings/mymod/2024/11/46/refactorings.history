@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com&apos; to &apos;mymod/src/main&apos;&#x0D;&#x0A;- Original project: &apos;mymod&apos;&#x0D;&#x0A;- Destination element: &apos;mymod/src/main&apos;&#x0D;&#x0A;- Original element: &apos;mymod/src/com&apos;" description="Copy package" destination="/src&lt;main" element1="/src&lt;com" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1731485251852" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="mymod"
+version="1.0.0"
+displayName="Diamond Apple Mod"
+description="Añade una manzana especial con efectos."
+authors="Tu Nombre"

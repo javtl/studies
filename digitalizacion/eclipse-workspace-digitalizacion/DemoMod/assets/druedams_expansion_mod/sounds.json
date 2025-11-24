@@ -1,0 +1,12 @@
+{
+  "michael_jackson_ambient": {
+    "subtitles": "sounds.druedams_expansion_mod.michael_jackson_ambient",
+    "sounds": [
+      "druedams_expansion_mod:michael_jackson_ambient1",
+      "druedams_expansion_mod:michael_jackson_ambient2",
+      "druedams_expansion_mod:michael_jackson_ambient3",
+      "druedams_expansion_mod:michael_jackson_ambient4",
+      "druedams_expansion_mod:michael_jackson_ambient5"
+    ]
+  }
+}
