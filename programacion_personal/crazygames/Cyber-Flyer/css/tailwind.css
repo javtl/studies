@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cyber Flyer Game Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Important to avoid scrollbars */
+    font-family: 'Orbitron', 'Courier New', monospace;
+}
+
+#gameCanvas {
+    background-color: #0a0a2a; /* Dark blue, Cyber tone */
+    display: block; /* Ensures no extra space */
+    border: 2px solid #0ff; /* Neon border */
+    border-radius: 8px;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/* Game UI Styles */
+.game-text {
+    font-family: 'Orbitron', 'Courier New', monospace;
+    text-shadow: 0 0 10px currentColor;
+}
+
+.neon-glow {
+    text-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor;
+}
+
+.cyber-button {
+    background: linear-gradient(45deg, #0ff, #f0f);
+    border: 2px solid #0ff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.cyber-button:hover {
+    background: linear-gradient(45deg, #f0f, #0ff);
+    box-shadow: 0 0 20px #f0f;
+    transform: scale(1.05);
+}
+
+/* Responsive canvas */
+@media (max-width: 768px) {
+    #gameCanvas {
+        width: 95vw !important;
+        height: auto !important;
+        border-width: 1px;
+    }
+}
+
+/* Glitch effect for game over */
+@keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
+.glitch {
+    animation: glitch 0.3s infinite;
+}
+
+/* Neon text animations */
+@keyframes neon-pulse {
+    0%, 100% { text-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor; }
+    50% { text-shadow: 0 0 2px currentColor, 0 0 5px currentColor, 0 0 8px currentColor; }
+}
+
+.neon-pulse {
+    animation: neon-pulse 2s ease-in-out infinite;
+}
+
+/* Loading animation */
+@keyframes loading-spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+    animation: loading-spin 1s linear infinite;
+}

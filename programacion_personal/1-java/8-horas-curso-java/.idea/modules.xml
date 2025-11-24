@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00_helloworld/00_helloworld.iml" filepath="$PROJECT_DIR$/00_helloworld/00_helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_beginner/01_beginner.iml" filepath="$PROJECT_DIR$/01_beginner/01_beginner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_operators/02_operators.iml" filepath="$PROJECT_DIR$/02_operators/02_operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_strings/03_strings.iml" filepath="$PROJECT_DIR$/03_strings/03_strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_conditionals/04_conditionals.iml" filepath="$PROJECT_DIR$/04_conditionals/04_conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_structures/05_structures.iml" filepath="$PROJECT_DIR$/05_structures/05_structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/8-horas-curso-java.iml" filepath="$PROJECT_DIR$/.idea/8-horas-curso-java.iml" />
+    </modules>
+  </component>
+</project>

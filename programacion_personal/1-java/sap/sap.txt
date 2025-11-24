@@ -1,0 +1,183 @@
+# Roadmap Completo para un Junior Disruptivo en Desarrollo de Software
+
+Este roadmap está diseñado para un junior que quiere convertirse en un desarrollador 
+**versátil y competitivo**, combinando **Java, Kotlin, Spring, Cloud, SAP y bases de datos**
+con proyectos prácticos que impresionen a un senior o recruiter.
+
+---
+
+## 1️⃣ Fundamentos de Programación y Java Básico
+**Objetivo:** Dominar la base de programación y el lenguaje Java sin frameworks.
+
+**Conceptos clave:**
+- Tipos de datos, variables, operadores
+- Control de flujo: `if`, `switch`, bucles
+- Métodos y recursión
+- POO: clases, objetos, encapsulación, herencia, polimorfismo, interfaces
+- Colecciones: `ArrayList`, `HashMap`, `HashSet`, `LinkedList`
+- Manejo de excepciones
+- Entrada/Salida de archivos (Streams, Readers/Writers)
+
+**Proyectos:**
+- **Fácil:** Calculadora de conversión de unidades (temperatura, moneda) con logs.  
+- **Medio:** Gestor de contactos con búsqueda por similitud de nombres (Levenshtein distance).  
+- **Difícil:** Simulador de bolsa: usuarios, acciones ficticias, operaciones de compra/venta, gráficos ASCII.
+
+**Recursos:**
+- Coursera: *Java Programming and Software Engineering Fundamentals*  
+- LeetCode, HackerRank, Codewars para ejercicios diarios
+
+---
+
+## 2️⃣ Bases de Datos y SQL
+**Objetivo:** Poder almacenar y consultar datos de forma estructurada y no estructurada.
+
+**Bases de datos a conocer:**
+- Relacionales: MySQL, PostgreSQL
+- NoSQL: MongoDB
+
+**Conceptos clave:**
+- CRUD
+- Joins, índices, normalización
+- Consultas avanzadas y agregaciones
+- Conexión desde Java (JDBC, ORM básico)
+
+**Proyectos:**
+- **Fácil:** Agenda de tareas conectada a MySQL con filtros y exportación CSV.  
+- **Medio:** API REST que almacene y consulte datos en MongoDB y PostgreSQL simultáneamente.  
+- **Difícil:** Sistema de analítica de ventas: informes complejos con joins, agregaciones y visualizaciones en consola.
+
+---
+
+## 3️⃣ Java Avanzado
+**Objetivo:** Profundizar en Java y POO avanzada.
+
+**Conceptos clave:**
+- Streams y Lambdas
+- Patrones de diseño: Singleton, Factory, Observer
+- Concurrencia: Threads y ExecutorService
+- Colecciones avanzadas y genéricos
+- Manejo avanzado de excepciones
+
+**Proyectos:**
+- **Fácil:** Gestor de archivos concurrente con múltiples hilos seguros.  
+- **Medio:** Simulador de inventario con concurrencia y eventos (Observer Pattern).  
+- **Difícil:** Motor de simulación de tráfico urbano: vehículos, semáforos, rutas, colisiones, threads y patrones de diseño.
+
+---
+
+## 4️⃣ Introducción a Kotlin
+**Objetivo:** Prepararse para desarrollo Android y multiplataforma.
+
+**Conceptos clave:**
+- Sintaxis básica y diferencias con Java
+- POO en Kotlin
+- Null safety
+- Data classes y funciones de extensión
+- Lambdas y colecciones
+
+**Proyectos:**
+- **Fácil:** Conversor de monedas en consola Kotlin.  
+- **Medio:** App de notas persistentes con JSON y funciones de extensión.  
+- **Difícil:** App de recomendación de películas: consume API pública, filtros inteligentes, persistencia local con Room Database.
+
+**Recursos:**  
+- Kotlin official documentation  
+- Kotlin Bootcamp for Programmers (Google)
+
+---
+
+## 5️⃣ Desarrollo de Aplicaciones Web con Java
+**Objetivo:** Preparar la transición a Spring y APIs modernas.
+
+**Conceptos clave:**
+- HTTP básico, REST y JSON
+- Servlets y JSP
+- Estructura de un proyecto web
+- Conexión con bases de datos (JDBC o JDBC + ORM simple)
+
+**Proyectos:**
+- **Fácil:** API REST CRUD para productos con Servlet y JSP, autenticación básica.  
+- **Medio:** Web app que consuma API externa (clima, criptomonedas) y muestre dashboards interactivos en JSP.  
+- **Difícil:** Sistema de reservas multiusuario con bloqueo de recursos, sesiones y persistencia en PostgreSQL.
+
+---
+
+## 6️⃣ Spring Framework (Core + Boot)
+**Objetivo:** Entrar en el ecosistema profesional Java.
+
+**Conceptos clave:**
+- Spring Core: IoC y Dependency Injection
+- Spring Boot: configuración automática, microservicios
+- Spring Data JPA + Hibernate
+- Spring Security básico
+- Testing con Spring
+
+**Proyectos:**
+- **Fácil:** API REST CRUD Spring Boot + MySQL/PostgreSQL con tests unitarios.  
+- **Medio:** Sistema de gestión de usuarios con login/rol, JWT y Swagger.  
+- **Difícil:** Microservicios interconectados: inventario, pedidos y facturación, comunicación vía REST y mensajería (RabbitMQ/Kafka), desplegado con Docker Compose.
+
+---
+
+## 7️⃣ Cloud Computing (AWS / Azure / GCP)
+**Objetivo:** Aprender a desplegar, escalar y conectar aplicaciones.
+
+**Conceptos clave:**
+- Servicios esenciales: EC2, S3, Lambda, RDS
+- CI/CD básico (GitHub Actions / AWS CodePipeline)
+- Deploy de apps Java/Kotlin en la nube
+- Serverless basics (Lambda + API Gateway)
+- Introducción a contenedores (Docker)
+
+**Proyectos:**
+- **Fácil:** Subir archivos generados por tu app a un bucket S3.  
+- **Medio:** API Spring Boot desplegada en EC2 + RDS, logs en CloudWatch.  
+- **Difícil:** Microservicio serverless en Lambda que consuma datos SAP simulados, procese info y almacene resultados en DynamoDB, con notificaciones SNS.
+
+---
+
+## 8️⃣ SAP Básico para Desarrolladores
+**Objetivo:** Conocer SAP y cómo integrarlo con tus habilidades.
+
+**Conceptos clave:**
+- ERP: módulos FI, MM, SD, HCM
+- SAP S/4HANA y SAP Cloud Platform (BTP)
+- Introducción a ABAP
+- SAP Fiori / UI5
+- Integraciones Java ↔ SAP vía OData/REST
+
+**Proyectos:**
+- **Fácil:** Consumir datos SAP S/4HANA mediante OData desde una app Java.  
+- **Medio:** Mini app SAPUI5 mostrando dashboard de ventas con filtrado dinámico.  
+- **Difícil:** Integración Java + SAP Cloud Platform: sincronización de datos entre SAP y base externa con lógica custom.
+
+**Recursos:**
+- openSAP cursos gratuitos  
+- SAP Developer Community
+
+---
+
+## 9️⃣ Habilidades “Junior Disruptivo”
+**Objetivo:** Destacar con habilidades complementarias y buenas prácticas.
+
+**Proyectos:**
+- **Fácil:** Portafolio personal en GitHub con README profesional, Markdown y documentación de proyectos.  
+- **Medio:** Automatización de tareas: script Java/Kotlin que extraiga datos de APIs y los almacene en base de datos.  
+- **Difícil:** Proyecto full-stack: Kotlin Android App ↔ Spring Boot API ↔ PostgreSQL ↔ AWS ↔ SAP simulado.
+
+**Habilidades clave:**
+- Git y control de versiones
+- Testing: JUnit, Mockito
+- Clean code: SOLID, refactoring
+- APIs: REST, JSON, XML
+- Documentación: Markdown, Swagger/OpenAPI
+- Resolución de problemas: algoritmos y estructuras de datos
+- Comunicación clara y explicativa de código
+
+---
+
+💡 **Tip de Senior:**  
+- Prioriza proyectos **con impacto real**.  
+- Documenta todo en GitHub: screenshots, diagramas, stack, decisiones.  
+- Cada proyecto difícil te da experiencia en patrones de diseño, integración, cloud y buenas prácticas: eso es lo que hace que te vean como un junior “arma de programación”.

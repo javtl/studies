@@ -1,0 +1,189 @@
+¡Perfecto! Con **2 horas semanales**, no podemos avanzar a ritmo acelerado, pero sí de manera **constante y estratégica**. La clave será enfocarnos en **fundamentos prácticos y proyectos pequeños**, que se van acumulando con el tiempo.
+
+Te propongo un **roadmap de 12 meses**, dividido en bloques de 3 meses, con **Python → Matemáticas → ML → Proyectos Cuant/Trading**:
+
+---
+
+## **Meses 1-3: Python y fundamentos de programación**
+
+**Objetivo:** Que Python sea tu herramienta básica para todo lo demás.
+
+**Horas por semana:** 2h
+**Contenido sugerido:**
+
+* Python básico: variables, loops, funciones, listas, diccionarios, sets.
+* Python intermedio: comprensión de listas, funciones lambda, manejo de archivos.
+* Librerías científicas: `numpy`, `pandas`, `matplotlib`.
+* Mini-proyecto: analizar un dataset simple (por ejemplo, CSV de precios de acciones) y hacer gráficos básicos.
+
+**Recursos:**
+
+* Curso gratuito de Python (e.g., [Python para todos](https://www.py4e.com/))
+* Documentación de `numpy` y `pandas`
+
+---
+
+## **Meses 4-6: Matemáticas aplicadas para programación**
+
+**Objetivo:** Adquirir las herramientas matemáticas que usarás en ML y trading.
+
+**Contenido sugerido:**
+
+* Álgebra lineal básica: vectores, matrices, operaciones básicas
+* Cálculo básico: derivadas e integrales simples
+* Probabilidad y estadística: media, varianza, correlación, distribuciones
+
+**Mini-proyecto:**
+
+* Analizar tendencias y correlaciones en datos reales (acciones, cripto, deportes).
+
+**Recursos:**
+
+* Khan Academy (Álgebra, Cálculo, Probabilidad)
+* [3Blue1Brown “Essence of Linear Algebra”](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8h6KZ5)
+
+---
+
+## **Meses 7-9: Introducción a Machine Learning**
+
+**Objetivo:** Entender cómo usar datos para hacer predicciones.
+
+**Contenido sugerido:**
+
+* Regresión lineal y logística
+* Árboles de decisión
+* Evaluación de modelos: RMSE, precisión, recall
+* Librerías: `scikit-learn`
+
+**Mini-proyecto:**
+
+* Predecir precios de un activo financiero usando regresión lineal simple.
+
+**Recursos:**
+
+* Curso gratuito: [Machine Learning Crash Course de Google](https://developers.google.com/machine-learning/crash-course)
+
+---
+
+## **Meses 10-12: Primeros pasos en finanzas cuantitativas y proyectos reales**
+
+**Objetivo:** Aplicar Python, matemáticas y ML a un proyecto concreto tipo quant.
+
+**Contenido sugerido:**
+
+* Introducción a series temporales (pandas y statsmodels)
+* Backtesting simple de estrategias de trading
+* Visualización avanzada de datos financieros
+
+**Proyecto final:**
+
+* Crear un mini backtester:
+
+  * Cargar precios históricos
+  * Definir estrategia simple (ej. media móvil)
+  * Evaluar ganancias/pérdidas
+  * Visualizar resultados
+
+**Recursos:**
+
+* [Backtrader Docs](https://www.backtrader.com/docu/)
+* [vectorbt](https://github.com/polakowo/vectorbt)
+
+---
+
+### **Consejos clave con 2h/semana**
+
+1. **Constancia > velocidad**: 2h/semana es poco, pero 52 semanas suman 104 horas, suficiente para proyectos simples.
+2. **Mini-proyectos**: son la mejor manera de consolidar lo aprendido.
+3. **Apoyo visual**: YouTube y Jupyter notebooks ayudan mucho cuando el tiempo es limitado.
+4. **Revisar y repetir**: cada 3 meses, repasa lo aprendido haciendo un mini proyecto integrador.
+
+---
+¡Perfecto! 😄 Entonces aquí tienes un **plan detallado de 52 semanas (1 año) con 2 horas por semana**, diseñado para avanzar paso a paso desde Python básico hasta un mini backtester cuantitativo, integrando matemáticas y ML.
+
+---
+
+# **PLAN ANUAL – 2H SEMANALES**
+
+| Semana | Tema / Actividad                                     | Objetivo / Mini-proyecto                                  |
+| ------ | ---------------------------------------------------- | --------------------------------------------------------- |
+| **1**  | Instalar Python, Jupyter Notebook, VSCode            | Preparar entorno de trabajo                               |
+| **2**  | Variables, tipos de datos, operaciones básicas       | Primer script: operaciones y prints                       |
+| **3**  | Listas, tuplas, diccionarios                         | Mini-proyecto: lista de precios ficticios y estadísticas  |
+| **4**  | Condicionales y bucles                               | Filtrar datos de lista, imprimir resultados               |
+| **5**  | Funciones y parámetros                               | Crear funciones para cálculo de medias, sumas, max/min    |
+| **6**  | Comprensión de listas y sets                         | Transformar listas de precios, filtrar valores > promedio |
+| **7**  | Manejo de archivos (CSV)                             | Leer CSV con precios históricos                           |
+| **8**  | Librería `numpy` – arrays, operaciones básicas       | Calcular media, varianza, suma de arrays                  |
+| **9**  | Librería `pandas` – DataFrame, selección de columnas | Explorar dataset de acciones o criptos                    |
+| **10** | `pandas` – filtros, condiciones                      | Filtrar precios mayores a un umbral                       |
+| **11** | `matplotlib` – gráficos básicos                      | Graficar precios históricos de acciones                   |
+| **12** | Mini-proyecto: análisis de dataset real              | Mostrar gráfico de precios y estadísticas básicas         |
+
+---
+
+| Semana | Tema / Actividad                                       | Objetivo / Mini-proyecto                              |
+| ------ | ------------------------------------------------------ | ----------------------------------------------------- |
+| **13** | Álgebra lineal: vectores, suma, escalar                | Implementar operaciones con `numpy`                   |
+| **14** | Álgebra lineal: matrices, multiplicación               | Calcular retorno promedio de portafolio               |
+| **15** | Derivadas básicas                                      | Derivar funciones simples y calcular tasas de cambio  |
+| **16** | Integrales básicas                                     | Área bajo curva simple                                |
+| **17** | Probabilidad: conceptos y distribuciones               | Calcular probabilidades y frecuencias en datos        |
+| **18** | Estadística: media, varianza, desviación estándar      | Aplicar a dataset financiero                          |
+| **19** | Correlación y covarianza                               | Analizar relación entre dos activos                   |
+| **20** | Mini-proyecto: análisis estadístico de un dataset real | Reporte simple: media, varianza, correlación, gráfico |
+| **21** | Funciones vectoriales y matrices con `numpy`           | Implementar operaciones avanzadas para dataset        |
+| **22** | Revisión de Python + Matemáticas                       | Integrar scripts para análisis de precios históricos  |
+| **23** | Introducción a `scikit-learn`                          | Preparar dataset para ML                              |
+| **24** | Regresión lineal                                       | Predecir precio de acción simple                      |
+
+---
+
+| Semana | Tema / Actividad                                 | Objetivo / Mini-proyecto                            |
+| ------ | ------------------------------------------------ | --------------------------------------------------- |
+| **25** | Regresión logística                              | Clasificar días de subida/bajada de precios         |
+| **26** | Árboles de decisión                              | Predecir comportamiento de activo                   |
+| **27** | Evaluación de modelos: RMSE, accuracy            | Comparar modelos en dataset de prueba               |
+| **28** | Clustering básico (KMeans)                       | Agrupar activos según comportamiento                |
+| **29** | Mini-proyecto: ML predictivo                     | Predecir precios o clasificar días de subida/bajada |
+| **30** | Series temporales: introducción                  | Graficar series temporales de activos               |
+| **31** | Operaciones con `pandas` sobre series temporales | Calcular medias móviles                             |
+| **32** | Estadísticas sobre series temporales             | Volatilidad, rendimientos diarios                   |
+| **33** | Introducción a backtesting                       | Conceptos básicos de estrategia                     |
+| **34** | Estrategia simple: media móvil                   | Implementar y simular con dataset                   |
+| **35** | Visualización de estrategia                      | Graficar señales de compra/venta                    |
+| **36** | Mini-proyecto: backtester simple                 | Graficar estrategia y calcular ganancias/pérdidas   |
+
+---
+
+| Semana | Tema / Actividad                                  | Objetivo / Mini-proyecto                                     |
+| ------ | ------------------------------------------------- | ------------------------------------------------------------ |
+| **37** | Librerías de trading: `backtrader`                | Instalar y configurar                                        |
+| **38** | Crear primer script con `backtrader`              | Simular estrategia simple                                    |
+| **39** | Evaluación de estrategia con métricas             | Sharpe ratio, drawdown                                       |
+| **40** | Estrategias adicionales: momentum, mean reversion | Implementar en dataset                                       |
+| **41** | Introducción a optimización de portafolio         | Usar `numpy` para portafolio simple                          |
+| **42** | Restricciones básicas de portafolio               | Maximizar Sharpe ratio                                       |
+| **43** | Integración: backtester + optimización            | Evaluar combinación de estrategias y portafolios             |
+| **44** | Mini-proyecto: estrategia combinada               | Backtester con dos estrategias y portafolio optimizado       |
+| **45** | Introducción a `pytorch` o ML avanzado (opcional) | Modelo simple de predicción con red neuronal                 |
+| **46** | Visualización avanzada con `plotly`               | Gráficos interactivos para dataset financiero                |
+| **47** | Automatización básica: scripts diarios            | Guardar resultados automáticos                               |
+| **48** | Docker (opcional, si te interesa deploy)          | Crear contenedor para script de backtesting                  |
+| **49** | Revisión general de todos los mini-proyectos      | Integrar Python + ML + series temporales                     |
+| **50** | Proyecto final: mini backtester completo          | Estrategia + visualización + métricas                        |
+| **51** | Documentación y presentación del proyecto         | Crear README y explicar resultados                           |
+| **52** | Evaluación y planificación del siguiente año      | Pensar en optimización avanzada, trading en tiempo real o IA |
+
+---
+
+### ✅ Notas importantes
+
+1. **Proyectos pequeños cada bloque:** refuerzan aprendizaje y motivación.
+2. **Consistencia > Velocidad:** 2h/semana es suficiente si mantienes disciplina.
+3. **Aprende “lo mínimo útil”:** no intentes entender toda la teoría profunda de golpe; enfócate en aplicar.
+4. **Revisión periódica:** cada 3 meses revisa mini-proyectos y mejora los scripts.
+
+---
+
+
