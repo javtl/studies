@@ -51,7 +51,7 @@ def contar_digitos_por_linea():
                     digitos_en_linea_actual += 1
 
     
-    print("\nFin.")
+    
     print(f"Se leyeron {total_lineas_completas} líneas completas.")
 
 
