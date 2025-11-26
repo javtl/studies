@@ -1,0 +1,114 @@
+
+Resumen de Slots y Adaptadores de Memoria
+
+1. PCI (Peripheral Component Interconnect)
+- Año de aparición: 1992
+- Siglas: PCI
+- Nombre completo: Interconexión de Componentes Periféricos
+- Utilidad: Permite conectar tarjetas de expansión como tarjetas de sonido, video y red a la placa base.
+- Voltaje: 5V
+- Ancho de banda: 32 bits a 133 MB/s (en modo 33 MHz) y hasta 533 MB/s (en modo 66 MHz).
+
+2. PCI Express (PCIe)
+- Año de aparición: 2004
+- Siglas: PCIe
+- Nombre completo: PCI Express
+- Utilidad: Conecta dispositivos de alta velocidad como tarjetas gráficas y unidades de almacenamiento.
+- Voltaje: 3.3V
+- Ancho de banda:
+  - x1: 250 MB/s
+  - x4: 1 GB/s
+  - x8: 2 GB/s
+  - x16: 4 GB/s
+
+3. AGP (Accelerated Graphics Port)
+- Año de aparición: 1997
+- Siglas: AGP
+- Nombre completo: Puerto Gráfico Acelerado
+- Utilidad: Diseñado para conectar tarjetas gráficas a la placa base, mejorando el rendimiento gráfico.
+- Voltaje: 3.3V o 1.5V (dependiendo de la versión)
+- Ancho de banda: Desde 266 MB/s (AGP 1.0) hasta 2.1 GB/s (AGP 8x).
+
+4. NIC (Network Interface Card)
+- Año de aparición: Años 80
+- Siglas: NIC
+- Nombre completo: Tarjeta de Interfaz de Red
+- Utilidad: Permite la conexión de computadoras a redes locales (LAN).
+- Voltaje: Variable según el tipo.
+- Ancho de banda: Generalmente 10/100/1000 Mbps (Ethernet).
+
+5. NIC Inalámbrica
+- Año de aparición: Años 90
+- Siglas: NIC Inalámbrica
+- Nombre completo: Tarjeta de Interfaz de Red Inalámbrica
+- Utilidad: Proporciona conectividad a redes inalámbricas.
+- Voltaje: Variable según el tipo.
+- Ancho de banda: Depende de la tecnología (802.11a/b/g/n/ac, típicamente hasta 1.3 Gbps).
+
+6. Adaptador de Sonido
+- Año de aparición: Años 80
+- Siglas: N/A
+- Nombre completo: Tarjeta de Sonido
+- Utilidad: Proporciona salida de audio y entrada de micrófono.
+- Voltaje: 5V
+- Ancho de banda: Varía según el modelo; generalmente de 16 a 24 bits.
+
+7. Adaptador de Video
+- Año de aparición: Años 80
+- Siglas: N/A
+- Nombre completo: Tarjeta de Video
+- Utilidad: Permite la visualización de gráficos en un monitor.
+- Voltaje: 5V
+- Ancho de banda: Varía según el modelo; generalmente de 64 bits a más de 256 bits en modelos avanzados.
+
+8. Adaptador Módem
+- Año de aparición: Años 60
+- Siglas: N/A
+- Nombre completo: Modulador-Demodulador
+- Utilidad: Permite la conexión a internet a través de líneas telefónicas.
+- Voltaje: 5V
+- Ancho de banda: Generalmente hasta 56 Kbps para módems analógicos.
+
+9. Adaptador SCSI (Small Computer System Interface)
+- Año de aparición: 1986
+- Siglas: SCSI
+- Nombre completo: Interfaz de Sistema Pequeño de Computadora
+- Utilidad: Conecta dispositivos de almacenamiento y periféricos a la computadora.
+- Voltaje: 5V
+- Ancho de banda: Desde 5 MB/s hasta 640 MB/s (SCSI-3).
+
+10. Adaptador RAID (Redundant Array of Independent Disks)
+- Año de aparición: 1987
+- Siglas: RAID
+- Nombre completo: Conjunto Redundante de Discos Independientes
+- Utilidad: Mejora el rendimiento y la redundancia de los datos en discos duros.
+- Voltaje: Variable.
+- Ancho de banda: Varía según la configuración y tipo de RAID.
+
+11. Puerto USB (Universal Serial Bus)
+- Año de aparición: 1996
+- Siglas: USB
+- Nombre completo: Bus Universal en Serie
+- Utilidad: Conecta dispositivos periféricos como teclados, ratones y unidades externas.
+- Voltaje: 5V
+- Ancho de banda:
+  - USB 1.1: 1.5 Mbps
+  - USB 2.0: 480 Mbps
+  - USB 3.0: 5 Gbps
+
+12. Puerto Paralelo
+- Año de aparición: Años 70
+- Siglas: N/A
+- Nombre completo: Puerto Paralelo
+- Utilidad: Conecta impresoras y otros dispositivos.
+- Voltaje: 5V
+- Ancho de banda: Hasta 2 MB/s.
+
+13. Puerto Serial
+- Año de aparición: Años 60
+- Siglas: N/A
+- Nombre completo: Puerto Serial
+- Utilidad: Conecta dispositivos como módems y ratones.
+- Voltaje: 5V
+- Ancho de banda: Generalmente hasta 115.2 Kbps.
+
