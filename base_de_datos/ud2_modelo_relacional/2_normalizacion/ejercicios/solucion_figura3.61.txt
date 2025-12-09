@@ -1,0 +1,14 @@
+1FN - atributos atómicos y clave primaria definida
+PROFESOR (dni PK,nombre, asignatura, departamento, ubicacion, idioma)
+IMPARTE (dni FK (PROFESOR.dni),  asignatura PK)
+HABLA (dni PK (PROFESOR.dni),  idioma PK)
+
+
+2FN - atributos no clave dependen de toda la clave (si es compuesta)
+DEPARTAMENTO (departamento PK, ubicacion)
+PROFESOR (dni PK, departamento FK (DEPARTAMENTO.departamento) )
+IMPARTE (dni FK (PROFESOR.dni),  asignatura PK)
+HABLA (dni PK (PROFESOR.dni),  idioma PK)
+
+3FN - ningún atributo no clave depende de otro atributo no clave
+OK 

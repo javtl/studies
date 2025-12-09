@@ -1,0 +1,9 @@
+EVALUACION (fecha_solicitud, fecha_evaluacion, direccion_prop, ref_catastral, municipio_prop, dni_solicitante)
+
+VECINO(dni, direccion_vec, telf_vec, municipio_vec)
+
+MUNICIPIO(nom_municipio, n_habitantes, superficie)
+
+PARQUE(nombre_parque, direccion_parque, munic_parque, num_vehiculo, n_efectivos)
+
+BOMBERO(dni, nombre, categoria, rango, parque FK(PARQUE.nombre_parque))
