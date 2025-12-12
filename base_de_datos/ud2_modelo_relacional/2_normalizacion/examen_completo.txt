@@ -1,0 +1,39 @@
+Normalización:
+El Seguro Social desea conocer los pacientes (ID, Nombre, Dirección, Enfermedad, Gravedad) 
+que han sido atendidos en sus hospitales (H#, Nombre_del_Hospital) 
+y el médico que los atiende (Doc#, Nombre_del_Médico), así como la fecha y hora de la cita (Fecha, Hora).
+Suponiendo:
+Que un médico solo puede trabajar en un hospital y que un paciente puede ser atendido 
+en varios hospitales y por varios médicos.
+Que a cada enfermedad se le asigna una Gravedad, que es la misma para todos los pacientes.
+Que el paciente puede ser atendido por varias enfermedades, pero siempre en diferentes citas; 
+en una cita (Fecha y Hora) será atendido por una misma dolencia por un solo médico.
+Paciente: (ID, Nombre, Dirección, Enfermedad, Gravedad, N.° de hospital, 
+Nombre del hospital, N.° de doctor, Nombre del doctor, Fecha, Hora)
+Convertir esta relación a 1NF, explicando el proceso.
+Convertir las relaciones resultantes a 2NF, explicando el proceso.
+Convertir las relaciones resultantes a 3NF, explicando el proceso.
+Convertir las relaciones resultantes a BCNF, explicando el proceso.
+--------------------------------------------------------------------------------------------------------------
+PACIENTE {dni,nombre,direccion,dolencia,gravedad,h#,nombre_hos,doc#,nombre_doc,fecha,hora}
+
+1FN - atributos atómicos y clave primaria definida
+PACIENTE dni PK, nombre, direccion,dolencia, gravedad
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc
+CONSULTA hora PK, fecha
+
+2FN - atributos no clave dependen de toda la clave (si es compuesta)
+PACIENTE dni PK, nombre, direccion, dolencia FK (DOLENCIA.dolencia)
+DOLENCIA dolencia PK, gravedad, paciente FK (PACIENTE.dni) 
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc, hospital FK (HOSPITAL.#H)
+CONSULTA hora PK, fecha, paciente FK(PACIENTE.dni), doctor FK(DOCTOR.doc#)
+
+3FN - ningún atributo no clave depende de otro atributo no clave
+PACIENTE dni PK, nombre, direccion, dolencia FK(DOLENCIA.dolencia)
+DOLENCIA dolencia PK, gravedad, paciente FK (PACIENTE.dni)
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc, hospital FK (HOSPITAL.H#)
+CONSULTA hora PK, fecha, paciente FK (PACIENTE.dni), doctor FK(DOCTOR.doc#), 
+	 dolencia FK(DOLENCIA.dolencia)

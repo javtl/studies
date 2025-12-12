@@ -1,0 +1,22 @@
+PACIENTE {dni,nombre,direccion,dolencia,gravedad,h#,nombre_hos,doc#,nombre_doc,fecha,hora}
+
+1FN - atributos atómicos y clave primaria definida
+PACIENTE dni PK, nombre, direccion,dolencia, gravedad
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc
+CONSULTA hora PK, fecha
+
+2FN - atributos no clave dependen de toda la clave (si es compuesta)
+PACIENTE dni PK, nombre, direccion, dolencia FK (DOLENCIA.dolencia)
+DOLENCIA dolencia PK, gravedad, paciente FK (PACIENTE.dni) 
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc, hospital FK (HOSPITAL.#H)
+CONSULTA hora PK, fecha, paciente FK(PACIENTE.dni), doctor FK(DOCTOR.doc#)
+
+3FN - ningún atributo no clave depende de otro atributo no clave
+PACIENTE dni PK, nombre, direccion, dolencia FK(DOLENCIA.dolencia)
+DOLENCIA dolencia PK, gravedad, paciente FK (PACIENTE.dni)
+HOSPITAL H# PK, nombre_hos
+DOCTOR doc# PK, nombre_doc, hospital FK (HOSPITAL.H#)
+CONSULTA hora PK, fecha, paciente FK (PACIENTE.dni), doctor FK(DOCTOR.doc#), 
+	 dolencia FK(DOLENCIA.dolencia)
