@@ -1,6 +1,6 @@
 # 🐍 Ruta de Aprendizaje Python 3.13.8 (Documentación Oficial)
 
-Este repositorio documenta mi progreso en el aprendizaje del lenguaje **Python 3.13.8**, siguiendo estrictamente el **Tutorial de Python de la Documentación Oficial** [1]. El objetivo es dominar los fundamentos de Python antes de la transición a Kotlin.
+Este repositorio documenta mi progreso en el aprendizaje del lenguaje **Python 3.13.8**, siguiendo estrictamente el **Tutorial de Python de la Documentación Oficial**. El objetivo es dominar los fundamentos de Python antes de la transición a Kotlin.
 
 Cada fase del roadmap corresponde a una carpeta principal, y cada punto de estudio es una subcarpeta que contiene los apuntes (`.md`) generados para ese tema.
 
@@ -8,9 +8,9 @@ Cada fase del roadmap corresponde a una carpeta principal, y cada punto de estud
 
 ## ⚠️ Advertencia Fundamental de la Documentación
 
-Es **crucial** recordar que *El tutorial de Python* está diseñado para **programadores** que ya conocen los conceptos de programación y son nuevos *solo en Python* [2].
+Es **crucial** recordar que *El tutorial de Python* está diseñado para **programadores** que ya conocen los conceptos de programación y son nuevos *solo en Python*.
 
-> Si eres nuevo en programación, la documentación sugiere comenzar con la **Guía para principiantes** [4].
+> Si eres nuevo en programación, la documentación sugiere comenzar con la **Guía para principiantes**.
 
 ---
 
@@ -23,12 +23,12 @@ Esta fase se centra en la instalación, el modo interactivo y los tipos de datos
 
 | Punto | Tema | Sección Doc | Objetivo Clave |
 | :--- | :--- | :--- | :--- |
-| **P1** | Configuración y Uso | `1. Python setup and usage` | Aprender Cómo instalar, configurar y usar Python [1]. |
-| **P2** | Introducción General | `2. Abriendo el apetito` | Vistazo general al lenguaje: sintaxis elegante y tipado dinámico [2]. |
-| **P3** | Interacción con el Sistema | `3. Usando el intérprete de Python` | Aprender a Invocar el intérprete y usar el **Modo interactivo** [3]. |
-| **P4** | Números y Aritmética | `3.1.1. Números` | Uso de Python como calculadora. Entender `/` (float) y `//` (piso) [8]. |
-| **P5** | Texto y Listas Introductorias | `3.1.2. Texto` y `3.1.3. Listas` | Comprender las cadenas de texto y la introducción a las **Listas** [8, 9]. |
-| **P6** | Primeros pasos | `3.2. Primeros pasos hacia la programación` | Aplicación inicial de la sintaxis básica [3]. |
+| **P1** | Configuración y Uso | `1. Python setup and usage` | Aprender Cómo instalar, configurar y usar Python. |
+| **P2** | Introducción General | `2. Abriendo el apetito` | Vistazo general al lenguaje: sintaxis elegante y tipado dinámico. |
+| **P3** | Interacción con el Sistema | `3. Usando el intérprete de Python` | Aprender a Invocar el intérprete y usar el **Modo interactivo**. |
+| **P4** | Números y Aritmética | `3.1.1. Números` | Uso de Python como calculadora. Entender `/` (float) y `//` (piso). |
+| **P5** | Texto y Listas Introductorias | `3.1.2. Texto` y `3.1.3. Listas` | Comprender las cadenas de texto y la introducción a las **Listas**. |
+| **P6** | Primeros pasos | `3.2. Primeros pasos hacia la programación` | Aplicación inicial de la sintaxis básica. |
 
 ***
 
@@ -37,12 +37,12 @@ Se profundiza en la lógica de ejecución, bucles y la creación de funciones re
 
 | Punto | Tema | Sección Doc | Objetivo Clave |
 | :--- | :--- | :--- | :--- |
-| **P7** | Sentencias Condicionales | `4.1. La sentencia if` | Aprender el flujo de control condicional [9]. |
-| **P8** | Bucles Iterativos | `4.2. La sentencia for` y `4.3. La función range()` | Uso del bucle `for` y la función `range()`, junto con cláusulas `else` [7]. |
-| **P9** | Control de Bucles y Lógica | `4.4. break and continue`, `4.6. pass`, `4.7. match` | Implementar lógica de interrupción y continuación dentro de los ciclos [7]. |
-| **P10** | Definición de Funciones (Básico) | `4.8. Definir funciones` | Entender que la definición de funciones es el núcleo de la programación extensible [7, 10]. |
-| **P11** | Argumentos de Funciones (Avanzado) | `4.9. Más sobre definición de funciones` | Estudiar Argumentos por omisión, Palabras claves y Parámetros especiales [7]. |
-| **P12** | Funciones Anónimas y Doc. | `4.9.6. Expresiones lambda` y `4.9.7. Docstrings` | Introducción a **funciones anónimas** y la importancia de las **Docstrings** [7]. |
+| **P7** | Sentencias Condicionales | `4.1. La sentencia if` | Aprender el flujo de control condicional. |
+| **P8** | Bucles Iterativos | `4.2. La sentencia for` y `4.3. La función range()` | Uso del bucle `for` y la función `range()`, junto con cláusulas `else`. |
+| **P9** | Control de Bucles y Lógica | `4.4. break and continue`, `4.6. pass`, `4.7. match` | Implementar lógica de interrupción y continuación dentro de los ciclos. |
+| **P10** | Definición de Funciones (Básico) | `4.8. Definir funciones` | Entender que la definición de funciones es el núcleo de la programación extensible. |
+| **P11** | Argumentos de Funciones (Avanzado) | `4.9. Más sobre definición de funciones` | Estudiar Argumentos por omisión, Palabras claves y Parámetros especiales. |
+| **P12** | Funciones Anónimas y Doc. | `4.9.6. Expresiones lambda` y `4.9.7. Docstrings` | Introducción a **funciones anónimas** y la importancia de las **Docstrings**. |
 
 ***
 
@@ -51,11 +51,11 @@ Enfoque en las estructuras que agrupan datos: Listas avanzadas, Tuplas, Conjunto
 
 | Punto | Tema | Sección Doc | Objetivo Clave |
 | :--- | :--- | :--- | :--- |
-| **P13** | Listas Avanzadas | `5.1. Más sobre listas` | Uso de listas como pilas/colas y dominio de **List Comprehensions** [7, 10]. |
-| **P14** | Manipulación y Eliminación | `5.2. La instrucción del` | Aprender a eliminar elementos o porciones de la lista [7]. |
-| **P15** | Secuencias y Conjuntos | `5.3. Tuplas y secuencias` y `5.4. Conjuntos` | Dominar las **Tuplas** (inmutables) y los **Conjuntos** (sin duplicados) [7]. |
-| **P16** | Diccionarios | `5.5. Diccionarios` | Estudio de los mapeos clave-valor para almacenar datos estructurados [7]. |
-| **P17** | Técnicas de Iteración | `5.6. Técnicas de iteración` y `5.8. Comparando secuencias` | Aprender formas eficientes de recorrer las estructuras de datos [7]. |
+| **P13** | Listas Avanzadas | `5.1. Más sobre listas` | Uso de listas como pilas/colas y dominio de **List Comprehensions**. |
+| **P14** | Manipulación y Eliminación | `5.2. La instrucción del` | Aprender a eliminar elementos o porciones de la lista. |
+| **P15** | Secuencias y Conjuntos | `5.3. Tuplas y secuencias` y `5.4. Conjuntos` | Dominar las **Tuplas** (inmutables) y los **Conjuntos** (sin duplicados). |
+| **P16** | Diccionarios | `5.5. Diccionarios` | Estudio de los mapeos clave-valor para almacenar datos estructurados. |
+| **P17** | Técnicas de Iteración | `5.6. Técnicas de iteración` y `5.8. Comparando secuencias` | Aprender formas eficientes de recorrer las estructuras de datos. |
 
 ***
 
