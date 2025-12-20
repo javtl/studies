@@ -24,13 +24,13 @@ def mostrar_asignatura_primera_hora():
         # Convertimos la entrada a minúsculas y eliminamos espacios extra (para robustez)
         dia = dia_ingresado.lower()
 
-        # 2. Uso de condicionales (if/elif/else)
+        # 2. Uso de condicionales
         if dia == "lunes":
             asignatura = HORARIO["lunes"]
         elif dia == "martes":
             asignatura = HORARIO["martes"]
         elif dia == "miércoles" or dia == "miercoles":
-            # Incluimos la opción con y sin tilde para mayor flexibilidad
+            # Incluimos la opción con y sin tilde 
             asignatura = HORARIO["miércoles"]
         elif dia == "jueves":
             asignatura = HORARIO["jueves"]
