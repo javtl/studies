@@ -8,7 +8,7 @@
 # Estado: Nuevo concepto / Integración lógica.
 
 def calcular_impuestos(monto, porcentaje = 21):
-    impuestos = monto * (pocentaje/100)
+    impuestos = monto * (porcentaje / 100)
 
     return impuestos
 

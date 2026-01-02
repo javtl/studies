@@ -1,0 +1,12 @@
+ {
+    "Ficción": {
+        "Autor 1": ["Titulo 1", "Titulo 2"],
+        "Autor 2": ["Titulo 1", "Titulo 2"]
+    },
+
+    "No Ficción": {
+        "Autor 3": ["Titulo 1", "Titulo 2"],
+        "Autor 4": ["Titulo 1", "Titulo 2"]
+    }
+
+}
