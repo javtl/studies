@@ -1,8 +1,3 @@
-Perfecto 🚀 Te preparo un **README.md** en formato Markdown para ese proyecto, inspirado en el artículo de Medium y organizado como si fuera para GitHub.
-
-Aquí lo tienes:
-
-````markdown
 # kCoin 🪙  
 **Implementación básica de una Blockchain en Kotlin**  
 
@@ -95,7 +90,7 @@ Una blockchain es válida si:
 
 MIT License © 2018 Vasily Fomin
 
-```
+
 
 ---
 
