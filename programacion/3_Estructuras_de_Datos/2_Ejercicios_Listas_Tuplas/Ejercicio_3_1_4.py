@@ -3,14 +3,26 @@
 # mayor.
 primitiva = []
 
+i=0
+while i<6:
+    try:
+        numero=int(input("introduce el numero: "))
+        if (numero>0) and (numero<50):
+            primitiva.append(numero)
+            i+=1
+        else:
+            raise NameError("Fuera de rango!")
+    except Exception as e:
+        print(e)
+
+primitiva.sort()
+
+if len(primitiva) ==6:
+    pintaCombinacion(primitiva)
+else:
+    print("hubo un error al introducir el número!")
 for i in range (0,7):
     numero = int(input("Ingrese un numero: "))
     primitiva.append(numero)
-
-c = primitiva[-2] # complementario
-r = primitiva[-1] # reintegro
-
-primitiva_ordenada = sorted(primitiva)
-print(primitiva_ordenada)
 
 

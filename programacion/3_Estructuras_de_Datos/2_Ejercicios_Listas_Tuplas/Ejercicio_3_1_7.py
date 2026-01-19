@@ -13,3 +13,5 @@ for i in range(0,len(abecedario)):
 
     if posicion % 3 !=0:
         resultado.append(abecedario[i]) 
+
+print(resultado)
