@@ -2,5 +2,5 @@
 # Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
 
 asignaturas = ["Matematicas","Fisica","Quimica","Historia","Lengua"]
-
+                
 print(asignaturas)
