@@ -1,5 +1,5 @@
 use ejemplo_ventas;
-
+show ejemplo_ventas;
 /* Tema 4 DML SELECT */
 /* Ejercicio 1: listado de clientes (id, nombre_completo, telefono, email) de 
 todos los clientes del grupo E que se dieron de alta después del 1 de enero de 2015 */
