@@ -8,3 +8,4 @@ set_b = set(lista_b)
 comunes = set_a & set_b
 
 print(f"Elementos comunes: {list(comunes)}") 
+
