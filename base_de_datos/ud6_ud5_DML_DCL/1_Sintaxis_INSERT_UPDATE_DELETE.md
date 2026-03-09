@@ -25,6 +25,8 @@ Se utiliza para añadir nuevas filas a una tabla.
     SELECT id_venta, fecha, importe FROM ventas_temporal;
     ```
 
+
+
 ---
 
 ## 📝 2. UPDATE (Modificación de datos)
@@ -87,3 +89,5 @@ ROLLBACK; -- ¡Uf! Deshacemos el borrado y los clientes vuelven a aparecer.
 -- ¿Todo es correcto?
 COMMIT; -- Los cambios se graban definitivamente.
 ```
+
+
