@@ -1,0 +1,19 @@
+services:
+  wordpress:
+    image: wordpress
+    ports:
+      - "80:80"
+
+  nextcloud:
+    image: nextcloud
+    ports:
+      - "8080:80"
+    volumes:
+      - C:\Users\JAVI\Documents\Javi\dam\sistemas\ud4-docker-docker-compose-kubernetes\docker-compose\actividad-de-clase-docker-compose:/var/www/html/data
+  sonarqube:
+    image: sonarqube
+    ports:
+      - "9000:9000"
+    
+
+    

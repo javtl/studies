@@ -1,0 +1,11 @@
+# Usamos una imagen base de Ubuntu
+FROM ubuntu:latest
+
+# Actualizamos los repositorios e instalamos las herramientas
+RUN apt-get update && apt-get install -y \
+    git \
+    vim \
+    nano
+
+# Mostramos la versión de git al iniciar el contenedor
+CMD git --version

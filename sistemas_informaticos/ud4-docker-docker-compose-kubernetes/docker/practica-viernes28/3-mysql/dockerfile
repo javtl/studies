@@ -1,0 +1,11 @@
+# Usamos una imagen base de Ubuntu
+FROM ubuntu:latest
+
+# Instalamos MySQL
+RUN apt-get update && apt-get install -y mysql-server
+
+# Exponemos el puerto 3306 para MySQL
+EXPOSE 3306
+
+# Iniciamos MySQL
+CMD ["mysqld"]

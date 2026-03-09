@@ -1,0 +1,15 @@
+# crear un contenedor utilizando el servidor apache tomcat se muestre una web que muestre hola mundo
+# Usar la imagen oficial de Tomcat
+FROM tomcat:10-jdk11
+
+# Limpiar aplicaciones por defecto
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+# Copiar nuestra aplicación
+COPY ./webapp /usr/local/tomcat/webapps/
+
+# Exponer el puerto 8080
+EXPOSE 8080
+
+# Comando para iniciar Tomcat
+CMD ["catalina.sh", "run"]

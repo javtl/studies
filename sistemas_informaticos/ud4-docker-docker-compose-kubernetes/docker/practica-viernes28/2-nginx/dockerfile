@@ -1,0 +1,10 @@
+# Usamos una imagen base de ubuntu
+FROM ubuntu:latest
+#Instalamos nginx
+RUN apt-get update && apt-get install -y nginx
+#Creamos una página HTML para mostrar "Hola Mundo"
+RUN echo 'Hola Mundo' > /var/www/html/index.html
+#Exponemos el puerto 80
+EXPOSE 80
+# Iniciamos NGINX
+CMD ["nginx", "-g", "daemon off;"]

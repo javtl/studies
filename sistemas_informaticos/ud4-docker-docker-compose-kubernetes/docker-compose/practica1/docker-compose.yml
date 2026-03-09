@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  prueba1:
+    image: hello-world
+  prueba2:
+    image: hello-world
+  prueba3:
+    image: hello-world
