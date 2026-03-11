@@ -5,7 +5,17 @@ This repository serves as a personal log and a resource for the student communit
 ### 📂 Repository Structure
 The content is primarily organized by subjects. Within each one, you will find specific folders for assignments, exams, and independent practice:
 ````
-
+.
+├── 📂 base_de_datos
+├── 📂 digitalizacion
+├── 📂 empresa
+├── 📂 entornos_desarrollo
+├── 📂 images
+├── 📂 lenguaje_de_marcas
+├── 📂 programacion
+├── 📂 programacion_personal
+├── 📂 sistemas_informaticos
+└── 📂 sostenibilidad
 ````
 
 ### 🛠️ Technologies and Tools
@@ -20,6 +30,7 @@ If you want to clone this repository to take a look locally:
 ````bash
 git clone https://github.com/javtl/dam-alberti.git
 ````
+
 
 
 
