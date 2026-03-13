@@ -28,7 +28,31 @@ ha trabajado alguna vez de la misma categoria que el empleado. */
 /* Ejemplo 23: lista de empleados que trabajan en un pais donde el salario medio es superior a 5000  */
 
 SELECT e.employee_id, e .first_name, e.last_name
-FROM (employees e join departments d ON e.department_id = d.department_id)
+FROM (employees e join departments d ON e.department_id = d.department_id);
 /* Ejemplo 24: lista de empleados que trabajan en un trabajo donde el salario mínimo sea superior al salario medio de su pais */
 
-/* Ejemplo 25:
+/* Ejercicio 25: Realiza una consulta que obtenga los datos de empleados 
+[EMPLOYEE_ID, FIRST_NAME, LAST_NAME, JOB_TITLE, DEPARTMENT_NAME,
+ CITY, COUNTRY_NAME] pero solo que los que trabajen en paises en los que 
+ estén localizados no más de 3 departamentos
+*/
+SELECT e.employee_id, e.first_name, e.last_name, j.job_title, d.department_name, l.city, c.country_name
+FROM employees 
+
+/* Ejercicio 26: Realiza una consulta que obtenga los datos de los departamentos
+ [DEPARTMENT_ID, DEPARTMENT_NAME, CITY, COUNTRY_NAME, número total de empleados del departamento] 
+ donde haya algún empleado que haya tenido más de un trabajo anterior al actual
+   (más de 1 trabajo en job_history)
+*/    
+
+/*
+Ejercicio 27:Muestra en una sala tabla los trabajos que ha tenido y tiene cada empleado
+employee_id, first_name, last_name, start_date, end_date job_id, job_title, department_id, department_name
+*/
+
+SELECT e.employee_id, e.first_name, e.last_name, e.hire_date, null, e.job_id,j.job_title, e.department_id, d.department_name
+FROM employees e 
+JOIN job_history jh USING (employee_id)
+JOIN jobs j ON j (department_id);
+
+
