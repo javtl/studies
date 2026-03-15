@@ -30,7 +30,7 @@ The content is primarily organized by subjects. Within each one, you will find s
 ##### 👤 Author
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javierlsw/)
-[![Website](https://img.shields.io/badge/Personal_Website-000000?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](TU_URL_AQUI)
+[![CV](https://img.shields.io/badge/View_My_CV-FF5722?style=for-the-badge&logo=readthedocs&logoColor=white)](TU_URL_AQUI)
    
 📥 How to Use This Repo
 If you want to clone this repository to take a look locally:
