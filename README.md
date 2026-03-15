@@ -29,7 +29,7 @@ The content is primarily organized by subjects. Within each one, you will find s
 
 ##### 👤 Author
 
- - 🌐 **LinkedIn:** [Javier L](https://www.linkedin.com/in/javierlsw/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javierlsw/)
    
 📥 How to Use This Repo
 If you want to clone this repository to take a look locally:
