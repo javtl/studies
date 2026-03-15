@@ -29,7 +29,10 @@ The content is primarily organized by subjects. Within each one, you will find s
 
 ##### 👤 Author
 
-    Javier T.L. - @javtl
+    Javier L - @javtl
+    
+    - 🌐 **LinkedIn:** [Javier L](https://www.linkedin.com/in/javierlsw/)
+
 
 📥 How to Use This Repo
 If you want to clone this repository to take a look locally:
