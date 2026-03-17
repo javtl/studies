@@ -6,45 +6,60 @@ repetir. Usa subprogramas cuando consideres de forma justificada. Intenta contro
 posibles errores.*/
 
 fun main() {
-    val asignaturas = mutableListOf("Matemáticas", "Física", "Química", "Historia", "Lengua")
+    // 1. Definimos la lista de asignaturas (corregido según el esquema del profesor)
+    val asignaturas = listOf("Matemáticas", "Física", "Química", "Historia", "Lengua")
 
-    
-    val asignaturasASuperar = filtrarRepetidas(asignaturas)
+    // 2. Pedimos las notas (devuelve una lista de Double)
+    val notas = pedirNotas(asignaturas)
 
-    println("\n--- Resultados ---")
-    if (asignaturasASuperar.isEmpty()) {
-        println("¡Felicidades! Has aprobado todo.")
-    } else {
-        println("Debes repetir las siguientes asignaturas:")
-        asignaturasASuperar.forEach { println("- $it") }
-    }
+    // 3. Filtramos las que están suspensas comparando ambas listas
+    val suspensas = filtroSuspensas(asignaturas, notas)
+
+    // 4. Mostramos resultados
+    println("\n--- Resumen de notas ---")
+    println(notas)
+    println("Asignaturas suspensas: $suspensas")
 }
 
+/**
+ * Recorre la lista de asignaturas y pide una nota para cada una.
+ */
+fun pedirNotas(asignaturas: List<String>): List<Double> {
+    val listaNotas = mutableListOf<Double>()
 
-fun filtrarRepetidas(lista: List<String>): List<String> {
+    for (asignatura in asignaturas) {
+        var notaValida = -1.0
+        while (notaValida !in 0.0..10.0) {
+            print("¿Qué nota sacaste en $asignatura? ")
+            val entrada = readLine()?.replace(",", ".")
+
+            try {
+                val nota = entrada?.toDouble() ?: -1.0
+                if (nota in 0.0..10.0) {
+                    notaValida = nota
+                } else {
+                    println("Error: La nota debe estar entre 0 y 10.")
+                }
+            } catch (e: NumberFormatException) {
+                println("Error: Introduce un número válido (ej: 6.5).")
+            }
+        }
+        listaNotas.add(notaValida)
+    }
+    return listaNotas
+}
+
+/**
+ * Compara las asignaturas con sus notas y devuelve solo las que tienen menos de 5.0.
+ */
+fun filtroSuspensas(asignaturas: List<String>, notas: List<Double>): List<String> {
     val suspensas = mutableListOf<String>()
 
-    for (asignatura in lista) {
-        val nota = pedirNotaValida(asignatura)
-        if (nota < 5.0) {
-            suspensas.add(asignatura)
+    // Usamos indices para relacionar la posición de la asignatura con la posición de la nota
+    for (i in asignaturas.indices) {
+        if (notas[i] < 5.0) {
+            suspensas.add(asignaturas[i])
         }
     }
     return suspensas
-}
-
-
-fun pedirNotaValida(asignatura: String): Double {
-    while (true) {
-        print("¿Qué nota sacaste en $asignatura? ")
-        val entrada = readLine()?.replace(",", ".") /
-
-        try {
-            val nota = entrada?.toDouble() ?: -1.0
-            if (nota in 0.0..10.0) return nota
-            else println("Por favor, introduce una nota entre 0 y 10.")
-        } catch (e: NumberFormatException) {
-            println("Entrada no válida. Introduce un número (ej: 7.5).")
-        }
-    }
 }
