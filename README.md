@@ -52,7 +52,7 @@ The content is primarily organized by subjects. Within each one, you will find s
 If you want to clone this repository to take a look locally:
 
 ````bash
-git clone https://github.com/javtl/dam-alberti.git
+git clone https://github.com/javtl/studies.git
 ````
 
 
