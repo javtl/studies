@@ -15,65 +15,36 @@
 # 5. Mostrar la lista de clientes preferentes de la base de datos con su NIF y nombre.
 # 6. Terminar el programa.
 
-clientes = {}
-opcion = ""
+# 1. Creamos el diccionario donde guardaremos las parejas (español: inglés)
+diccionario_traductor = {}
 
-while opcion != "6":
-    print("\n--- MENÚ DE GESTIÓN DE CLIENTES ---")
-    print("1. Añadir cliente")
-    print("2. Eliminar cliente")
-    print("3. Mostrar cliente")
-    print("4. Listar todos los clientes")
-    print("5. Listar clientes preferentes")
-    print("6. Terminar")
-    opcion = input("Elija una opción: ")
+# 2. Pedimos al usuario la lista de traducciones
+# Formato esperado: "palabra:traducción,palabra:traducción"
+entrada = input("Introduce las palabras (español:inglés) separadas por comas:\n> ")
 
-    if opcion == "1":
-        nif = input("NIF del cliente: ")
-        nombre = input("Nombre: ")
-        direccion = input("Dirección: ")
-        telefono = input("Teléfono: ")
-        correo = input("Correo: ")
-        
-        vip = input("¿Es cliente preferente? (si/no): ").lower() == "si"
-        
-       
-        datos_cliente = {
-            "nombre": nombre,
-            "dirección": direccion,
-            "teléfono": telefono,
-            "correo": correo,
-            "preferente": vip
-        }
-        
-        clientes[nif] = datos_cliente
+# 3. Procesamos la entrada del usuario
+# .split(',') crea una lista de strings tipo ["hola:hello", "casa:house"]
+lista_parejas = entrada.split(',')
 
-    elif opcion == "2":
-        nif = input("Introduce el NIF del cliente a eliminar: ")
-        if nif in clientes:
-            del clientes[nif]
-            print(f"Cliente {nif} eliminado.")
-        else:
-            print("No existe un cliente con ese NIF.")
+for pareja in lista_parejas:
+    # .split(':') separa cada elemento en [clave, valor]
+    if ":" in pareja:
+        esp, eng = pareja.split(':')
+        # .strip() elimina espacios accidentales y guardamos en el diccionario
+        diccionario_traductor[esp.strip().lower()] = eng.strip().lower()
 
-    elif opcion == "3":
-        nif = input("Introduce el NIF del cliente: ")
-        if nif in clientes:
-            print(f"\nDatos del cliente {nif}:")
-            for clave, valor in clientes[nif].items():
-                print(f"{clave.capitalize()}: {valor}")
-        else:
-            print("Cliente no encontrado.")
+# 4. Pedimos la frase a traducir
+frase_esp = input("\nIntroduce una frase en español para traducir: ").lower()
 
-    elif opcion == "4":
-        print("\nLISTA DE TODOS LOS CLIENTES:")
-        for nif, datos in clientes.items():
-            print(f"NIF: {nif} - Nombre: {datos['nombre']}")
+# 5. Traducimos palabra por palabra
+palabras_frase = frase_esp.split() # Separa la frase por espacios
+frase_traducida = []
 
-    elif opcion == "5":
-        print("\nLISTA DE CLIENTES PREFERENTES:")
-        for nif, datos in clientes.items():
-            if datos["preferente"]: # Si es True
-                print(f"NIF: {nif} - Nombre: {datos['nombre']}")
+for palabra in palabras_frase:
+    # .get() busca la traducción. Si no existe, deja la palabra original
+    traduccion = diccionario_traductor.get(palabra, palabra)
+    frase_traducida.append(traduccion)
 
-print("Saliendo del sistema...")
+# 6. Mostramos el resultado uniendo la lista de nuevo en un string
+print("\n--- RESULTADO DE LA TRADUCCIÓN ---")
+print(" ".join(frase_traducida))

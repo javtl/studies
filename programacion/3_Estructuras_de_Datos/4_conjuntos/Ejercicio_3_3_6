@@ -1,0 +1,41 @@
+'''
+Ejercicio 3.3.6
+Dado el conjunto de letras:
+vocales = {'a', 'e', 'i', 'o', 'u'}
+1. Crea un conjunto consonantes que contenga las letras del alfabeto que no son 
+vocales.
+2. Crea un conjunto letras_comunes que contenga las letras que están tanto en el 
+conjunto vocales como en el conjunto consonantes.
+3. Crea un subprograma que dado cualquier conjunto de este ejercicio sea capaz de 
+escribirlo en la pantalla. (Si lo has creado antes, reutilízalo)
+'''
+
+# Conjunto inicial
+vocales = {'a', 'e', 'i', 'o', 'u'}
+
+# 1. Crear el conjunto de consonantes
+# Necesitamos el alfabeto completo para poder restar las vocales
+alfabeto = set("abcdefghijklmnopqrstuvwxyz")
+
+# Las consonantes son la DIFERENCIA entre el alfabeto y las vocales
+consonantes = alfabeto.difference(vocales)
+
+# 2. Letras comunes (Intersección)
+# Matemáticamente, esto debería dar un conjunto VACÍO
+letras_comunes = vocales.intersection(consonantes)
+
+# 3. Subprograma para imprimir cualquier conjunto
+def imprimir_conjunto(nombre, conjunto):
+    """Muestra el nombre del conjunto y sus elementos ordenados."""
+    # Convertimos a lista y ordenamos para que sea más legible al leer
+    elementos = ", ".join(sorted(list(conjunto)))
+    
+    if not conjunto:
+        print(f"El conjunto '{nombre}' está VACÍO: set()")
+    else:
+        print(f"Conjunto '{nombre}': {{ {elementos} }}")
+
+# --- EJECUCIÓN Y MUESTRA DE RESULTADOS ---
+imprimir_conjunto("Vocales", vocales)
+imprimir_conjunto("Consonantes", consonantes)
+imprimir_conjunto("Letras Comunes", letras_comunes)
