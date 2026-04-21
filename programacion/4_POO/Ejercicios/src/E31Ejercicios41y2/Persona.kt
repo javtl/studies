@@ -6,7 +6,7 @@ class Persona(var peso: Double, var altura:Double){
         get(){
             return peso/(altura*altura)
         }
-    constructor(nombre: String, imc Doouble):this(peso, altura){
+    constructor(nombre: String, imc: Double):this(peso, altura){
         this.nombre = nombre
     }
 
