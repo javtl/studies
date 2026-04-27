@@ -1,23 +1,35 @@
 /*Ejercicio 3.1.14 Realiza un programa que compruebe la letra del DNI*/
 
-fun main(){
-    val letrasDNI = "TRWAGMYFPDXBNJZSQVHLCKE"
+/**
+ * EJERCICIO: Cálculo de letra de DNI (NIF).
+ * Conceptos: Operador Módulo, Indexación de Strings y Validación de Longitud.
+ */
 
-    print("Introduce el número de tu DNI (sin letra): ")
-    val entrada = readlnOrNull()
+fun main() {
+    // 1. Definición del Diccionario de Control (Orden oficial del Ministerio)
+    val ASIGNACION_LETRAS = "TRWAGMYFPDXBNJZSQVHLCKE"
 
-    val numero = entrada?.toIntOrNull()
+    print("Introduce el número de tu DNI (8 dígitos): ")
+    val entrada = readlnOrNull()?.trim() ?: ""
 
-    if (numero != null && entrada.length == 8) {
-        val indice = numero % 23
+    // 2. Validación de Requisitos de Negocio
+    // Un DNI debe ser numérico y tener exactamente 8 caracteres (rellenando con ceros si es necesario)
+    val numeroDni = entrada.toIntOrNull()
 
-        val letraCorrecta = letrasDNI[indice]
+    if (numeroDni != null && entrada.length == 8) {
 
-        println("Para el número $numero, la letra correspondiente es: $letraCorrecta")
-        println("DNI completo: $numero$letraCorrecta")
-        } else {
-            println("Error: Por favor, introduce un número de DNI válido (8 dígitos).")
-        }
+        // 3. El Algoritmo: El resto de dividir por 23 determina la posición
+        val indice = numeroDni % 23
+        val letraFinal = ASIGNACION_LETRAS[indice]
 
+        println("\n--- VERIFICACIÓN DE IDENTIDAD ---")
+        println("Número procesado: $numeroDni")
+        println("Letra calculada:  $letraFinal")
+        println("Resultado Final:  $numeroDni$letraFinal")
+        println("---------------------------------")
 
+    } else {
+        println("\n❌ ERROR: Formato no válido.")
+        println("Asegúrate de introducir exactamente 8 dígitos numéricos.")
+    }
 }

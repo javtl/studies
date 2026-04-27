@@ -1,13 +1,23 @@
-/*Escribe un bucle while que comience con el último carácter en la cadena y haga un
-recorrido hacia atrás hasta el primer carácter en la cadena, imprimiendo cada letra en
-una línea independiente.*/
+/**
+ * EJERCICIO: Recorrido inverso de String con While.
+ * Conceptos: Índices (0 a N-1), Longitud de cadena y punteros manuales.
+ */
 
 fun main() {
-    val texto = "Kotlin"
-    var i = texto.length - 1
+    val cadena = "Kotlin"
 
-    while (i >= 0) {
-        println(texto[i])
-        i--
+    // 1. Inicializamos el índice en la última posición válida.
+    // Importante: Si la longitud es 6, los índices van del 0 al 5.
+    var indice = cadena.length - 1
+
+    println("--- RECORRIDO INVERSO ---")
+
+    // 2. Condición de control: Mientras el índice sea una posición válida (>= 0)
+    while (indice >= 0) {
+        val caracter = cadena[indice]
+        println("Carácter en posición $indice: $caracter")
+
+        // 3. Decremento: Movemos el puntero hacia la izquierda
+        indice--
     }
 }

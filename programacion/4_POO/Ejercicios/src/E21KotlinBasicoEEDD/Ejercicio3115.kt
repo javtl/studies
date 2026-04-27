@@ -1,31 +1,26 @@
-import java.util.Random
+/**
+ * EJERCICIO: Generador de Lotería Primitiva.
+ * Conceptos: Programación funcional, Set (colecciones únicas) y Random.
+ */
 
 fun main() {
-    val random = Random()
-    val numeros = ArrayList<Int>()
+    // 1. Generar 6 números únicos entre 1 y 49
+    // Usamos un Set porque automáticamente ignora duplicados
+    val numeros = mutableSetOf<Int>()
 
     while (numeros.size < 6) {
-        val numAleatorio = random.nextInt(49) + 1
-
-        if (numAleatorio !in numeros) {
-            numeros.add(numAleatorio)
-        }
+        numeros.add((1..49).random())
     }
 
-    numeros.sort()
+    // 2. Convertimos a lista para ordenar y presentar
+    val combinacionOrdenada = numeros.toList().sorted()
 
-    val reintegro = random.nextInt(10)
+    // 3. Generar el reintegro (0-9)
+    val reintegro = (0..9).random()
 
-    println("--- TU COMBINACIÓN GANADORA ---")
-    print("Números: ")
-    for (i in 0 until numeros.size) {
-        print(numeros[i])
-
-        if (i < numeros.size - 1) {
-            print(", ")
-        }
-    }
-
-    println("\nReintegro: $reintegro")
-    println("-------------------------------")
+    // 4. Salida elegante usando joinToString
+    println("--- 🎫 TU APUESTA DE LA PRIMITIVA ---")
+    println("Números: ${combinacionOrdenada.joinToString(", ")}")
+    println("Reintegro: $reintegro")
+    println("-------------------------------------")
 }
