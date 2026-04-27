@@ -1,47 +1,38 @@
-/*
-En una determinada empresa, sus empleados son evaluados al final de cada año. Los
-puntos que pueden obtener en la evaluación comienzan en 0.0 y pueden ir aumentando,
-traduciéndose en mejores beneficios. Los puntos que pueden conseguir los empleados
-pueden ser 0.0, 0.4, 0.6 o más, pero no valores intermedios entre las cifras mencionadas.
-A continuación, se muestra una tabla con los niveles correspondientes a cada
-puntuación. La cantidad de dinero conseguida en cada nivel es de 2.400€ multiplicada
-por la puntuación del nivel.
-Nivel Puntuación
-Inaceptable 0.0
-Aceptable 0.4
-Meritorio 0.6 o más
-Escribir un programa que lea la puntuación del usuario e indique su nivel de
-rendimiento, así como la cantidad de dinero que recibirá el usuario
-*/
+/**
+ * EJERCICIO: Cálculo de Bonificaciones por Desempeño
+ * Conceptos: Estructura 'when' como expresión, Formateo de moneda y constantes.
+ */
 
-fun Ejercicio216(){
+fun main() {
+    // 1. Constantes (Clean Code: No "hardcodear" valores mágicos en el código)
+    val BONIFICACION_ANUAL = 2400.0
+    val NIVEL_INACEPTABLE = 0.0
+    val NIVEL_ACEPTABLE = 0.4
+    val NIVEL_MERITORIO = 0.6
 
-    fun main() {
-        val bonificacionBase = 2400
+    // 2. Entrada de datos
+    print("Introduce tu puntuación de evaluación (ej. 0.0, 0.4, 0.6...): ")
+    val puntuacion = readlnOrNull()?.toDoubleOrNull() ?: -1.0
 
+    // 3. Determinación de Nivel (Uso de 'when' como expresión)
+    // Validamos que la puntuación sea una de las permitidas
+    val nivel = when {
+        puntuacion == NIVEL_INACEPTABLE -> "Inaceptable"
+        puntuacion == NIVEL_ACEPTABLE -> "Aceptable"
+        puntuacion >= NIVEL_MERITORIO -> "Meritorio"
+        else -> null // Usamos null para indicar que el valor es inválido
+    }
 
-        print("Introduce tu puntuación (0.0, 0.4, 0.6 o más): ")
-        val puntuacionInput = readLine()?.toDoubleOrNull() ?: -1.0
+    // 4. Salida de resultados con validación
+    if (nivel != null) {
+        val dineroTotal = BONIFICACION_ANUAL * puntuacion
 
-
-        val nivel = when {
-            puntuacionInput == 0.0 -> "Inaceptable"
-            puntuacionInput == 0.4 -> "Aceptable"
-            puntuacionInput >= 0.6 -> "Meritorio"
-            else -> "" 
-        }
-
-
-        if (nivel.isNotEmpty()) {
-            val dineroRecibido = bonificacionBase * puntuacionInput
-
-            println("\n--- Resultados de la Evaluación ---")
-            println("Nivel de rendimiento: $nivel")
-            println("Puntuación obtenida: $puntuacionInput")
-            println("Cantidad de dinero a recibir: ${"%.2f".format(dineroRecibido)}€")
-        } else {
-            println("\n[Error]: La puntuación introducida no es válida.")
-            println("Recuerda que solo se permiten: 0.0, 0.4 o valores iguales/mayores a 0.6.")
-        }
+        println("\n--- REPORTE DE EVALUACIÓN ---")
+        println("Nivel asignado: $nivel")
+        // Formateamos a 2 decimales para que parezca dinero real (€)
+        println("Dinero extra: ${"%.2f".format(dineroTotal)}€")
+    } else {
+        println("\n❌ ERROR: La puntuación $puntuacion no es válida.")
+        println("Valores permitidos: 0.0, 0.4 o >= 0.6")
     }
 }

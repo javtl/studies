@@ -1,16 +1,40 @@
-/* La pizzería Bella Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes. Los
-ingredientes para cada tipo de pizza aparecen a continuación.
- Ingredientes vegetarianos: Pimiento y tofu.
- Ingredientes no vegetarianos: Pepperoni, Jamón y Salmón.
-Escribir un programa que pregunte al usuario si quiere una pizza vegetariana o no, y en
-función de su respuesta le muestre un menú con los ingredientes disponibles para que
-elija. Solo se puede elegir un ingrediente además de la mozzarella y el tomate que están
-en todas las pizzas. Al final se debe mostrar por pantalla si la pizza elegida es
-vegetariana o no y todos los ingredientes que lleva.
-*/
+/**
+ * EJERCICIO: Configurador de Pizzas
+ * Conceptos: Listas de solo lectura, validación de opciones y concatenación.
+ */
 
+fun main() {
+    // 1. Definición de Catálogos (Ingredientes base ya incluidos)
+    val ingredientesVegetarianos = listOf("Pimiento", "Tofu")
+    val ingredientesNoVegetarianos = listOf("Pepperoni", "Jamón", "Salmón")
 
-fun Ejercicio2110(){
+    println("--- BIENVENIDO A BELLA NAPOLI ---")
+    print("¿Desea una pizza vegetariana? (S/N): ")
+    val esVegetarianaInput = readlnOrNull()?.trim()?.uppercase() ?: "N"
 
+    // 2. Selección del set de ingredientes según la elección
+    val esVegetariana = (esVegetarianaInput == "S")
+    val catalogoDisponible = if (esVegetariana) ingredientesVegetarianos else ingredientesNoVegetarianos
 
+    // 3. Mostrar menú dinámico
+    println("\nIngredientes disponibles para su elección:")
+    catalogoDisponible.forEachIndexed { index, nombre ->
+        println("${index + 1}. $nombre")
+    }
+
+    print("\nSeleccione el número del ingrediente extra: ")
+    val seleccion = readlnOrNull()?.toIntOrNull()?.minus(1) ?: -1
+
+    // 4. Validación de la selección y Output Final
+    if (seleccion in catalogoDisponible.indices) {
+        val ingredienteElegido = catalogoDisponible[seleccion]
+        val tipoPizza = if (esVegetariana) "Vegetariana" else "No Vegetariana"
+
+        println("\n--- RESUMEN DE SU PEDIDO ---")
+        println("Tipo de pizza: $tipoPizza")
+        println("Ingredientes: Tomate, Mozzarella y $ingredienteElegido.")
+        println("----------------------------")
+    } else {
+        println("\n❌ Error: Selección de ingrediente no válida.")
+    }
 }

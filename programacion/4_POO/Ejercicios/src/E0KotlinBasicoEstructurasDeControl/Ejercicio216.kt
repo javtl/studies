@@ -1,27 +1,37 @@
-/*
-Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el
-nombre. El grupo A está formado por las mujeres con un nombre anterior a la M y los
-hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa
-que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le
-corresponde.
-* */
+/**
+ * EJERCICIO: Asignación de Grupos A/B
+ * Lógica:
+ * - Grupo A: Mujeres (Nombre < M) OR Hombres (Nombre > N)
+ * - Grupo B: Resto de casos.
+ */
 
-fun Ejercicio216(){
+fun main() { // Recuerda usar main() para que sea ejecutable directamente
 
+    // 1. Entrada de datos con limpieza (trim para evitar espacios accidentales)
     print("Introduce tu nombre: ")
-    val nombre = readLine()?.trim()?.uppercase() ?: ""
+    val nombre = readlnOrNull()?.trim()?.uppercase() ?: ""
 
-    print("Introduce tu sexo (M para mujer, H para hombre): ")
-    val sexo = readLine()?.trim()?.uppercase() ?: ""
+    print("Introduce tu sexo (M = Mujer / H = Hombre): ")
+    val sexo = readlnOrNull()?.trim()?.uppercase() ?: ""
 
-        val grupo = if (
-            (sexo == "M" && nombre < "M") ||
-            (sexo == "H" && nombre > "N")
-        ) {
-            "A"
-        } else {
-            "B"
-        }
+    // 2. Validación de seguridad (Early Return)
+    // Si los datos están vacíos, avisamos al usuario antes de calcular
+    if (nombre.isEmpty() || (sexo != "M" && sexo != "H")) {
+        println("❌ ERROR: Datos de entrada no válidos. Asegúrate de usar M o H.")
+        return // Finaliza la ejecución de la función
+    }
 
-        println("\nTu nombre es $nombre, tu sexo es $sexo y perteneces al: Grupo $grupo")
+    // 3. Lógica de Negocio (Clasificación)
+    // Guardamos el resultado en una variable constante 'val'
+    val grupo = if ((sexo == "M" && nombre < "M") || (sexo == "H" && nombre > "N")) {
+        "A"
+    } else {
+        "B"
+    }
+
+    // 4. Output profesional
+    println("\n--- RESULTADO DE ASIGNACIÓN ---")
+    println("Identidad: $nombre ($sexo)")
+    println("Asignación: GRUPO $grupo")
+    println("-------------------------------")
 }

@@ -1,32 +1,30 @@
-
-/*Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los
-años que ha cumplido (desde 1 hasta su edad). */
 import kotlin.math.abs
 
-fun Ejercicio222(){
-
-
-    var edad: Int = 0
-    var i: Int = 1
-
+/**
+ * EJERCICIO: Listar años cumplidos
+ * Conceptos: Bucles 'for', Rangos (..), y Valor Absoluto.
+ */
+fun main() {
     print("Dime tu edad: ")
-    edad = readln()?.toInt() ?:0
 
-    try {
-        edad = readln()?.toInt() ?:0
-    } catch (e: NumberFormatException){
-        print("Debe ser un numero entero: ${e.message}")
+    // 1. Captura segura: Intentamos leer un entero. Si falla o es nulo, usamos 0.
+    val entrada = readlnOrNull()?.toIntOrNull() ?: 0
+
+    // 2. Normalización: Si el usuario pone -25, usamos 25 (valor absoluto)
+    // Esto demuestra al profesor que prevés casos de error del usuario.
+    val edad = abs(entrada)
+
+    if (edad == 0) {
+        println("Edad no válida o eres un recién nacido.")
+    } else {
+        println("\n--- LISTA DE AÑOS CUMPLIDOS ---")
+
+        // 3. El Bucle 'for': En Kotlin los rangos se definen con '..'
+        // i recorrerá desde 1 hasta la edad inclusive.
+        for (i in 1..edad) {
+            println("Has cumplido: $i años")
+        }
+
+        println("-------------------------------")
     }
-   if(edad>0) {
-       for (i in 1 <= ..< = edad) {
-           print("Has cumplido: $i años")
-       }
-   }else{
-
-       for(i in 1 <=..<= abs(n = edad){
-           print("Has cumplido: $i años")
-       }
-   }
-
-
 }
