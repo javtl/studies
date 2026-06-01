@@ -1,23 +1,30 @@
-# 🚀 Multiplatform Application Development Study Repository
+# 🚀 Multiplatform Application Development (DAM) Study Repository
 
-Welcome to The Repository for my studies in Multiplatform Application Development (currently in my first year).
-This repository serves as a personal log and a resource for the student community, containing all my projects, exercises, and notes organized by modules and terms.
+Welcome! This repository serves as my personal codebase log, academic portfolio, and a resource for the student community during my Higher Technical Degree in **Multiplatform Application Development (DAM)**. Currently in my **1st year (Academic Year 2025/2026)**.
+
+Here you will find all my projects, practical exercises, exams, and notes, structured by academic modules.
+
+---
 
 ### 📂 Repository Structure
-The content is primarily organized by subjects. Within each one, you will find specific folders for assignments, exams, and independent practice:
-````
+
+The content is primarily organized by subjects (modules). Within each directory, you will find specific subfolders for assignments, exams, and independent practice:
+
+```text
 .
-├── 📂 base_de_datos
-├── 📂 digitalizacion
-├── 📂 empresa
-├── 📂 entornos_desarrollo
-├── 📂 images
-├── 📂 lenguaje_de_marcas
-├── 📂 programacion
-├── 📂 programacion_personal
-├── 📂 sistemas_informaticos
-└── 📂 sostenibilidad
-````
+├── 📂 base_de_datos           # SQL/NoSQL databases, data modeling, and DBMS management
+├── 📂 digitalizacion          # Digital transformation, Industry 4.0, and smart systems
+├── 📂 empresa                 # Business models, entrepreneurship, and labor legislation (FOL)
+├── 📂 entornos_desarrollo     # IDEs, Version Control (Git), Unit Testing (QA), and optimization
+├── 📂 lenguaje_de_marcas      # HTML5, CSS3, XML, JSON, and web syndication
+├── 📂 programacion            # Core programming fundamentals, OOP paradigms, and logic (Java/Python)
+├── 📂 programacion_personal   # Side projects, coding challenges, and self-taught practice
+├── 📂 sistemas_informaticos   # Operating systems, networking, hardware architecture, and scripting
+├── 📂 sostenibilidad          # Sustainable development concepts applied to IT infrastructures
+└── 📂 images                  # Visual assets and screenshots for documentation
+```
+
+---
 
 ### 🛠️ Technologies and Tools
 
@@ -43,19 +50,30 @@ The content is primarily organized by subjects. Within each one, you will find s
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
 </p>
 
+---
+
+### 📥 Getting Started
+
+If you want to clone this repository and explore the source code locally, run the following commands in your terminal:
+
+```bash
+# Clone the repository
+git clone [https://github.com/javtl/studies.git](https://github.com/javtl/studies.git)
+
+# Navigate into the project directory
+cd studies
+```
+
+> 💡 **Pro Tip:** Most first-year programming projects are built with **Java**. You can import them seamlessly as independent projects using *IntelliJ IDEA* or *VS Code* (with the Java Extension Pack installed).
+
+---
+
 ### 👤 Author
 
+Maintained by **Javier**. Feel free to reach out or explore more of my work:
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javierlsw/)
-[![CV](https://img.shields.io/badge/View_My_CV-FF5722?style=for-the-badge&logo=readthedocs&logoColor=white)](TU_URL_AQUI)
-   
-📥 How to Use This Repo
-If you want to clone this repository to take a look locally:
+[![CV](https://img.shields.io/badge/View_My_CV-FF5722?style=for-the-badge&logo=readthedocs&logoColor=white)](YOUR_URL_HERE)
 
-````bash
-git clone https://github.com/javtl/studies.git
-````
-
-
-
-
-
+---
+*This repository is automatically updated on a weekly basis as the academic year progresses.*
