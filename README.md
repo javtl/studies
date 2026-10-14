@@ -1,4 +1,4 @@
-# 🚀 Multiplatform Application Development - Study Repository
+# 🚀 Study Repository
 
 Welcome! This repository serves as my personal codebase log, academic portfolio, and a resource for the student community during my Higher Technical Degree in **Multiplatform Application Development (DAM)**. Currently in my **1st year (Academic Year 2025/2026)**.
 
